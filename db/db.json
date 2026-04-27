@@ -1,0 +1,1429 @@
+{
+    "concessionario_db": [
+        {
+            "id": 1,
+            "modello": "Ferrari F40",
+            "motore_trasmissione": {
+                "codice_motore": "F120 A",
+                "architettura": "V8 90°",
+                "cilindrata_totale": "2.936 cc",
+                "rapporto_compressione": "7.7:1",
+                "sovralimentazione": "Doppio Turbo IHI",
+                "distribuzione": "Bialbero, 4 valvole per cilindro",
+                "lubrificazione": "Carter secco",
+                "cambio": "Manuale 5 rapporti",
+                "frizione": "Bidisco a secco"
+            },
+            "prestazioni": {
+                "potenza_massima": "478 CV",
+                "coppia_massima": "577 Nm",
+                "velocita_massima": "324 km/h",
+                "accel_0_100": "4.1 s",
+                "accel_0_200": "11.3 s",
+                "chilometro_fermo": "20.9 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Taliccio tubolare in acciaio e compositi",
+                "sospensioni": "Quadrilateri trasversali indipendenti",
+                "freni": "Dischi autoventilanti Brembo",
+                "pneumatici": "Pirelli P-Zero (245/40 ZR17 - 335/35 ZR17)",
+                "sterzo": "Pignone e cremagliera"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.100 kg",
+                "lunghezza": "4.358 mm",
+                "larghezza": "1.970 mm",
+                "altezza": "1.124 mm",
+                "passo": "2.450 mm",
+                "serbatoio": "120 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.34",
+                "materiali_carrozzeria": "Kevlar, Fibra di Carbonio, Alluminio",
+                "dettagli_estetici": "Ala posteriore fissa, 11 feritoie sul lunotto",
+                "verniciatura": "Rosso Corsa",
+                "interni": {
+                    "tipo": "Racing essenziale",
+                    "colore": "Rosso"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "1987-1992",
+                "anno": "1989",
+                "esemplari_prodotti": "1.311",
+                "numero_esemplare": "322",
+                "designer": "Pininfarina",
+                "prezzo_listino_orig": "374.000.000 Lire",
+                "prezzo_attuale": "2.800.000 €"
+            }
+        },
+        {
+            "id": 2,
+            "modello": "Lamborghini Aventador SVJ",
+            "motore_trasmissione": {
+                "codice_motore": "L539",
+                "architettura": "V12 60°",
+                "cilindrata_totale": "6.498 cc",
+                "rapporto_compressione": "11.8:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 48V",
+                "lubrificazione": "Carter secco",
+                "cambio": "ISR 7 rapporti",
+                "frizione": "Monodisco a secco"
+            },
+            "prestazioni": {
+                "potenza_massima": "770 CV",
+                "coppia_massima": "720 Nm",
+                "velocita_massima": ">350 km/h",
+                "accel_0_100": "2.8 s",
+                "accel_0_200": "8.6 s",
+                "chilometro_fermo": "19.2 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Monoscocca in fibra di carbonio",
+                "sospensioni": "Magneto-reologiche Push-rod",
+                "freni": "Carbo-ceramici",
+                "pneumatici": "Pirelli P Zero Corsa",
+                "sterzo": "LDS (Lamborghini Dynamic Steering)"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.525 kg",
+                "lunghezza": "4.943 mm",
+                "larghezza": "2.098 mm",
+                "altezza": "1.136 mm",
+                "passo": "2.700 mm",
+                "serbatoio": "90 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Sistema ALA 2.0",
+                "materiali_carrozzeria": "Carbonio e compositi",
+                "dettagli_estetici": "Scarichi alti, ala attiva",
+                "verniciatura": "Verde Alcor",
+                "interni": {
+                    "tipo": "Alcantara Racing",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2018-2021",
+                "anno": "2019",
+                "esemplari_prodotti": "900",
+                "numero_esemplare": "602",
+                "designer": "Mitja Borkert",
+                "prezzo_listino_orig": "430.000 €",
+                "prezzo_attuale": "850.000 €"
+            }
+        },
+        {
+            "id": 3,
+            "modello": "Ferrari LaFerrari",
+            "motore_trasmissione": {
+                "codice_motore": "F140",
+                "architettura": "V12 65° + Motore Elettrico (HY-KERS)",
+                "cilindrata_totale": "6.262 cc",
+                "rapporto_compressione": "13.5:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 48V",
+                "lubrificazione": "Carter secco",
+                "cambio": "DCT 7 rapporti",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "963 CV (800 V12 + 163 E)",
+                "coppia_massima": "900 Nm",
+                "velocita_massima": ">350 km/h",
+                "accel_0_100": "2.9 s",
+                "accel_0_200": "6.9 s",
+                "chilometro_fermo": "17.5 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Monoscocca in fibra di carbonio",
+                "sospensioni": "SCM-E Frs a controllo magnetoreologico",
+                "freni": "Carbo-ceramici Brembo",
+                "pneumatici": "Pirelli P-Zero Corsa",
+                "sterzo": "Elettromeccanico"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.255 kg",
+                "lunghezza": "4.702 mm",
+                "larghezza": "1.992 mm",
+                "altezza": "1.116 mm",
+                "passo": "2.650 mm",
+                "serbatoio": "N/A"
+            },
+            "aerodinamica_design": {
+                "cx": "0.30",
+                "materiali_carrozzeria": "Fibra di carbonio",
+                "dettagli_estetici": "Aerodinamica attiva, portiere a farfalla",
+                "verniciatura": "Rosso Corsa",
+                "interni": {
+                    "tipo": "Pelle/Alcantara",
+                    "colore": "Nero/Rosso"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2013-2016",
+                "anno": "2016",
+                "esemplari_prodotti": "499",
+                "numero_esemplare": "495",
+                "designer": "Flavio Manzoni",
+                "prezzo_listino_orig": "1.200.000 €",
+                "prezzo_attuale": "4.000.000 €"
+            }
+        },
+        {
+            "id": 4,
+            "modello": "Rolls-Royce Phantom VIII",
+            "motore_trasmissione": {
+                "codice_motore": "N74B68",
+                "architettura": "V12 60°",
+                "cilindrata_totale": "6.750 cc",
+                "rapporto_compressione": "10.0:1",
+                "sovralimentazione": "Biturbo",
+                "distribuzione": "DOHC 48V",
+                "lubrificazione": "Carter umido",
+                "cambio": "ZF 8 rapporti",
+                "frizione": "Convertitore di coppia"
+            },
+            "prestazioni": {
+                "potenza_massima": "571 CV",
+                "coppia_massima": "900 Nm",
+                "velocita_massima": "250 km/h",
+                "accel_0_100": "5.3 s",
+                "accel_0_200": "18.5 s",
+                "chilometro_fermo": "23.9 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Architecture of Luxury (Alluminio)",
+                "sospensioni": "Pneumatiche adattive Magic Body Control",
+                "freni": "Dischi autoventilanti",
+                "pneumatici": "Seal-Technology (Antirumore)",
+                "sterzo": "Integrale sterzante"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "2.560 kg",
+                "lunghezza": "5.762 mm",
+                "larghezza": "2.018 mm",
+                "altezza": "1.646 mm",
+                "passo": "3.552 mm",
+                "serbatoio": "90 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.31",
+                "materiali_carrozzeria": "Alluminio",
+                "dettagli_estetici": "Spirit of Ecstasy, portiere controvento",
+                "verniciatura": "Midnight Sapphire",
+                "interni": {
+                    "tipo": "Pelle/Radica/Seta",
+                    "colore": "Bespoke White"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2017-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Bespoke",
+                "numero_esemplare": "322",
+                "designer": "Giles Taylor",
+                "prezzo_listino_orig": "485.000 €",
+                "prezzo_attuale": "500.000 €"
+            }
+        },
+        {
+            "id": 5,
+            "modello": "Porsche 911 Turbo S (992)",
+            "motore_trasmissione": {
+                "codice_motore": "EA9A2",
+                "architettura": "6 cilindri Boxer",
+                "cilindrata_totale": "3.745 cc",
+                "rapporto_compressione": "8.7:1",
+                "sovralimentazione": "Biturbo VTG",
+                "distribuzione": "DOHC 24V",
+                "lubrificazione": "Carter secco integrato",
+                "cambio": "PDK 8 rapporti",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "650 CV",
+                "coppia_massima": "800 Nm",
+                "velocita_massima": "330 km/h",
+                "accel_0_100": "2.7 s",
+                "accel_0_200": "8.9 s",
+                "chilometro_fermo": "19.1 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Alluminio e acciaio",
+                "sospensioni": "PASM (Porsche Active Suspension Management)",
+                "freni": "PCCB (Ceramici)",
+                "pneumatici": "Ant: 255/35 ZR20 - Post: 315/30 ZR21",
+                "sterzo": "Asse posteriore sterzante"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.640 kg",
+                "lunghezza": "4.535 mm",
+                "larghezza": "1.900 mm",
+                "altezza": "1.303 mm",
+                "passo": "2.450 mm",
+                "serbatoio": "67 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.33",
+                "materiali_carrozzeria": "Alluminio",
+                "dettagli_estetici": "Spoiler posteriore estraibile a tre posizioni",
+                "verniciatura": "GT Silver Metallic",
+                "interni": {
+                    "tipo": "Pelle totale",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2020-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "N/A",
+                "numero_esemplare": "540",
+                "designer": "Michael Mauer",
+                "prezzo_listino_orig": "235.000 €",
+                "prezzo_attuale": "245.000 €"
+            }
+        },
+        {
+            "id": 6,
+            "modello": "Porsche 911 GT3 RS (992)",
+            "motore_trasmissione": {
+                "codice_motore": "MA2.75",
+                "architettura": "6 cilindri Boxer",
+                "cilindrata_totale": "3.996 cc",
+                "rapporto_compressione": "13.3:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 24V",
+                "lubrificazione": "Carter secco con serbatoio olio separato",
+                "cambio": "PDK 7 rapporti (rapporti corti)",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "525 CV",
+                "coppia_massima": "465 Nm",
+                "velocita_massima": "296 km/h",
+                "accel_0_100": "3.2 s",
+                "accel_0_200": "10.6 s",
+                "chilometro_fermo": "20.1 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Scocca leggera in alluminio e acciaio",
+                "sospensioni": "Doppi triangoli anteriori con snodi sferici",
+                "freni": "PCCB (Ceramici) con pinze monoblocco",
+                "pneumatici": "Michelin Pilot Sport Cup 2 R",
+                "sterzo": "Asse posteriore sterzante sportivo"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.450 kg",
+                "lunghezza": "4.572 mm",
+                "larghezza": "1.900 mm",
+                "altezza": "1.322 mm",
+                "passo": "2.457 mm",
+                "serbatoio": "64 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.39 (Drag alto per Downforce)",
+                "materiali_carrozzeria": "CFRP (Carbonio) per portiere, parafanghi e tetto",
+                "dettagli_estetici": "Ala posteriore con DRS, radiatore centrale unico",
+                "verniciatura": "Pyro Red / White",
+                "interni": {
+                    "tipo": "Race-Tex con carbonio",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2022-Presente",
+                "anno": "2022",
+                "esemplari_prodotti": "Limitata per allocazione",
+                "numero_esemplare": "43",
+                "designer": "Andreas Preuninger",
+                "prezzo_listino_orig": "258.000 €",
+                "prezzo_attuale": "380.000 €"
+            }
+        },
+        {
+            "id": 7,
+            "modello": "Bugatti Bolide",
+            "motore_trasmissione": {
+                "codice_motore": "Bugatti W16",
+                "architettura": "W16 90°",
+                "cilindrata_totale": "7.993 cc",
+                "rapporto_compressione": "9.5:1",
+                "sovralimentazione": "4 Turbo",
+                "distribuzione": "64 Valvole",
+                "lubrificazione": "Carter secco",
+                "cambio": "DSG 7 rapporti",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "1.600 CV (1.850 CV con 110 ottani)",
+                "coppia_massima": "1.600 Nm",
+                "velocita_massima": ">500 km/h",
+                "accel_0_100": "2.17 s",
+                "accel_0_200": "4.36 s",
+                "chilometro_fermo": "12.0 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Monoscocca in carbonio aeronautico",
+                "sospensioni": "Push-rod orizzontali",
+                "freni": "Brembo in carbonio/magnesio",
+                "pneumatici": "Michelin Slick Racing",
+                "sterzo": "Direct racing gear"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.240 kg",
+                "lunghezza": "4.756 mm",
+                "larghezza": "1.998 mm",
+                "altezza": "995 mm",
+                "passo": "2.750 mm",
+                "serbatoio": "100 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Variabile (Active skin)",
+                "materiali_carrozzeria": "Fibra di carbonio",
+                "dettagli_estetici": "Pinna dorsale, estrattore massiccio",
+                "verniciatura": "French Racing Blue / Carbon",
+                "interni": {
+                    "tipo": "Cockpit racing",
+                    "colore": "Blu/Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2024",
+                "anno": "2024",
+                "esemplari_prodotti": "40",
+                "numero_esemplare": "16",
+                "designer": "Achim Anscheidt",
+                "prezzo_listino_orig": "4.000.000 €",
+                "prezzo_attuale": "5.000.000 €"
+            }
+        },
+        {
+            "id": 8,
+            "modello": "Ferrari FXX-K Evo",
+            "motore_trasmissione": {
+                "codice_motore": "F140",
+                "architettura": "V12 65° + Elettrico",
+                "cilindrata_totale": "6.262 cc",
+                "rapporto_compressione": "13.5:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 48V",
+                "lubrificazione": "Carter secco",
+                "cambio": "DCT 7 rapporti",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "1.050 CV",
+                "coppia_massima": "900 Nm",
+                "velocita_massima": ">350 km/h",
+                "accel_0_100": "2.6 s",
+                "accel_0_200": "6.5 s",
+                "chilometro_fermo": "N/A"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Monoscocca in carbonio",
+                "sospensioni": "Magnetoreologiche adattive",
+                "freni": "Carbo-ceramici Brembo",
+                "pneumatici": "Pirelli P-Zero Slick (Sensori TPMS)",
+                "sterzo": "Racing elettromeccanico"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.250 kg",
+                "lunghezza": "4.896 mm",
+                "larghezza": "2.051 mm",
+                "altezza": "1.116 mm",
+                "passo": "2.650 mm",
+                "serbatoio": "N/A"
+            },
+            "aerodinamica_design": {
+                "cx": "N/A (Downforce: 830kg @ 200km/h)",
+                "materiali_carrozzeria": "Fibra di carbonio",
+                "dettagli_estetici": "Ala posteriore biplano, pinne stabilizzatrici",
+                "verniciatura": "Rosso FXX-K",
+                "interni": {
+                    "tipo": "Sediolini racing in carbonio",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2017-2019",
+                "anno": "2017",
+                "esemplari_prodotti": "40",
+                "numero_esemplare": "21",
+                "designer": "Flavio Manzoni",
+                "prezzo_listino_orig": "4.000.000 €",
+                "prezzo_attuale": "5.500.000 €"
+            }
+        },
+        {
+            "id": 9,
+            "modello": "Ferrari SF90 XX Stradale",
+            "motore_trasmissione": {
+                "codice_motore": "F154FA",
+                "architettura": "V8 90° Biturbo + 3 Motori Elettrici",
+                "cilindrata_totale": "3.990 cc",
+                "rapporto_compressione": "9.4:1",
+                "sovralimentazione": "Biturbo",
+                "distribuzione": "DOHC 32V",
+                "lubrificazione": "Carter secco",
+                "cambio": "DCT 8 rapporti",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "1.030 CV",
+                "coppia_massima": "804 Nm",
+                "velocita_massima": "320 km/h",
+                "accel_0_100": "2.3 s",
+                "accel_0_200": "6.5 s",
+                "chilometro_fermo": "17.1 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Alluminio e carbonio",
+                "sospensioni": "Elettroniche adattive",
+                "freni": "Carbo-ceramici",
+                "pneumatici": "Michelin Pilot Sport Cup 2",
+                "sterzo": "Elettrico variabile"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.560 kg",
+                "lunghezza": "4.850 mm",
+                "larghezza": "2.014 mm",
+                "altezza": "1.225 mm",
+                "passo": "2.650 mm",
+                "serbatoio": "68 L"
+            },
+            "aerodinamica_design": {
+                "cx": "N/A (Ala fissa)",
+                "materiali_carrozzeria": "Compositi leggeri",
+                "dettagli_estetici": "Ala posteriore fissa, S-Duct anteriore",
+                "verniciatura": "Bianco Artico / Rosso Magma",
+                "interni": {
+                    "tipo": "Alcantara/Carbonio",
+                    "colore": "Nero/Giallo"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2023-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "799",
+                "numero_esemplare": "325",
+                "designer": "Flavio Manzoni",
+                "prezzo_listino_orig": "770.000 €",
+                "prezzo_attuale": "1.000.000 €"
+            }
+        },
+        {
+            "id": 10,
+            "modello": "Porsche Macan GTS (2024)",
+            "motore_trasmissione": {
+                "codice_motore": "EA839",
+                "architettura": "V6 90°",
+                "cilindrata_totale": "2.894 cc",
+                "rapporto_compressione": "10.5:1",
+                "sovralimentazione": "Biturbo",
+                "distribuzione": "DOHC 24V con VarioCam Plus",
+                "lubrificazione": "Carter umido",
+                "cambio": "PDK 7 rapporti",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "440 CV",
+                "coppia_massima": "550 Nm",
+                "velocita_massima": "272 km/h",
+                "accel_0_100": "4.3 s (Sport Chrono)",
+                "accel_0_200": "16.9 s",
+                "chilometro_fermo": "23.2 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Acciaio monoscocca",
+                "sospensioni": "Pneumatiche adattive PASM (ribassate 10mm)",
+                "freni": "PSCB (rivestimento in carburo di tungsteno)",
+                "pneumatici": "Pirelli P Zero (21\")",
+                "sterzo": "Elettromeccanico variabile"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.960 kg",
+                "lunghezza": "4.726 mm",
+                "larghezza": "1.927 mm",
+                "altezza": "1.596 mm",
+                "passo": "2.807 mm",
+                "serbatoio": "75 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.35",
+                "materiali_carrozzeria": "Acciaio e alluminio",
+                "dettagli_estetici": "Pacchetto SportDesign nero lucido",
+                "verniciatura": "Papaya Metallic",
+                "interni": {
+                    "tipo": "Pelle e Alcantara GTS",
+                    "colore": "Nero/Cuciture rosse"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2021-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie illimitata",
+                "numero_esemplare": "54",
+                "designer": "Michael Mauer",
+                "prezzo_listino_orig": "98.000 €",
+                "prezzo_attuale": "98.000 €"
+            }
+        },
+        {
+            "id": 11,
+            "modello": "Lancia Delta HF Integrale Evo II",
+            "motore_trasmissione": {
+                "codice_motore": "831E5.046",
+                "architettura": "4 cilindri in linea",
+                "cilindrata_totale": "1.995 cc",
+                "rapporto_compressione": "8.0:1",
+                "sovralimentazione": "Turbo Garrett T3",
+                "distribuzione": "DOHC 16V",
+                "lubrificazione": "Carter umido",
+                "cambio": "Manuale 5 rapporti",
+                "frizione": "Monodisco a secco"
+            },
+            "prestazioni": {
+                "potenza_massima": "215 CV",
+                "coppia_massima": "314 Nm",
+                "velocita_massima": "220 km/h",
+                "accel_0_100": "5.7 s",
+                "accel_0_200": "26.5 s",
+                "chilometro_fermo": "26.1 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Monoscocca in acciaio",
+                "sospensioni": "MacPherson indipendenti",
+                "freni": "Dischi autoventilanti con ABS",
+                "pneumatici": "205/45 ZR16",
+                "sterzo": "Servoassistito a pignone"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.340 kg",
+                "lunghezza": "3.900 mm",
+                "larghezza": "1.770 mm",
+                "altezza": "1.365 mm",
+                "passo": "2.480 mm",
+                "serbatoio": "57 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.45",
+                "materiali_carrozzeria": "Acciaio e pannelli in resina",
+                "dettagli_estetici": "Parafanghi allargati, spoiler regolabile",
+                "verniciatura": "Rosso Monza",
+                "interni": {
+                    "tipo": "Sedili Recaro Alcantara",
+                    "colore": "Beige"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "1993-1994",
+                "anno": "1993",
+                "esemplari_prodotti": "4.223",
+                "numero_esemplare": "2.567",
+                "designer": "Giorgetto Giugiaro",
+                "prezzo_listino_orig": "55.000.000 Lire",
+                "prezzo_attuale": "180.000 €"
+            }
+        },
+        {
+            "id": 12,
+            "modello": "Lamborghini Gallardo LP 570-4 Superleggera",
+            "motore_trasmissione": {
+                "codice_motore": "07L.Y",
+                "architettura": "V10 90°",
+                "cilindrata_totale": "5.204 cc",
+                "rapporto_compressione": "12.5:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 40V",
+                "lubrificazione": "Carter secco",
+                "cambio": "E-Gear 6 rapporti",
+                "frizione": "Monodisco a secco"
+            },
+            "prestazioni": {
+                "potenza_massima": "570 CV",
+                "coppia_massima": "540 Nm",
+                "velocita_massima": "325 km/h",
+                "accel_0_100": "3.4 s",
+                "accel_0_200": "10.2 s",
+                "chilometro_fermo": "20.4 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Space frame in alluminio",
+                "sospensioni": "Doppio braccio oscillante in alluminio",
+                "freni": "Carbo-ceramici (opzionali)",
+                "pneumatici": "Pirelli P Zero Corsa",
+                "sterzo": "Pignone e cremagliera servoassistito"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.340 kg",
+                "lunghezza": "4.386 mm",
+                "larghezza": "1.900 mm",
+                "altezza": "1.165 mm",
+                "passo": "2.560 mm",
+                "serbatoio": "90 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.33",
+                "materiali_carrozzeria": "Alluminio e Carbonio",
+                "dettagli_estetici": "Ala posteriore fissa in carbonio",
+                "verniciatura": "Grigio Telesto",
+                "interni": {
+                    "tipo": "Alcantara alleggerita",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2010-2013",
+                "anno": "2011",
+                "esemplari_prodotti": "618",
+                "numero_esemplare": "218",
+                "designer": "Luc Donckerwolke",
+                "prezzo_listino_orig": "210.000 €",
+                "prezzo_attuale": "240.000 €"
+            }
+        },
+        {
+            "id": 13,
+            "modello": "Ferrari 488 Pista",
+            "motore_trasmissione": {
+                "codice_motore": "F154CD",
+                "architettura": "V8 90°",
+                "cilindrata_totale": "3.902 cc",
+                "rapporto_compressione": "9.4:1",
+                "sovralimentazione": "Biturbo",
+                "distribuzione": "DOHC 32V",
+                "lubrificazione": "Carter secco",
+                "cambio": "DCT 7 rapporti",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "720 CV",
+                "coppia_massima": "770 Nm",
+                "velocita_massima": "340 km/h",
+                "accel_0_100": "2.85 s",
+                "accel_0_200": "7.6 s",
+                "chilometro_fermo": "18.8 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Alluminio",
+                "sospensioni": "SCM-E (Magnetoreologiche)",
+                "freni": "Carbo-ceramici",
+                "pneumatici": "Michelin Pilot Sport Cup 2",
+                "sterzo": "Elettrico"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.280 kg",
+                "lunghezza": "4.605 mm",
+                "larghezza": "1.975 mm",
+                "altezza": "1.206 mm",
+                "passo": "2.650 mm",
+                "serbatoio": "78 L"
+            },
+            "aerodinamica_design": {
+                "cx": "N/A (S-Duct)",
+                "materiali_carrozzeria": "Fibra di carbonio / Alluminio",
+                "dettagli_estetici": "S-Duct anteriore, spoiler soffiato",
+                "verniciatura": "Rosso Corsa con strisce Racing",
+                "interni": {
+                    "tipo": "Alcantara/Carbonio",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2018-2020",
+                "anno": "2018",
+                "esemplari_prodotti": "Serie speciale",
+                "numero_esemplare": "76",
+                "designer": "Flavio Manzoni",
+                "prezzo_listino_orig": "296.000 €",
+                "prezzo_attuale": "500.000 €"
+            }
+        },
+        {
+            "id": 14,
+            "modello": "Ferrari F8 Tributo",
+            "motore_trasmissione": {
+                "codice_motore": "F154 CG",
+                "architettura": "V8 90°",
+                "cilindrata_totale": "3.902 cc",
+                "rapporto_compressione": "9.6:1",
+                "sovralimentazione": "Biturbo",
+                "distribuzione": "DOHC 32V",
+                "lubrificazione": "Carter secco",
+                "cambio": "DCT 7 rapporti",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "720 CV",
+                "coppia_massima": "770 Nm",
+                "velocita_massima": "340 km/h",
+                "accel_0_100": "2.9 s",
+                "accel_0_200": "7.8 s",
+                "chilometro_fermo": "18.9 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Alluminio",
+                "sospensioni": "SCM-E (Magnetoreologiche)",
+                "freni": "Carbo-ceramici Brembo",
+                "pneumatici": "Pirelli P Zero",
+                "sterzo": "Elettrico variabile"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.330 kg",
+                "lunghezza": "4.611 mm",
+                "larghezza": "1.979 mm",
+                "altezza": "1.206 mm",
+                "passo": "2.650 mm",
+                "serbatoio": "78 L"
+            },
+            "aerodinamica_design": {
+                "cx": "S-Duct integrato",
+                "materiali_carrozzeria": "Alluminio",
+                "dettagli_estetici": "Lunotto in Lexan feritoiato (omaggio F40)",
+                "verniciatura": "Rosso Scuderia",
+                "interni": {
+                    "tipo": "Pelle e Carbonio",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2019-2023",
+                "anno": "2022",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "534",
+                "designer": "Flavio Manzoni",
+                "prezzo_listino_orig": "236.000 €",
+                "prezzo_attuale": "290.000 €"
+            }
+        },
+        {
+            "id": 15,
+            "modello": "Porsche 718 Cayman GT4 RS",
+            "motore_trasmissione": {
+                "codice_motore": "MA2.75 (911 GT3 base)",
+                "architettura": "6 cilindri Boxer",
+                "cilindrata_totale": "3.996 cc",
+                "rapporto_compressione": "13.3:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 24V",
+                "lubrificazione": "Carter secco",
+                "cambio": "PDK 7 rapporti",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "500 CV",
+                "coppia_massima": "450 Nm",
+                "velocita_massima": "315 km/h",
+                "accel_0_100": "3.4 s",
+                "accel_0_200": "10.9 s",
+                "chilometro_fermo": "20.5 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Alluminio/Acciaio motore centrale",
+                "sospensioni": "Schema RS con snodi sferici",
+                "freni": "Ceramici PCCB opzionali",
+                "pneumatici": "Michelin Pilot Sport Cup 2",
+                "sterzo": "Elettromeccanico MSR"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.415 kg",
+                "lunghezza": "4.456 mm",
+                "larghezza": "1.822 mm",
+                "altezza": "1.267 mm",
+                "passo": "2.482 mm",
+                "serbatoio": "54 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Ala posteriore a collo di cigno",
+                "materiali_carrozzeria": "Cofano e ali in carbonio",
+                "dettagli_estetici": "Prese d'aria al posto dei finestrini posteriori",
+                "verniciatura": "Shark Blue",
+                "interni": {
+                    "tipo": "Race-Tex con guscio carbonio",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2021-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie limitata",
+                "numero_esemplare": "3.670",
+                "designer": "Porsche Style",
+                "prezzo_listino_orig": "155.000 €",
+                "prezzo_attuale": "210.000 €"
+            }
+        },
+        {
+            "id": 16,
+            "modello": "Lamborghini Urus Performante",
+            "motore_trasmissione": {
+                "codice_motore": "EA825",
+                "architettura": "V8 90°",
+                "cilindrata_totale": "3.996 cc",
+                "rapporto_compressione": "9.7:1",
+                "sovralimentazione": "Biturbo",
+                "distribuzione": "DOHC 32V",
+                "lubrificazione": "Carter umido",
+                "cambio": "ZF 8 rapporti",
+                "frizione": "Convertitore di coppia"
+            },
+            "prestazioni": {
+                "potenza_massima": "666 CV",
+                "coppia_massima": "850 Nm",
+                "velocita_massima": "306 km/h",
+                "accel_0_100": "3.3 s",
+                "accel_0_200": "11.5 s",
+                "chilometro_fermo": "20.9 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Acciaio e alluminio",
+                "sospensioni": "Molle in acciaio (ribassate) + Ammortizzatori attivi",
+                "freni": "Carbo-ceramici CCB",
+                "pneumatici": "Pirelli P Zero Trofeo R",
+                "sterzo": "Integrale sterzante"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "2.150 kg",
+                "lunghezza": "5.137 mm",
+                "larghezza": "2.026 mm",
+                "altezza": "1.618 mm",
+                "passo": "3.003 mm",
+                "serbatoio": "85 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.35",
+                "materiali_carrozzeria": "Acciaio/Carbonio",
+                "dettagli_estetici": "Cofano in carbonio, spoiler maggiorato",
+                "verniciatura": "Giallo Auge",
+                "interni": {
+                    "tipo": "Alcantara/Carbonio",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2022-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "N/A",
+                "numero_esemplare": "104",
+                "designer": "Mitja Borkert",
+                "prezzo_listino_orig": "262.000 €",
+                "prezzo_attuale": "280.000 €"
+            }
+        },
+        {
+            "id": 17,
+            "modello": "Ferrari Purosangue",
+            "motore_trasmissione": {
+                "codice_motore": "F140IA",
+                "architettura": "V12 65°",
+                "cilindrata_totale": "6.496 cc",
+                "rapporto_compressione": "13.6:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 48V",
+                "lubrificazione": "Carter secco",
+                "cambio": "DCT 8 rapporti",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "725 CV",
+                "coppia_massima": "716 Nm",
+                "velocita_massima": "310 km/h",
+                "accel_0_100": "3.3 s",
+                "accel_0_200": "10.6 s",
+                "chilometro_fermo": "20.2 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Alluminio ad alta resistenza",
+                "sospensioni": "TASV (True Active Spool Valve)",
+                "freni": "Carbo-ceramici",
+                "pneumatici": "Michelin Pilot Sport 5S",
+                "sterzo": "Indipendente sulle quattro ruote"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "2.033 kg",
+                "lunghezza": "4.973 mm",
+                "larghezza": "2.028 mm",
+                "altezza": "1.589 mm",
+                "passo": "3.018 mm",
+                "serbatoio": "100 L"
+            },
+            "aerodinamica_design": {
+                "cx": "N/A",
+                "materiali_carrozzeria": "Alluminio e carbonio",
+                "dettagli_estetici": "Portiere posteriori a vento (Welcome Doors)",
+                "verniciatura": "Nero Purosangue",
+                "interni": {
+                    "tipo": "Pelle ecosostenibile",
+                    "colore": "Marrone/Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2023-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie limitata (20% produzione)",
+                "numero_esemplare": "37",
+                "designer": "Flavio Manzoni",
+                "prezzo_listino_orig": "390.000 €",
+                "prezzo_attuale": "550.000 €"
+            }
+        },
+        {
+            "id": 18,
+            "modello": "BMW M4 CS (G82)",
+            "motore_trasmissione": {
+                "codice_motore": "S58",
+                "architettura": "6 cilindri in linea",
+                "cilindrata_totale": "2.993 cc",
+                "rapporto_compressione": "9.3:1",
+                "sovralimentazione": "Biturbo (pressione 2.1 bar)",
+                "distribuzione": "DOHC 24V Valvetronic",
+                "lubrificazione": "Carter umido racing",
+                "cambio": "M Steptronic 8 rapporti",
+                "frizione": "Convertitore di coppia"
+            },
+            "prestazioni": {
+                "potenza_massima": "550 CV",
+                "coppia_massima": "650 Nm",
+                "velocita_massima": "302 km/h",
+                "accel_0_100": "3.4 s",
+                "accel_0_200": "11.1 s",
+                "chilometro_fermo": "20.8 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Acciaio/Carbonio",
+                "sospensioni": "Adattive M con setup specifico CS",
+                "freni": "Compound M (Carbo-ceramici opz.)",
+                "pneumatici": "Michelin Pilot Sport Cup 2",
+                "sterzo": "M Servotronic variabile"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.760 kg",
+                "lunghezza": "4.794 mm",
+                "larghezza": "1.918 mm",
+                "altezza": "1.391 mm",
+                "passo": "2.857 mm",
+                "serbatoio": "59 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.34",
+                "materiali_carrozzeria": "Tetto e cofano in CFRP",
+                "dettagli_estetici": "Fari gialli BMW Laser, rene senza cornice",
+                "verniciatura": "Riviera Blue",
+                "interni": {
+                    "tipo": "Sedili M Carbon CS",
+                    "colore": "Nero/Rosso"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2024-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Edizione limitata",
+                "numero_esemplare": "46",
+                "designer": "BMW M Division",
+                "prezzo_listino_orig": "160.000 €",
+                "prezzo_attuale": "170.000 €"
+            }
+        },
+        {
+            "id": 19,
+            "modello": "BMW M3 G80 Competition",
+            "motore_trasmissione": {
+                "codice_motore": "S58",
+                "architettura": "6 cilindri in linea",
+                "cilindrata_totale": "2.993 cc",
+                "rapporto_compressione": "9.3:1",
+                "sovralimentazione": "Biturbo",
+                "distribuzione": "DOHC 24V",
+                "lubrificazione": "Carter umido",
+                "cambio": "M Steptronic 8 rapporti",
+                "frizione": "Convertitore di coppia"
+            },
+            "prestazioni": {
+                "potenza_massima": "510 CV",
+                "coppia_massima": "650 Nm",
+                "velocita_massima": "290 km/h (M Driver's Pack)",
+                "accel_0_100": "3.5 s (xDrive)",
+                "accel_0_200": "12.5 s",
+                "chilometro_fermo": "21.1 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Acciaio ad alta resistenza",
+                "sospensioni": "Adattive M",
+                "freni": "Compound M (Carbo-ceramici opz.)",
+                "pneumatici": "Michelin Pilot Sport 4S",
+                "sterzo": "Servosterzo M variabile"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.730 kg",
+                "lunghezza": "4.794 mm",
+                "larghezza": "1.903 mm",
+                "altezza": "1.433 mm",
+                "passo": "2.857 mm",
+                "serbatoio": "59 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.33",
+                "materiali_carrozzeria": "Acciaio e Tetto in Carbonio",
+                "dettagli_estetici": "Griglia a doppio rene verticale",
+                "verniciatura": "Isle of Man Green",
+                "interni": {
+                    "tipo": "Sedili a guscio M Carbon",
+                    "colore": "Kyalami Orange"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2020-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "N/A",
+                "numero_esemplare": "67",
+                "designer": "Domagoj Dukec",
+                "prezzo_listino_orig": "105.000 €",
+                "prezzo_attuale": "110.000 €"
+            }
+        },
+        {
+            "id": 20,
+            "modello": "BMW M3 CRT (E90/E92 CS)",
+            "motore_trasmissione": {
+                "codice_motore": "S65B44",
+                "architettura": "V8 90°",
+                "cilindrata_totale": "4.361 cc",
+                "rapporto_compressione": "12.0:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 32V",
+                "lubrificazione": "Carter umido",
+                "cambio": "M-DCT 7 rapporti",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "450 CV",
+                "coppia_massima": "440 Nm",
+                "velocita_massima": "290 km/h",
+                "accel_0_100": "4.4 s",
+                "accel_0_200": "15.2 s",
+                "chilometro_fermo": "22.5 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Acciaio con sottotelai in alluminio",
+                "sospensioni": "Molle a ghiera regolabili (Ohlins)",
+                "freni": "Dischi compound forati",
+                "pneumatici": "Pirelli P Zero Corsa",
+                "sterzo": "Idraulico M"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.580 kg",
+                "lunghezza": "4.580 mm",
+                "larghezza": "1.817 mm",
+                "altezza": "1.410 mm",
+                "passo": "2.760 mm",
+                "serbatoio": "63 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.33",
+                "materiali_carrozzeria": "Carbonio (CRT: Carbon Racing Technology)",
+                "dettagli_estetici": "Spoiler posteriore in carbonio",
+                "verniciatura": "Frozen Silver",
+                "interni": {
+                    "tipo": "Racing in pelle",
+                    "colore": "Nero/Sakhir Orange"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2011",
+                "anno": "2011",
+                "esemplari_prodotti": "67",
+                "numero_esemplare": "45",
+                "designer": "BMW M",
+                "prezzo_listino_orig": "130.000 €",
+                "prezzo_attuale": "250.000 €"
+            }
+        },
+        {
+            "id": 21,
+            "modello": "BMW M5 (G90)",
+            "motore_trasmissione": {
+                "codice_motore": "S68 + Motore Elettrico",
+                "architettura": "V8 90° Hybrid",
+                "cilindrata_totale": "4.395 cc",
+                "rapporto_compressione": "10.0:1",
+                "sovralimentazione": "Biturbo",
+                "distribuzione": "DOHC 32V",
+                "lubrificazione": "Carter umido",
+                "cambio": "M Steptronic 8 rapporti",
+                "frizione": "Convertitore di coppia"
+            },
+            "prestazioni": {
+                "potenza_massima": "727 CV",
+                "coppia_massima": "1.000 Nm",
+                "velocita_massima": "305 km/h",
+                "accel_0_100": "3.5 s",
+                "accel_0_200": "10.9 s",
+                "chilometro_fermo": "20.2 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Acciaio/Alluminio",
+                "sospensioni": "Adattive M Professional",
+                "freni": "Carbo-ceramici M opzionali",
+                "pneumatici": "Michelin Pilot Sport 5S",
+                "sterzo": "Integrale sterzante attivo"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "2.435 kg",
+                "lunghezza": "5.096 mm",
+                "larghezza": "1.970 mm",
+                "altezza": "1.510 mm",
+                "passo": "3.006 mm",
+                "serbatoio": "60 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.30",
+                "materiali_carrozzeria": "Acciaio e Tetto Carbonio",
+                "dettagli_estetici": "Careggiate allargate, quattro scarichi 100mm",
+                "verniciatura": "Storm Bay Metallic",
+                "interni": {
+                    "tipo": "Pelle Merino",
+                    "colore": "Kylami Orange/Black"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2024-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "560",
+                "designer": "Domagoj Dukec",
+                "prezzo_listino_orig": "150.000 €",
+                "prezzo_attuale": "150.000 €"
+            }
+        },
+        {
+            "id": 22,
+            "modello": "Mercedes-AMG GT 63 Coupé (C192)",
+            "motore_trasmissione": {
+                "codice_motore": "M177",
+                "architettura": "V8 90°",
+                "cilindrata_totale": "3.982 cc",
+                "rapporto_compressione": "8.6:1",
+                "sovralimentazione": "Biturbo Hot Inside V",
+                "distribuzione": "DOHC 32V",
+                "lubrificazione": "Carter umido",
+                "cambio": "AMG SPEEDSHIFT MCT 9G",
+                "frizione": "Frizione a bagno d'olio (multipla)"
+            },
+            "prestazioni": {
+                "potenza_massima": "585 CV",
+                "coppia_massima": "800 Nm",
+                "velocita_massima": "315 km/h",
+                "accel_0_100": "3.2 s",
+                "accel_0_200": "11.5 s",
+                "chilometro_fermo": "20.9 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Space frame in alluminio composito",
+                "sospensioni": "AMG Active Ride Control (stabilizzazione semi-attiva)",
+                "freni": "Compositi ad alte prestazioni",
+                "pneumatici": "Michelin Pilot Sport Cup 2",
+                "sterzo": "Asse posteriore sterzante"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.895 kg",
+                "lunghezza": "4.728 mm",
+                "larghezza": "1.984 mm",
+                "altezza": "1.354 mm",
+                "passo": "2.700 mm",
+                "serbatoio": "70 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.31",
+                "materiali_carrozzeria": "Alluminio, Magnesio e Carbonio",
+                "dettagli_estetici": "Aerodinamica attiva Airpanel nel frontale",
+                "verniciatura": "Hyper Blue Metallic",
+                "interni": {
+                    "tipo": "Pelle Nappa/Microfibra",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2023-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "357",
+                "designer": "Gorden Wagener",
+                "prezzo_listino_orig": "198.000 €",
+                "prezzo_attuale": "205.000 €"
+            }
+        },
+        {
+            "id": 23,
+            "modello": "Mercedes-AMG G 63",
+            "motore_trasmissione": {
+                "codice_motore": "M177",
+                "architettura": "V8 90°",
+                "cilindrata_totale": "3.982 cc",
+                "rapporto_compressione": "8.6:1",
+                "sovralimentazione": "Biturbo",
+                "distribuzione": "DOHC 32V",
+                "lubrificazione": "Carter umido",
+                "cambio": "AMG SPEEDSHIFT TCT 9G",
+                "frizione": "Convertitore di coppia"
+            },
+            "prestazioni": {
+                "potenza_massima": "585 CV",
+                "coppia_massima": "850 Nm",
+                "velocita_massima": "220 km/h",
+                "accel_0_100": "4.5 s",
+                "accel_0_200": "18.1 s",
+                "chilometro_fermo": "23.5 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "A longheroni (Acciaio)",
+                "sospensioni": "AMG Ride Control adattive",
+                "freni": "Dischi autoventilanti forati",
+                "pneumatici": "285/45 R21",
+                "sterzo": "Elettromeccanico a circolazione di sfere"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "2.485 kg",
+                "lunghezza": "4.873 mm",
+                "larghezza": "1.984 mm",
+                "altezza": "1.966 mm",
+                "passo": "2.890 mm",
+                "serbatoio": "100 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.54",
+                "materiali_carrozzeria": "Acciaio",
+                "dettagli_estetici": "Scarichi laterali (Sidepipes), ruota di scorta esterna",
+                "verniciatura": "G Manufaktur Night Black",
+                "interni": {
+                    "tipo": "Pelle Nappa",
+                    "colore": "Classic Red/Black"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2018-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "N/A",
+                "numero_esemplare": "890",
+                "designer": "Gorden Wagener",
+                "prezzo_listino_orig": "187.000 €",
+                "prezzo_attuale": "210.000 €"
+            }
+        },
+        {
+            "id": 24,
+            "modello": "Mercedes-AMG A 45 S 4MATIC+",
+            "motore_trasmissione": {
+                "codice_motore": "M139",
+                "architettura": "4 cilindri in linea",
+                "cilindrata_totale": "1.991 cc",
+                "rapporto_compressione": "9.0:1",
+                "sovralimentazione": "Turbo Twin Scroll",
+                "distribuzione": "DOHC 16V Camtronic",
+                "lubrificazione": "Carter umido",
+                "cambio": "AMG SPEEDSHIFT DCT 8G",
+                "frizione": "Doppia frizione"
+            },
+            "prestazioni": {
+                "potenza_massima": "421 CV",
+                "coppia_massima": "500 Nm",
+                "velocita_massima": "270 km/h",
+                "accel_0_100": "3.9 s",
+                "accel_0_200": "14.5 s",
+                "chilometro_fermo": "22.1 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Acciaio monoscocca rinforzato",
+                "sospensioni": "AMG Ride Control",
+                "freni": "6 pistoncini anteriore 360mm",
+                "pneumatici": "245/35 R19",
+                "sterzo": "Elettromeccanico specifico AMG"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "1.550 kg",
+                "lunghezza": "4.445 mm",
+                "larghezza": "1.850 mm",
+                "altezza": "1.407 mm",
+                "passo": "2.729 mm",
+                "serbatoio": "51 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.33",
+                "materiali_carrozzeria": "Acciaio",
+                "dettagli_estetici": "Griglia Panamericana, spoiler posteriore AMG",
+                "verniciatura": "Mountain Grey Magno",
+                "interni": {
+                    "tipo": "Sedili Performance AMG",
+                    "colore": "Nero/Giallo"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2019-Presente",
+                "anno": "2025",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "1.256",
+                "designer": "Gorden Wagener",
+                "prezzo_listino_orig": "68.000 €",
+                "prezzo_attuale": "72.000 €"
+            }
+        },
+        {
+            "id": 25,
+            "modello": "Mercedes-Maybach Classe S 680",
+            "motore_trasmissione": {
+                "codice_motore": "M279",
+                "architettura": "V12 60°",
+                "cilindrata_totale": "5.980 cc",
+                "rapporto_compressione": "10.0:1",
+                "sovralimentazione": "Biturbo",
+                "distribuzione": "SOHC 36V",
+                "lubrificazione": "Carter umido",
+                "cambio": "9G-TRONIC",
+                "frizione": "Convertitore di coppia"
+            },
+            "prestazioni": {
+                "potenza_massima": "612 CV",
+                "coppia_massima": "900 Nm",
+                "velocita_massima": "250 km/h",
+                "accel_0_100": "4.5 s",
+                "accel_0_200": "15.5 s",
+                "chilometro_fermo": "22.8 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Acciaio/Alluminio composito",
+                "sospensioni": "E-Active Body Control (Pneumatiche)",
+                "freni": "Dischi autoventilanti",
+                "pneumatici": "Run-flat comfort",
+                "sterzo": "Asse posteriore sterzante (10°)"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "2.350 kg",
+                "lunghezza": "5.469 mm",
+                "larghezza": "1.921 mm",
+                "altezza": "1.510 mm",
+                "passo": "3.396 mm",
+                "serbatoio": "76 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.22",
+                "materiali_carrozzeria": "Acciaio e Alluminio",
+                "dettagli_estetici": "Vernice bicolore, griglia Maybach specifica",
+                "verniciatura": "Bicolor Kalahari Gold / Onyx Black",
+                "interni": {
+                    "tipo": "Pelle Nappa Exclusive",
+                    "colore": "Deep White"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2021-Presente",
+                "anno": "2026",
+                "esemplari_prodotti": "N/A",
+                "numero_esemplare": "549",
+                "designer": "Gorden Wagener",
+                "prezzo_listino_orig": "245.000 €",
+                "prezzo_attuale": "260.000 €"
+            }
+        }
+    ]
+}
