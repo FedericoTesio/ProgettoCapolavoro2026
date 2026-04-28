@@ -1,7 +1,7 @@
 {
     "concessionario_db": [
         {
-            "id": 1,
+            "id": "CAR-1",
             "modello": "Ferrari F40",
             "motore_trasmissione": {
                 "codice_motore": "F120 A",
@@ -58,7 +58,7 @@
             }
         },
         {
-            "id": 2,
+            "id": "CAR-2",
             "modello": "Lamborghini Aventador SVJ",
             "motore_trasmissione": {
                 "codice_motore": "L539",
@@ -115,7 +115,7 @@
             }
         },
         {
-            "id": 3,
+            "id": "CAR-3",
             "modello": "Ferrari LaFerrari",
             "motore_trasmissione": {
                 "codice_motore": "F140",
@@ -172,7 +172,7 @@
             }
         },
         {
-            "id": 4,
+            "id": "CAR-4",
             "modello": "Rolls-Royce Phantom VIII",
             "motore_trasmissione": {
                 "codice_motore": "N74B68",
@@ -221,7 +221,7 @@
             "dati_storici_commerciali": {
                 "anni_produzione": "2017-Presente",
                 "anno": "2024",
-                "esemplari_prodotti": "Bespoke",
+                "esemplari_prodotti": "Bespoke (prodotta su ordinazione con alto livello di personalizzazione)",
                 "numero_esemplare": "322",
                 "designer": "Giles Taylor",
                 "prezzo_listino_orig": "485.000 €",
@@ -229,7 +229,7 @@
             }
         },
         {
-            "id": 5,
+            "id": "CAR-5",
             "modello": "Porsche 911 Turbo S (992)",
             "motore_trasmissione": {
                 "codice_motore": "EA9A2",
@@ -278,7 +278,7 @@
             "dati_storici_commerciali": {
                 "anni_produzione": "2020-Presente",
                 "anno": "2024",
-                "esemplari_prodotti": "N/A",
+                "esemplari_prodotti": "Serie regolare",
                 "numero_esemplare": "540",
                 "designer": "Michael Mauer",
                 "prezzo_listino_orig": "235.000 €",
@@ -286,7 +286,7 @@
             }
         },
         {
-            "id": 6,
+            "id": "CAR-6",
             "modello": "Porsche 911 GT3 RS (992)",
             "motore_trasmissione": {
                 "codice_motore": "MA2.75",
@@ -335,7 +335,7 @@
             "dati_storici_commerciali": {
                 "anni_produzione": "2022-Presente",
                 "anno": "2022",
-                "esemplari_prodotti": "Limitata per allocazione",
+                "esemplari_prodotti": "Su richiesta ma limitata per un periodo di tempo",
                 "numero_esemplare": "43",
                 "designer": "Andreas Preuninger",
                 "prezzo_listino_orig": "258.000 €",
@@ -343,7 +343,7 @@
             }
         },
         {
-            "id": 7,
+            "id": "CAR-7",
             "modello": "Bugatti Bolide",
             "motore_trasmissione": {
                 "codice_motore": "Bugatti W16",
@@ -400,7 +400,7 @@
             }
         },
         {
-            "id": 8,
+            "id": "CAR-8",
             "modello": "Ferrari FXX-K Evo",
             "motore_trasmissione": {
                 "codice_motore": "F140",
@@ -437,7 +437,7 @@
                 "serbatoio": "N/A"
             },
             "aerodinamica_design": {
-                "cx": "N/A (Downforce: 830kg @ 200km/h)",
+                "cx": "N/A (Downforce: 830kg 200km/h)",
                 "materiali_carrozzeria": "Fibra di carbonio",
                 "dettagli_estetici": "Ala posteriore biplano, pinne stabilizzatrici",
                 "verniciatura": "Rosso FXX-K",
@@ -457,7 +457,7 @@
             }
         },
         {
-            "id": 9,
+            "id": "CAR-9",
             "modello": "Ferrari SF90 XX Stradale",
             "motore_trasmissione": {
                 "codice_motore": "F154FA",
@@ -514,7 +514,7 @@
             }
         },
         {
-            "id": 10,
+            "id": "CAR-10",
             "modello": "Porsche Macan GTS (2024)",
             "motore_trasmissione": {
                 "codice_motore": "EA839",
@@ -563,7 +563,7 @@
             "dati_storici_commerciali": {
                 "anni_produzione": "2021-Presente",
                 "anno": "2024",
-                "esemplari_prodotti": "Serie illimitata",
+                "esemplari_prodotti": "Serie regolare",
                 "numero_esemplare": "54",
                 "designer": "Michael Mauer",
                 "prezzo_listino_orig": "98.000 €",
@@ -571,7 +571,7 @@
             }
         },
         {
-            "id": 11,
+            "id": "CAR-11",
             "modello": "Lancia Delta HF Integrale Evo II",
             "motore_trasmissione": {
                 "codice_motore": "831E5.046",
@@ -628,7 +628,7 @@
             }
         },
         {
-            "id": 12,
+            "id": "CAR-12",
             "modello": "Lamborghini Gallardo LP 570-4 Superleggera",
             "motore_trasmissione": {
                 "codice_motore": "07L.Y",
@@ -685,7 +685,7 @@
             }
         },
         {
-            "id": 13,
+            "id": "CAR-13",
             "modello": "Ferrari 488 Pista",
             "motore_trasmissione": {
                 "codice_motore": "F154CD",
@@ -734,7 +734,7 @@
             "dati_storici_commerciali": {
                 "anni_produzione": "2018-2020",
                 "anno": "2018",
-                "esemplari_prodotti": "Serie speciale",
+                "esemplari_prodotti": "1.500",
                 "numero_esemplare": "76",
                 "designer": "Flavio Manzoni",
                 "prezzo_listino_orig": "296.000 €",
@@ -742,7 +742,7 @@
             }
         },
         {
-            "id": 14,
+            "id": "CAR-14",
             "modello": "Ferrari F8 Tributo",
             "motore_trasmissione": {
                 "codice_motore": "F154 CG",
@@ -799,7 +799,7 @@
             }
         },
         {
-            "id": 15,
+            "id": "CAR-15",
             "modello": "Porsche 718 Cayman GT4 RS",
             "motore_trasmissione": {
                 "codice_motore": "MA2.75 (911 GT3 base)",
@@ -848,7 +848,7 @@
             "dati_storici_commerciali": {
                 "anni_produzione": "2021-Presente",
                 "anno": "2024",
-                "esemplari_prodotti": "Serie limitata",
+                "esemplari_prodotti": "2.163",
                 "numero_esemplare": "3.670",
                 "designer": "Porsche Style",
                 "prezzo_listino_orig": "155.000 €",
@@ -856,7 +856,7 @@
             }
         },
         {
-            "id": 16,
+            "id": "CAR-16",
             "modello": "Lamborghini Urus Performante",
             "motore_trasmissione": {
                 "codice_motore": "EA825",
@@ -905,7 +905,7 @@
             "dati_storici_commerciali": {
                 "anni_produzione": "2022-Presente",
                 "anno": "2024",
-                "esemplari_prodotti": "N/A",
+                "esemplari_prodotti": "Serie regolare",
                 "numero_esemplare": "104",
                 "designer": "Mitja Borkert",
                 "prezzo_listino_orig": "262.000 €",
@@ -913,7 +913,7 @@
             }
         },
         {
-            "id": 17,
+            "id": "CAR-17",
             "modello": "Ferrari Purosangue",
             "motore_trasmissione": {
                 "codice_motore": "F140IA",
@@ -970,7 +970,7 @@
             }
         },
         {
-            "id": 18,
+            "id": "CAR-18",
             "modello": "BMW M4 CS (G82)",
             "motore_trasmissione": {
                 "codice_motore": "S58",
@@ -1019,7 +1019,7 @@
             "dati_storici_commerciali": {
                 "anni_produzione": "2024-Presente",
                 "anno": "2024",
-                "esemplari_prodotti": "Edizione limitata",
+                "esemplari_prodotti": "Su richiesta ma limitata per un periodo di tempo",
                 "numero_esemplare": "46",
                 "designer": "BMW M Division",
                 "prezzo_listino_orig": "160.000 €",
@@ -1027,7 +1027,7 @@
             }
         },
         {
-            "id": 19,
+            "id": "CAR-19",
             "modello": "BMW M3 G80 Competition",
             "motore_trasmissione": {
                 "codice_motore": "S58",
@@ -1076,7 +1076,7 @@
             "dati_storici_commerciali": {
                 "anni_produzione": "2020-Presente",
                 "anno": "2024",
-                "esemplari_prodotti": "N/A",
+                "esemplari_prodotti": "Su richiesta",
                 "numero_esemplare": "67",
                 "designer": "Domagoj Dukec",
                 "prezzo_listino_orig": "105.000 €",
@@ -1084,7 +1084,7 @@
             }
         },
         {
-            "id": 20,
+            "id": "CAR-20",
             "modello": "BMW M3 CRT (E90/E92 CS)",
             "motore_trasmissione": {
                 "codice_motore": "S65B44",
@@ -1141,7 +1141,7 @@
             }
         },
         {
-            "id": 21,
+            "id": "CAR-21",
             "modello": "BMW M5 (G90)",
             "motore_trasmissione": {
                 "codice_motore": "S68 + Motore Elettrico",
@@ -1198,7 +1198,7 @@
             }
         },
         {
-            "id": 22,
+            "id": "CAR-22",
             "modello": "Mercedes-AMG GT 63 Coupé (C192)",
             "motore_trasmissione": {
                 "codice_motore": "M177",
@@ -1255,7 +1255,7 @@
             }
         },
         {
-            "id": 23,
+            "id": "CAR-23",
             "modello": "Mercedes-AMG G 63",
             "motore_trasmissione": {
                 "codice_motore": "M177",
@@ -1304,7 +1304,7 @@
             "dati_storici_commerciali": {
                 "anni_produzione": "2018-Presente",
                 "anno": "2024",
-                "esemplari_prodotti": "N/A",
+                "esemplari_prodotti": "Serie regolare",
                 "numero_esemplare": "890",
                 "designer": "Gorden Wagener",
                 "prezzo_listino_orig": "187.000 €",
@@ -1312,7 +1312,7 @@
             }
         },
         {
-            "id": 24,
+            "id": "CAR-24",
             "modello": "Mercedes-AMG A 45 S 4MATIC+",
             "motore_trasmissione": {
                 "codice_motore": "M139",
@@ -1369,7 +1369,7 @@
             }
         },
         {
-            "id": 25,
+            "id": "CAR-25",
             "modello": "Mercedes-Maybach Classe S 680",
             "motore_trasmissione": {
                 "codice_motore": "M279",
@@ -1418,12 +1418,15 @@
             "dati_storici_commerciali": {
                 "anni_produzione": "2021-Presente",
                 "anno": "2026",
-                "esemplari_prodotti": "N/A",
+                "esemplari_prodotti": "Serie limitata",
                 "numero_esemplare": "549",
                 "designer": "Gorden Wagener",
                 "prezzo_listino_orig": "245.000 €",
                 "prezzo_attuale": "260.000 €"
             }
         }
+    ],
+    "moto":[
+
     ]
 }
