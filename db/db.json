@@ -497,10 +497,10 @@
                 "cx": "N/A (Ala fissa)",
                 "materiali_carrozzeria": "Compositi leggeri",
                 "dettagli_estetici": "Ala posteriore fissa, S-Duct anteriore",
-                "verniciatura": "Bianco Artico / Rosso Magma",
+                "verniciatura": "Bianco Artico / Arancione",
                 "interni": {
                     "tipo": "Alcantara/Carbonio",
-                    "colore": "Nero/Giallo"
+                    "colore": "Nero/Arancione"
                 }
             },
             "dati_storici_commerciali": {
@@ -554,7 +554,7 @@
                 "cx": "0.35",
                 "materiali_carrozzeria": "Acciaio e alluminio",
                 "dettagli_estetici": "Pacchetto SportDesign nero lucido",
-                "verniciatura": "Papaya Metallic",
+                "verniciatura": "Volcano Grey Metallic",
                 "interni": {
                     "tipo": "Pelle e Alcantara GTS",
                     "colore": "Nero/Cuciture rosse"
