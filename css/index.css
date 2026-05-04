@@ -55,3 +55,8 @@ footer ul li.d-flex span:first-child {
     color: #6c757d !important;
     font-size: 0.9rem;
 }
+
+.vehicle-card .carousel-item img {
+    height: 250px;
+    object-fit: cover; /* Taglia l'immagine per riempire lo spazio senza distorcerla */
+}
