@@ -3,6 +3,8 @@ const URL = "http://localhost:3000";
 
 $(document).ready(function () {
     loadAllCars();
+
+    $("#all-cars-container").on("click", "button[name='btn-dettagli']", apriDettagli);
 });
 
 function loadAllCars() {
@@ -30,11 +32,21 @@ function loadAllCars() {
                         <div class="card-body">
                             <h5 class="card-title fw-bold">${car.modello}</h5>
                             <p class="text-danger fw-bold h5">${car.dati_storici_commerciali.prezzo_attuale}</p>
-                            <a href="" class="btn btn-brand w-100 mt-3">Visualizza Dettagli</a>
+                            <button name="btn-dettagli" data-id="${car.id}" class="btn btn-brand w-100 mt-3">
+                                Visualizza Dettagli
+                            </button>
                         </div>
                     </div>
                 </div>`;
             container.append(cardHtml);
         });
     });
+}
+
+function apriDettagli(id) {
+    let idAuto = $(this).attr("data-id");
+
+    // Salviamo nel localStorage
+    localStorage.setItem("idAutoSelezionata", idAuto);
+    window.location.href = "../html/dettagliAuto.html";
 }
