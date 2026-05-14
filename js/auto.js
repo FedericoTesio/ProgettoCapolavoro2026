@@ -1,29 +1,66 @@
 "use strict";
 const URL = "http://localhost:3000";
 
+let globalCars = [];
+
 $(document).ready(function () {
     loadAllCars();
 
-    $("#all-cars-container").on("click", "button[name='btn-dettagli']", apriDettagli);
+    // Eventi Live
+    $("#searchBar").on("input", applyFilters);
+    $("#btnApplica").on("click", applyFilters);
+
+    // Aggiornamento etichette range
+    $("#rangePrice").on("input", function () {
+        let val = $(this).val();
+        $("#priceLabel").text(val == 5000000 ? "Illimitato" : parseInt(val).toLocaleString() + " €");
+    });
+
+    $("#rangeYear").on("input", function () {
+        $("#yearLabel").text($(this).val());
+    });
+
+    $("#btnReset").on("click", resetFilters);
 });
 
 function loadAllCars() {
     let request = inviaRichiesta("GET", `${URL}/auto`);
     request.done(function (allCars) {
-        let container = $("#all-cars-container");
-        container.empty();
+        globalCars = allCars;
+        createBrandFilters(allCars);
+        renderCars(allCars);
+    });
+}
 
-        allCars.forEach(car => {
-            const imgs = ["frontale.jpg", "laterale.jpg", "posteriore.jpg", "interni.jpg"];
-            const carouselId = `carousel-${car.id}`;
-            const imagePathBase = `../img/auto/${car.id}`;
+function createBrandFilters(cars) {
+    // Estraiamo le marche uniche dal campo modello (es. "Ferrari F40" -> "Ferrari")
+    let brands = [...new Set(cars.map(c => c.modello.split(' ')[0]))];
+    let container = $("#brandContainer");
+    container.empty();
 
-            let carouselItems = imgs.map((img, i) => `
+    brands.forEach(brand => {
+        container.append(`
+            <input type="checkbox" class="btn-check filter-brand" id="check-${brand}" value="${brand}">
+            <label class="btn btn-outline-dark" for="check-${brand}">${brand}</label>
+        `);
+    });
+}
+
+function renderCars(cars) {
+    let container = $("#all-cars-container");
+    container.empty();
+
+    cars.forEach(car => {
+        const imgs = ["frontale.jpg", "laterale.jpg", "posteriore.jpg", "interni.jpg"];
+        const carouselId = `carousel-${car.id}`;
+        const imagePathBase = `../img/auto/${car.id}`;
+
+        let carouselItems = imgs.map((img, i) => `
                 <div class="carousel-item ${i === 0 ? 'active' : ''}">
                     <img src="${imagePathBase}/${img}" class="d-block w-100" alt="${car.modello}">
                 </div>`).join('');
 
-            let cardHtml = `
+        let cardHtml = `
                 <div class="col-lg-4 col-md-6">
                     <div class="card h-100 shadow-sm border-0 vehicle-card">
                         <div id="${carouselId}" class="carousel slide" data-bs-ride="carousel">
@@ -38,9 +75,47 @@ function loadAllCars() {
                         </div>
                     </div>
                 </div>`;
-            container.append(cardHtml);
-        });
+        container.append(cardHtml);
     });
+}
+
+function applyFilters() {
+    let search = $("#searchBar").val().toLowerCase();
+    let maxPrice = parseInt($("#rangePrice").val());
+    let minYear = parseInt($("#rangeYear").val());
+
+    const currentYear = new Date().getFullYear();
+    const sogliaEpoca = currentYear - 30;
+
+    let selectedBrands = [];
+    $(".filter-brand:checked").each(function () { selectedBrands.push($(this).val()); });
+
+    let selectedCategories = [];
+    $(".filter-category:checked").each(function () { selectedCategories.push($(this).val()); });
+
+    let filtered = globalCars.filter(car => {
+        let price = parseInt(car.dati_storici_commerciali.prezzo_attuale.replace(/\./g, '').replace('€', ''));
+        let year = parseInt(car.dati_storici_commerciali.anno);
+        let brand = car.modello.split(' ')[0];
+        let matchSearch = car.modello.toLowerCase().includes(search);
+        let matchPrice = (maxPrice == 5000000) || (price <= maxPrice);
+        let matchYear = year >= minYear;
+        let matchBrand = selectedBrands.length === 0 || selectedBrands.includes(brand);
+
+        // Categoria (Epoca vs Sportiva)
+        let matchCategory = true;
+        if (selectedCategories.length > 0) {
+            matchCategory = selectedCategories.some(cat => {
+                if (cat === "epoca") return year <= sogliaEpoca;
+                if (cat === "sportiva") return parseInt(car.prestazioni.potenza_massima) > 400; // Esempio: > 400CV
+                return true;
+            });
+        }
+
+        return matchSearch && matchPrice && matchYear && matchBrand && matchCategory;
+    });
+
+    renderCars(filtered);
 }
 
 function apriDettagli(id) {
@@ -49,4 +124,14 @@ function apriDettagli(id) {
     // Salviamo nel localStorage
     localStorage.setItem("idAutoSelezionata", idAuto);
     window.location.href = "../html/dettagliAuto.html";
+}
+
+function resetFilters() {
+    $("#searchBar").val("");
+    $(".btn-check").prop("checked", false);
+    $("#rangePrice").val(5000000);
+    $("#rangeYear").val(1950);
+    $("#priceLabel").text("Illimitato");
+    $("#yearLabel").text("1950");
+    applyFilters();
 }

@@ -1,0 +1,68 @@
+/* Rimuove il bordo blu di default e aggiunge quello rosso al focus */
+#searchBar:focus {
+    border-color: #d90429;
+    box-shadow: 0 0 0 0.25rem rgba(217, 4, 41, 0.25);
+    outline: 0;
+}
+
+/* --- RICERCA E INPUT --- */
+#searchBar:focus {
+    border-color: var(#d90429);
+    box-shadow: 0 0 0 0.25rem rgba(217, 4, 41, 0.25);
+    outline: 0;
+}
+
+/* --- RANGE SLIDER --- */
+.custom-range::-webkit-slider-thumb {
+    background: #d90429 !important;
+    border: 2px solid var(#d90429) !important;
+}
+
+.custom-range:focus::-webkit-slider-thumb {
+    /* Rimuove l'alone blu al click sul pallino */
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(217, 4, 41, 0.25) !important;
+}
+
+.custom-range::-moz-range-thumb {
+    background: #d90429 !important;
+    border: 2px solid var(#d90429) !important;
+}
+
+.custom-range:focus {
+    box-shadow: none !important; /* Rimuove il bordo blu della barra */
+}
+
+/* --- MODALE --- */
+.modal-content {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.modal-header {
+    background-color: black;
+    color: white;
+}
+
+.modal-header .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%); /* Rende la X bianca */
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+}
+
+/* Stile per i checkbox filtri selezionati */
+.btn-check:checked + .btn-outline-dark {
+    background-color: var(#d90429) !important;
+    border-color: var(#d90429) !important;
+    color: white !important;
+}
+
+/* Stile per i pulsanti check selezionati */
+.btn-check:checked + .btn-outline-dark {
+    background-color: #d90429 !important;
+    border-color: #d90429 !important;
+    color: white !important;
+}
