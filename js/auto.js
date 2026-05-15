@@ -21,6 +21,8 @@ $(document).ready(function () {
     });
 
     $("#btnReset").on("click", resetFilters);
+
+    $("#all-cars-container").on("click", "button[name='btn-dettagli']", apriDettagli);
 });
 
 function loadAllCars() {
@@ -118,7 +120,7 @@ function applyFilters() {
     renderCars(filtered);
 }
 
-function apriDettagli(id) {
+function apriDettagli() {
     let idAuto = $(this).attr("data-id");
 
     // Salviamo nel localStorage
