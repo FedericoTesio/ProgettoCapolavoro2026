@@ -46,13 +46,35 @@ function createBrandFilters(cars) {
             <label class="btn btn-outline-dark" for="check-${brand}">${brand}</label>
         `);
     });
+
+    // Estraiamo le categoria uniche dal campo categoria
+    let categories = [...new Set(cars.map(c => c.categoria))];
+    container = $("#categoryContainer");
+    container.empty();
+
+    categories.forEach(category => {
+        container.append(`
+            <input type="checkbox" class="btn-check filter-category" id="check-${category}" value="${category}">
+            <label class="btn btn-outline-dark" for="check-${category}">${category}</label>
+        `);
+    });
 }
 
 function renderCars(cars) {
     let container = $("#all-cars-container");
     container.empty();
 
-    cars.forEach(car => {
+    if (cars.length === 0) {
+        // Se l'array è vuoto, aggiunge il messaggio di errore
+        container.html(`
+            <div class="col-12 text-center py-5">
+                <i class="bi bi-search text-secondary" style="font-size: 3rem;"></i>
+                <h3 class="mt-3 text-secondary">Nessun risultato trovato</h3>
+                <p class="text-muted">Prova a modificare i filtri o la ricerca.</p>
+            </div>
+        `);
+    } else {
+        cars.forEach(car => {
         const imgs = ["frontale.jpg", "laterale.jpg", "posteriore.jpg", "interni.jpg"];
         const carouselId = `carousel-${car.id}`;
         const imagePathBase = `../img/auto/${car.id}`;
@@ -79,6 +101,7 @@ function renderCars(cars) {
                 </div>`;
         container.append(cardHtml);
     });
+    }
 }
 
 function applyFilters() {
@@ -99,20 +122,21 @@ function applyFilters() {
         let price = parseInt(car.dati_storici_commerciali.prezzo_attuale.replace(/\./g, '').replace('€', ''));
         let year = parseInt(car.dati_storici_commerciali.anno);
         let brand = car.modello.split(' ')[0];
+        let category = car.categoria;
         let matchSearch = car.modello.toLowerCase().includes(search);
         let matchPrice = (maxPrice == 5000000) || (price <= maxPrice);
         let matchYear = year >= minYear;
         let matchBrand = selectedBrands.length === 0 || selectedBrands.includes(brand);
 
-        // Categoria (Epoca vs Sportiva)
-        let matchCategory = true;
-        if (selectedCategories.length > 0) {
+        // Categoria
+        let matchCategory = selectedCategories.length === 0 || selectedCategories.includes(category);
+        /*if (selectedCategories.length > 0) {
             matchCategory = selectedCategories.some(cat => {
                 if (cat === "epoca") return year <= sogliaEpoca;
                 if (cat === "sportiva") return parseInt(car.prestazioni.potenza_massima) > 400; // Esempio: > 400CV
                 return true;
             });
-        }
+        }*/
 
         return matchSearch && matchPrice && matchYear && matchBrand && matchCategory;
     });
