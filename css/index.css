@@ -9,6 +9,12 @@
     letter-spacing: 1px;
 }
 
+.navbar-logo {
+    height: 35px;
+    width: auto;
+    object-fit: contain;
+}
+
 .navbar-nav .nav-link:hover {
     color: var(--brand-color) !important;
 }
