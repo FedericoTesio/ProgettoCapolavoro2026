@@ -55,7 +55,8 @@
                 "numero_esemplare": "322",
                 "designer": "Pininfarina",
                 "prezzo_listino_orig": "374.000.000 Lire",
-                "prezzo_attuale": "2.800.000 €"
+                "prezzo_attuale": "2.800.000 €",
+                "km": 25000
             }
         },
         {
@@ -113,7 +114,8 @@
                 "numero_esemplare": "602",
                 "designer": "Mitja Borkert",
                 "prezzo_listino_orig": "430.000 €",
-                "prezzo_attuale": "850.000 €"
+                "prezzo_attuale": "850.000 €",
+                "km": 30000
             }
         },
         {
@@ -171,7 +173,8 @@
                 "numero_esemplare": "495",
                 "designer": "Flavio Manzoni",
                 "prezzo_listino_orig": "1.200.000 €",
-                "prezzo_attuale": "4.000.000 €"
+                "prezzo_attuale": "4.000.000 €",
+                "km": 20000
             }
         },
         {
@@ -229,7 +232,8 @@
                 "numero_esemplare": "322",
                 "designer": "Giles Taylor",
                 "prezzo_listino_orig": "485.000 €",
-                "prezzo_attuale": "500.000 €"
+                "prezzo_attuale": "500.000 €",
+                "km": 0
             }
         },
         {
@@ -287,7 +291,8 @@
                 "numero_esemplare": "540",
                 "designer": "Michael Mauer",
                 "prezzo_listino_orig": "235.000 €",
-                "prezzo_attuale": "245.000 €"
+                "prezzo_attuale": "245.000 €",
+                "km": 0
             }
         },
         {
@@ -345,7 +350,8 @@
                 "numero_esemplare": "43",
                 "designer": "Andreas Preuninger",
                 "prezzo_listino_orig": "258.000 €",
-                "prezzo_attuale": "380.000 €"
+                "prezzo_attuale": "380.000 €",
+                "km": 5000
             }
         },
         {
@@ -403,7 +409,8 @@
                 "numero_esemplare": "16",
                 "designer": "Achim Anscheidt",
                 "prezzo_listino_orig": "4.000.000 €",
-                "prezzo_attuale": "5.000.000 €"
+                "prezzo_attuale": "5.000.000 €",
+                "km": 0
             }
         },
         {
@@ -461,7 +468,8 @@
                 "numero_esemplare": "21",
                 "designer": "Flavio Manzoni",
                 "prezzo_listino_orig": "4.000.000 €",
-                "prezzo_attuale": "5.500.000 €"
+                "prezzo_attuale": "5.500.000 €",
+                "km": 0
             }
         },
         {
@@ -519,7 +527,8 @@
                 "numero_esemplare": "325",
                 "designer": "Flavio Manzoni",
                 "prezzo_listino_orig": "770.000 €",
-                "prezzo_attuale": "1.000.000 €"
+                "prezzo_attuale": "1.000.000 €",
+                "km": 0
             }
         },
         {
@@ -577,7 +586,8 @@
                 "numero_esemplare": "54",
                 "designer": "Michael Mauer",
                 "prezzo_listino_orig": "98.000 €",
-                "prezzo_attuale": "98.000 €"
+                "prezzo_attuale": "98.000 €",
+                "km": 40000
             }
         },
         {
@@ -635,7 +645,8 @@
                 "numero_esemplare": "2.567",
                 "designer": "Giorgetto Giugiaro",
                 "prezzo_listino_orig": "55.000.000 Lire",
-                "prezzo_attuale": "180.000 €"
+                "prezzo_attuale": "180.000 €",
+                "km": 70000
             }
         },
         {
@@ -693,7 +704,8 @@
                 "numero_esemplare": "218",
                 "designer": "Luc Donckerwolke",
                 "prezzo_listino_orig": "210.000 €",
-                "prezzo_attuale": "240.000 €"
+                "prezzo_attuale": "240.000 €",
+                "km": 15000
             }
         },
         {
@@ -751,7 +763,8 @@
                 "numero_esemplare": "76",
                 "designer": "Flavio Manzoni",
                 "prezzo_listino_orig": "296.000 €",
-                "prezzo_attuale": "500.000 €"
+                "prezzo_attuale": "500.000 €",
+                "km": 21000
             }
         },
         {
@@ -809,7 +822,8 @@
                 "numero_esemplare": "534",
                 "designer": "Flavio Manzoni",
                 "prezzo_listino_orig": "236.000 €",
-                "prezzo_attuale": "290.000 €"
+                "prezzo_attuale": "290.000 €",
+                "km": 27000
             }
         },
         {
@@ -867,7 +881,8 @@
                 "numero_esemplare": "3.670",
                 "designer": "Porsche Style",
                 "prezzo_listino_orig": "155.000 €",
-                "prezzo_attuale": "210.000 €"
+                "prezzo_attuale": "210.000 €",
+                "km": 0
             }
         },
         {
@@ -925,7 +940,8 @@
                 "numero_esemplare": "104",
                 "designer": "Mitja Borkert",
                 "prezzo_listino_orig": "262.000 €",
-                "prezzo_attuale": "280.000 €"
+                "prezzo_attuale": "280.000 €",
+                "km": 0
             }
         },
         {
@@ -983,7 +999,8 @@
                 "numero_esemplare": "37",
                 "designer": "Flavio Manzoni",
                 "prezzo_listino_orig": "390.000 €",
-                "prezzo_attuale": "550.000 €"
+                "prezzo_attuale": "550.000 €",
+                "km": 0
             }
         },
         {
@@ -1041,7 +1058,8 @@
                 "numero_esemplare": "46",
                 "designer": "BMW M Division",
                 "prezzo_listino_orig": "160.000 €",
-                "prezzo_attuale": "170.000 €"
+                "prezzo_attuale": "170.000 €",
+                "km": 0
             }
         },
         {
@@ -1099,7 +1117,8 @@
                 "numero_esemplare": "67",
                 "designer": "Domagoj Dukec",
                 "prezzo_listino_orig": "105.000 €",
-                "prezzo_attuale": "110.000 €"
+                "prezzo_attuale": "110.000 €",
+                "km": 0
             }
         },
         {
@@ -1157,7 +1176,8 @@
                 "numero_esemplare": "45",
                 "designer": "BMW M",
                 "prezzo_listino_orig": "130.000 €",
-                "prezzo_attuale": "250.000 €"
+                "prezzo_attuale": "250.000 €",
+                "km": 45000
             }
         },
         {
@@ -1215,7 +1235,8 @@
                 "numero_esemplare": "560",
                 "designer": "Domagoj Dukec",
                 "prezzo_listino_orig": "150.000 €",
-                "prezzo_attuale": "150.000 €"
+                "prezzo_attuale": "150.000 €",
+                "km": 0
             }
         },
         {
@@ -1273,7 +1294,8 @@
                 "numero_esemplare": "357",
                 "designer": "Gorden Wagener",
                 "prezzo_listino_orig": "198.000 €",
-                "prezzo_attuale": "205.000 €"
+                "prezzo_attuale": "205.000 €",
+                "km": 20000
             }
         },
         {
@@ -1331,7 +1353,8 @@
                 "numero_esemplare": "890",
                 "designer": "Gorden Wagener",
                 "prezzo_listino_orig": "187.000 €",
-                "prezzo_attuale": "210.000 €"
+                "prezzo_attuale": "210.000 €",
+                "km": 0
             }
         },
         {
@@ -1389,7 +1412,8 @@
                 "numero_esemplare": "1.256",
                 "designer": "Gorden Wagener",
                 "prezzo_listino_orig": "68.000 €",
-                "prezzo_attuale": "72.000 €"
+                "prezzo_attuale": "72.000 €",
+                "km": 0
             }
         },
         {
@@ -1447,7 +1471,8 @@
                 "numero_esemplare": "549",
                 "designer": "Gorden Wagener",
                 "prezzo_listino_orig": "245.000 €",
-                "prezzo_attuale": "260.000 €"
+                "prezzo_attuale": "260.000 €",
+                "km": 0
             }
         }
     ],

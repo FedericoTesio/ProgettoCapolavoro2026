@@ -16,13 +16,17 @@ function loadCarDetails(id) {
     request.done(function (car) {
         const imgs = ["frontale.jpg", "laterale.jpg", "posteriore.jpg", "interni.jpg"];
         const carouselId = "carouselVehicle";
-        const imagePathBase = `../img/auto/${car.id}`; 
+        const imagePathBase = `../img/auto/${car.id}`;
 
         let carouselItems = imgs.map((img, i) => `
             <div class="carousel-item ${i === 0 ? 'active' : ''}">
                 <img src="${imagePathBase}/${img}" class="d-block w-100" style="height: 500px; object-fit: cover;" 
                      onerror="this.src='https://via.placeholder.com/1200x600?text=Immagine+Vettura'">
             </div>`).join('');
+
+        let km = car.dati_storici_commerciali.km.toLocaleString('it-IT', {
+            maximumFractionDigits: 0
+        });
 
         let html = `
             <div class="card border-0 shadow-sm overflow-hidden mb-5">
@@ -52,9 +56,13 @@ function loadCarDetails(id) {
                                 <span class="text-secondary small">Produzione</span>
                                 <span class="fw-bold">${car.dati_storici_commerciali.anni_produzione}</span>
                             </div>
-                            <div class="d-flex justify-content-between">
+                            <div class="d-flex justify-content-between mb-2">
                                 <span class="text-secondary small">Esemplari</span>
                                 <span class="fw-bold">${car.dati_storici_commerciali.esemplari_prodotti || 'N/D'}</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span class="text-secondary small">Chilometraggio</span>
+                                <span class="fw-bold">${km} km</span>
                             </div>
                         </div>
 
@@ -149,7 +157,7 @@ function loadCarDetails(id) {
                 <a href="auto.html" class="btn btn-outline-dark px-5">Torna al Catalogo</a>
             </div>
         `;
-        
+
         $("#detail-container").html(html);
 
         // Inizializza il carousel

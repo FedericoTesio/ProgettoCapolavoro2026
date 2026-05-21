@@ -118,27 +118,34 @@ function applyFilters() {
     let selectedCategories = [];
     $(".filter-category:checked").each(function () { selectedCategories.push($(this).val()); });
 
+    let selectedStatuses = [];
+    $(".filter-status:checked").each(function () { selectedStatuses.push($(this).val()); });
+
     let filtered = globalCars.filter(car => {
         let price = parseInt(car.dati_storici_commerciali.prezzo_attuale.replace(/\./g, '').replace('€', ''));
         let year = parseInt(car.dati_storici_commerciali.anno);
         let brand = car.modello.split(' ')[0];
         let category = car.categoria;
+        
+        let km = parseInt(car.dati_storici_commerciali.km) || 0;
+
         let matchSearch = car.modello.toLowerCase().includes(search);
         let matchPrice = (maxPrice == 5000000) || (price <= maxPrice);
         let matchYear = year >= minYear;
         let matchBrand = selectedBrands.length === 0 || selectedBrands.includes(brand);
-
-        // Categoria
         let matchCategory = selectedCategories.length === 0 || selectedCategories.includes(category);
-        /*if (selectedCategories.length > 0) {
-            matchCategory = selectedCategories.some(cat => {
-                if (cat === "epoca") return year <= sogliaEpoca;
-                if (cat === "sportiva") return parseInt(car.prestazioni.potenza_massima) > 400; // Esempio: > 400CV
+
+        let matchStatus = true;
+        if (selectedStatuses.length > 0) {
+            matchStatus = selectedStatuses.some(status => {
+                if (status === "nuova") return km === 0;
+                if (status === "usata") return km > 0;
                 return true;
             });
-        }*/
+        }
 
-        return matchSearch && matchPrice && matchYear && matchBrand && matchCategory;
+        // Ritorniamo vero solo se la macchina soddisfa tutti i criteri
+        return matchSearch && matchPrice && matchYear && matchBrand && matchCategory && matchStatus;
     });
 
     renderCars(filtered);
