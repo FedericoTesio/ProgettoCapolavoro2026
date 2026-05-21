@@ -42,6 +42,50 @@
     <main>
         <div class="container py-5" id="detail-container">
         </div>
+
+        <div class="modal fade" id="modalInformazioni" tabindex="-1" aria-labelledby="modalInfoLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-dark text-white">
+                        <h5 class="modal-title fw-bold" id="modalInfoLabel">
+                            TESIO <span class="text-danger">MOTORS</span> | <span class="small text-uppercase">Richiedi
+                                Informazioni</span>
+                        </h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="formRichiestaInfo">
+                            <form id="formRichiestaInfo">
+                                <div class="mb-3">
+                                    <label for="infoVeicolo" class="form-label">Veicolo di interesse</label>
+                                    <input type="text" class="form-control" id="infoVeicolo" readonly>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="infoNome" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="infoNome" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="infoCognome" class="form-label">Cognome</label>
+                                        <input type="text" class="form-control" id="infoCognome" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="infoEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="infoEmail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="infoTelefono" class="form-label">Numero di Telefono</label>
+                                    <input type="tel" class="form-control" id="infoTelefono" required>
+                                </div>
+                                <button type="submit" class="btn btn-danger w-100">Invia Richiesta</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer id="contatti" class="bg-dark text-white py-5 mt-5">
@@ -78,7 +122,8 @@
                         e le offerte esclusive.</p>
                     <form class="mt-3">
                         <div class="input-group">
-                            <input type="email" class="form-control bg-transparent text-white border-secondary"
+                            <input type="email"
+                                class="form-control bg-transparent text-white border-secondary custom-input-red"
                                 placeholder="Inserisci la tua email" aria-label="Email" id="sub-newsletter">
                             <button class="btn btn-brand" type="button">Iscriviti</button>
                         </div>

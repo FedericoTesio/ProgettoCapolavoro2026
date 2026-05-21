@@ -1,10 +1,13 @@
 "use strict";
 const URL = "http://localhost:3000";
+let globalCar = null;
 
 $(document).ready(function () {
     const carId = localStorage.getItem("idAutoSelezionata");
     if (carId) {
         loadCarDetails(carId);
+        $(document).on("click", "#btnRichiediInfo", aperturaModale);
+        $(document).on("submit", "#formRichiestaInfo", invioRichiestaAllaConcess);
     } else {
         window.location.href = "auto.html";
     }
@@ -14,6 +17,8 @@ function loadCarDetails(id) {
     let request = inviaRichiesta("GET", `${URL}/auto/${id}`);
     request.fail(errore);
     request.done(function (car) {
+        globalCar = car;
+
         const imgs = ["frontale.jpg", "laterale.jpg", "posteriore.jpg", "interni.jpg"];
         const carouselId = "carouselVehicle";
         const imagePathBase = `../img/auto/${car.id}`;
@@ -66,7 +71,7 @@ function loadCarDetails(id) {
                             </div>
                         </div>
 
-                        <button class="btn btn-brand btn-lg w-100 py-3 mb-2 shadow-sm">Richiedi Informazioni</button>
+                        <button id="btnRichiediInfo" class="btn btn-brand btn-lg w-100 py-3 mb-2 shadow-sm">Richiedi Informazioni</button>
                     </div>
                 </div>
             </div>
@@ -165,5 +170,46 @@ function loadCarDetails(id) {
         if (el) {
             new bootstrap.Carousel(el, { interval: 3500, ride: 'carousel' });
         }
+    });
+}
+
+// Apertura della modale
+function aperturaModale() {
+    if (!globalCar) return;
+
+    let nomeAuto = globalCar.modello;
+    let categoriaAuto = globalCar.categoria;
+    let prezzoAuto = globalCar.dati_storici_commerciali.prezzo_attuale;
+
+    // Precompila i campi utilizzando i dati dell'auto
+    $("#infoVeicolo").val(nomeAuto);
+    $("#infoMessaggio").val(`Salve Tesio Motors, vorrei ricevere maggiori informazioni riguardo alla ${nomeAuto} (${categoriaAuto}), attualmente in vendita a ${prezzoAuto}.`);
+
+    $("#modalInformazioni").modal("show");
+}
+
+// Invio asincrono del modulo
+function invioRichiestaAllaConcess(e) {
+    e.preventDefault();
+
+    let datiForm = {
+        idVeicolo: globalCar ? globalCar.id : "N/A",
+        veicolo: $("#infoVeicolo").val(),
+        nome: $("#infoNome").val(),
+        cognome: $("#infoCognome").val(),
+        email: $("#infoEmail").val(),
+        telefono: $("#infoTelefono").val(),
+        messaggio: $("#infoMessaggio").val(),
+        dataRichiesta: new Date().toLocaleString('it-IT')
+    };
+
+    // salviamo i dati in richieste
+    let request = inviaRichiesta("POST", `${URL}/richieste`, datiForm);
+
+    request.fail(errore);
+    request.done(function () {
+        alert("Richiesta inviata con successo! Il team di Tesio Motors ti ricontatterà al più presto.");
+        $("#modalInformazioni").modal("hide");
+        $("#formRichiestaInfo")[0].reset();
     });
 }
