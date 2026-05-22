@@ -25,8 +25,7 @@ function loadCarDetails(id) {
 
         let carouselItems = imgs.map((img, i) => `
             <div class="carousel-item ${i === 0 ? 'active' : ''}">
-                <img src="${imagePathBase}/${img}" class="d-block w-100" style="height: 500px; object-fit: cover;" 
-                     onerror="this.src='https://via.placeholder.com/1200x600?text=Immagine+Vettura'">
+                <img src="${imagePathBase}/${img}" class="d-block w-100" style="height: 500px; object-fit: cover;">
             </div>`).join('');
 
         let km = car.dati_storici_commerciali.km.toLocaleString('it-IT', {

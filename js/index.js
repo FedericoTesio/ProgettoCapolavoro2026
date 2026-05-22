@@ -4,6 +4,7 @@ const URL = "http://localhost:3000"
 
 $(document).ready(function () {
     loadRandomCars();
+    $("#auto").on("click", "button[name='btn-catalogo']", apriCatAuto);
 });
 
 async function loadRandomCars() {
@@ -16,9 +17,9 @@ async function loadRandomCars() {
         let selectedCars = shuffled.slice(0, 6);
 
         let container = $("#car-container"); // Usiamo jQuery visto che lo carichi
-        container.empty(); 
+        container.empty();
 
-        selectedCars.forEach(function(car) {
+        selectedCars.forEach(function (car) {
             // Definiamo i nomi delle immagini come richiesto
             const imgs = ["frontale.jpg", "laterale.jpg", "posteriore.jpg", "interni.jpg"];
             const carouselId = `carousel-${car.id}`;
@@ -31,6 +32,10 @@ async function loadRandomCars() {
                     <div class="carousel-item ${index === 0 ? 'active' : ''}">
                         <img src="${imagePathBase}/${imgName}" class="d-block w-100" alt="${imgName}">
                     </div>`;
+            });
+
+            let km = car.dati_storici_commerciali.km.toLocaleString('it-IT', {
+                maximumFractionDigits: 0
             });
 
             let cardHtml = `
@@ -53,12 +58,14 @@ async function loadRandomCars() {
                         <div class="card-body">
                             <h5 class="card-title fw-bold">${car.modello}</h5>
                             <p class="card-text text-secondary mb-1">
-                                <i class="bi bi-speedometer2"></i> ${car.prestazioni.potenza_massima}
+                                <i class="bi bi-speedometer2"></i> ${km} km
                             </p>
                             <p class="card-text text-danger fw-bold h5 mt-3">
                                 ${car.dati_storici_commerciali.prezzo_attuale}
                             </p>
-                            <button class="btn btn-brand w-100 mt-3">Dettagli</button>
+                            <button name="btn-catalogo" class="btn btn-brand w-100 mt-3">
+                                Visualizza Il cataogo
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -66,4 +73,8 @@ async function loadRandomCars() {
             container.append(cardHtml);
         });
     });
+}
+
+function apriCatAuto(){
+    window.location.href = "html/auto.html";
 }

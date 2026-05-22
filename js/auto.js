@@ -75,32 +75,49 @@ function renderCars(cars) {
         `);
     } else {
         cars.forEach(car => {
-        const imgs = ["frontale.jpg", "laterale.jpg", "posteriore.jpg", "interni.jpg"];
-        const carouselId = `carousel-${car.id}`;
-        const imagePathBase = `../img/auto/${car.id}`;
+            const imgs = ["frontale.jpg", "laterale.jpg", "posteriore.jpg", "interni.jpg"];
+            const carouselId = `carousel-${car.id}`;
+            const imagePathBase = `../img/auto/${car.id}`;
 
-        let carouselItems = imgs.map((img, i) => `
+            let carouselItems = imgs.map((img, i) => `
                 <div class="carousel-item ${i === 0 ? 'active' : ''}">
                     <img src="${imagePathBase}/${img}" class="d-block w-100" alt="${car.modello}">
                 </div>`).join('');
 
-        let cardHtml = `
+            let km = car.dati_storici_commerciali.km.toLocaleString('it-IT', {
+                maximumFractionDigits: 0
+            });
+
+            let cardHtml = `
                 <div class="col-lg-4 col-md-6">
                     <div class="card h-100 shadow-sm border-0 vehicle-card">
                         <div id="${carouselId}" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">${carouselItems}</div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#${carouselId}" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title fw-bold">${car.modello}</h5>
-                            <p class="text-danger fw-bold h5">${car.dati_storici_commerciali.prezzo_attuale}</p>
+                            <p class="card-text text-secondary mb-1">
+                                <i class="bi bi-speedometer2"></i> ${km} km
+                            </p>
+                            <p class="card-text text-danger fw-bold h5 mt-3">
+                                ${car.dati_storici_commerciali.prezzo_attuale}
+                            </p>
                             <button name="btn-dettagli" data-id="${car.id}" class="btn btn-brand w-100 mt-3">
                                 Visualizza Dettagli
                             </button>
                         </div>
                     </div>
                 </div>`;
-        container.append(cardHtml);
-    });
+            container.append(cardHtml);
+        });
     }
 }
 
@@ -126,7 +143,7 @@ function applyFilters() {
         let year = parseInt(car.dati_storici_commerciali.anno);
         let brand = car.modello.split(' ')[0];
         let category = car.categoria;
-        
+
         let km = parseInt(car.dati_storici_commerciali.km) || 0;
 
         let matchSearch = car.modello.toLowerCase().includes(search);
