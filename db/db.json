@@ -1301,7 +1301,7 @@
         {
             "id": "CAR-23",
             "modello": "Mercedes AMG G 63",
-            "categoria": "Supercar",
+            "categoria": "SUV",
             "motore_trasmissione": {
                 "codice_motore": "M177",
                 "architettura": "V8 90°",
