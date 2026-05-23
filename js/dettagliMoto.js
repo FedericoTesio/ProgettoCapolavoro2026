@@ -148,8 +148,8 @@ function loadBikeDetails(id) {
                                     <p class="fw-bold text-truncate">${bike.aerodinamica_design.verniciatura || 'Standard'}</p>
                                 </div>
                                 <div class="col-md-3">
-                                    <small class="text-secondary">Interni</small>
-                                    <p class="fw-bold">${bike.aerodinamica_design.interni.tipo} (${bike.aerodinamica_design.interni.colore})</p>
+                                    <small class="text-secondary">Sella</small>
+                                    <p class="fw-bold">${bike.aerodinamica_design.sella.tipo} (${bike.aerodinamica_design.sella.colore})</p>
                                 </div>
                             </div>
                         </div>

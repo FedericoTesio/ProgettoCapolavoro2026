@@ -334,7 +334,7 @@
                 "serbatoio": "64 L"
             },
             "aerodinamica_design": {
-                "cx": "0.39 (Drag alto per Downforce)",
+                "cx": "0.39",
                 "materiali_carrozzeria": "CFRP (Carbonio) per portiere, parafanghi e tetto",
                 "dettagli_estetici": "Ala posteriore con DRS, radiatore centrale unico",
                 "verniciatura": "Pyro Red / White",
@@ -393,7 +393,7 @@
                 "serbatoio": "100 L"
             },
             "aerodinamica_design": {
-                "cx": "Variabile (Active skin)",
+                "cx": "0.39 - 0.33",
                 "materiali_carrozzeria": "Fibra di carbonio",
                 "dettagli_estetici": "Pinna dorsale, estrattore massiccio",
                 "verniciatura": "French Racing Blue / Carbon",
@@ -452,7 +452,7 @@
                 "serbatoio": "N/A"
             },
             "aerodinamica_design": {
-                "cx": "N/A (Downforce: 830kg 200km/h)",
+                "cx": "0.34",
                 "materiali_carrozzeria": "Fibra di carbonio",
                 "dettagli_estetici": "Ala posteriore biplano, pinne stabilizzatrici",
                 "verniciatura": "Rosso FXX-K",
@@ -511,7 +511,7 @@
                 "serbatoio": "68 L"
             },
             "aerodinamica_design": {
-                "cx": "N/A (Ala fissa)",
+                "cx": "0.33",
                 "materiali_carrozzeria": "Compositi leggeri",
                 "dettagli_estetici": "Ala posteriore fissa, S-Duct anteriore",
                 "verniciatura": "Bianco Artico / Arancione",
@@ -747,7 +747,7 @@
                 "serbatoio": "78 L"
             },
             "aerodinamica_design": {
-                "cx": "N/A (S-Duct)",
+                "cx": "0.35",
                 "materiali_carrozzeria": "Fibra di carbonio / Alluminio",
                 "dettagli_estetici": "S-Duct anteriore, spoiler soffiato",
                 "verniciatura": "Rosso Corsa con strisce Racing",
@@ -806,7 +806,7 @@
                 "serbatoio": "78 L"
             },
             "aerodinamica_design": {
-                "cx": "S-Duct integrato",
+                "cx": "0.33",
                 "materiali_carrozzeria": "Alluminio",
                 "dettagli_estetici": "Lunotto in Lexan feritoiato (omaggio F40)",
                 "verniciatura": "Rosso Scuderia",
@@ -865,7 +865,7 @@
                 "serbatoio": "54 L"
             },
             "aerodinamica_design": {
-                "cx": "Ala posteriore a collo di cigno",
+                "cx": "0.30",
                 "materiali_carrozzeria": "Cofano e ali in carbonio",
                 "dettagli_estetici": "Prese d'aria al posto dei finestrini posteriori",
                 "verniciatura": "Shark Blue",
@@ -983,7 +983,7 @@
                 "serbatoio": "100 L"
             },
             "aerodinamica_design": {
-                "cx": "N/A",
+                "cx": "0.35",
                 "materiali_carrozzeria": "Alluminio e carbonio",
                 "dettagli_estetici": "Portiere posteriori a vento (Welcome Doors)",
                 "verniciatura": "Nero Purosangue",
@@ -1516,12 +1516,12 @@
                 "serbatoio": "17 L"
             },
             "aerodinamica_design": {
-                "cx": "Configurazione ali biplano",
+                "cx": "0.32",
                 "materiali_carrozzeria": "Tecnopolimeri e inserti in carbonio",
                 "dettagli_estetici": "Ali aerodinamiche derivate dalla MotoGP, estrattori calore inferiori",
                 "verniciatura": "Rosso Ducati",
-                "interni": {
-                    "tipo": "Sella racing bicolore",
+                "sella": {
+                    "tipo": "Racing bicolore",
                     "colore": "Nero/Rosso"
                 }
             },
@@ -1575,12 +1575,12 @@
                 "serbatoio": "17 L"
             },
             "aerodinamica_design": {
-                "cx": "Ali in carbonio monoplano ad alto carico",
+                "cx": "0.35",
                 "materiali_carrozzeria": "Fibra di carbonio e serbatoio in alluminio spazzolato",
                 "dettagli_estetici": "Ali in carbonio a vista, feritoie laterali sul cupolino",
                 "verniciatura": "Livery R (Rosso/Bianco/Alluminio)",
-                "interni": {
-                    "tipo": "Sella track specifica con logo R",
+                "sella": {
+                    "tipo": "Track specifica con logo R",
                     "colore": "Nero"
                 }
             },
@@ -1634,12 +1634,12 @@
                 "serbatoio": "17 L"
             },
             "aerodinamica_design": {
-                "cx": "Ali biplano in plastica ingegneristica",
+                "cx": "0.30",
                 "materiali_carrozzeria": "Tecnopolimeri leggeri",
                 "dettagli_estetici": "Prese d'aria frontali maggiorate",
                 "verniciatura": "Rosso Ducati",
-                "interni": {
-                    "tipo": "Sella standard racing",
+                "sella": {
+                    "tipo": "Standard racing",
                     "colore": "Nero"
                 }
             },
@@ -1693,12 +1693,12 @@
                 "serbatoio": "17 L"
             },
             "aerodinamica_design": {
-                "cx": "Ridisegnata, resistenza -4%, ali integrate nella carrozzeria",
+                "cx": "0.30",
                 "materiali_carrozzeria": "Compositi avanzati",
                 "dettagli_estetici": "Cupolino ispirato alla Desmosedici GP24, fari ultra-slim LED",
                 "verniciatura": "Rosso Ducati / Cerchi neri",
-                "interni": {
-                    "tipo": "Sella ergonomica integrata",
+                "sella": {
+                    "tipo": "Ergonomica integrata",
                     "colore": "Nero"
                 }
             },
@@ -1752,12 +1752,12 @@
                 "serbatoio": "17 L"
             },
             "aerodinamica_design": {
-                "cx": "Ali in carbonio integrate ad alto carico deportante",
+                "cx": "0.35",
                 "materiali_carrozzeria": "Fibra di carbonio aeronautica",
                 "dettagli_estetici": "Serbatoio in alluminio spazzolato a vista, carenatura racing pre-forata",
                 "verniciatura": "Rosso Corse SBK Livery",
-                "interni": {
-                    "tipo": "Sella racing in neoprene antiscivolo",
+                "sella": {
+                    "tipo": "Racing in neoprene antiscivolo",
                     "colore": "Nero"
                 }
             },
@@ -1811,12 +1811,12 @@
                 "serbatoio": "16.5 L"
             },
             "aerodinamica_design": {
-                "cx": "Alette M in carbonio a vista (deportanza fino a 22.6 kg)",
+                "cx": "0.35",
                 "materiali_carrozzeria": "Fibra di carbonio M e compositi leggeri",
                 "dettagli_estetici": "Cerchi in carbonio M, paracatena e parafanghi in carbonio",
                 "verniciatura": "Light White / M Motorsport",
-                "interni": {
-                    "tipo": "Sella M Sport",
+                "sella": {
+                    "tipo": "M Sport",
                     "colore": "Nero con badge M"
                 }
             },
@@ -1870,12 +1870,12 @@
                 "serbatoio": "16.5 L"
             },
             "aerodinamica_design": {
-                "cx": "Alette aerodinamiche frontali in plastica composita",
+                "cx": "0.30",
                 "materiali_carrozzeria": "Plastica ad alta resistenza e ABS",
                 "dettagli_estetici": "Sezione posteriore corta e snella, fari full LED asimmetrici graficamente",
                 "verniciatura": "Racing Red",
-                "interni": {
-                    "tipo": "Sella standard sport",
+                "sella": {
+                    "tipo": "Standard sport",
                     "colore": "Nero"
                 }
             },
@@ -1929,12 +1929,12 @@
                 "serbatoio": "17 L"
             },
             "aerodinamica_design": {
-                "cx": "0.31 (Carenatura integrata stile M1)",
+                "cx": "0.31",
                 "materiali_carrozzeria": "ABS e pannelli in magnesio per il telaietto",
                 "dettagli_estetici": "Presa d'aria centrale forzata M1 style, fari a LED incassati",
                 "verniciatura": "Icon Blue",
-                "interni": {
-                    "tipo": "Sella racing rastremata",
+                "sella": {
+                    "tipo": "Racing rastremata",
                     "colore": "Nero"
                 }
             },
@@ -1988,12 +1988,12 @@
                 "serbatoio": "17.9 L"
             },
             "aerodinamica_design": {
-                "cx": "Ali aerodinamiche a doppia parete integrate nella carenatura",
+                "cx": "0.32",
                 "materiali_carrozzeria": "Fibra di carbonio (Factory) e compositi",
                 "dettagli_estetici": "Gruppo ottico triplo LED con luci DRL e funzione cornering",
                 "verniciatura": "Ultra Dark",
-                "interni": {
-                    "tipo": "Sella racing ergonomica bassa",
+                "sella": {
+                    "tipo": "Racing ergonomica bassa",
                     "colore": "Nero"
                 }
             },
@@ -2047,12 +2047,12 @@
                 "serbatoio": "16.1 L"
             },
             "aerodinamica_design": {
-                "cx": "0.27 (Il più basso della categoria)",
+                "cx": "0.27",
                 "materiali_carrozzeria": "Plastica ABS alleggerita, parafango in carbonio",
                 "dettagli_estetici": "Alette interne a triplo profilo derivate da RC213V",
                 "verniciatura": "Grand Prix Red (HRC Tricolour)",
-                "interni": {
-                    "tipo": "Sella sportiva ad alta densità",
+                "sella": {
+                    "tipo": "Sportiva ad alta densità",
                     "colore": "Nero/Blu"
                 }
             },
@@ -2106,12 +2106,12 @@
                 "serbatoio": "16 L"
             },
             "aerodinamica_design": {
-                "cx": "N/A (Naked - convogliatori radiatore deportanti)",
+                "cx": "0.35",
                 "materiali_carrozzeria": "Materiali plastici tecnici e fibra di carbonio parziale",
                 "dettagli_estetici": "Faro sdoppiato a LED 'Predator', forcellone monobraccio a vista",
                 "verniciatura": "Orange / Black",
-                "interni": {
-                    "tipo": "Sella stradale sportiva rialzata",
+                "sella": {
+                    "tipo": "Stradale sportiva rialzata",
                     "colore": "Nero"
                 }
             },
@@ -2165,12 +2165,12 @@
                 "serbatoio": "18 L"
             },
             "aerodinamica_design": {
-                "cx": "0.55 (Efficienza aerodinamica migliorata con alette)",
+                "cx": "0.55",
                 "materiali_carrozzeria": "ABS stampato a iniezione",
                 "dettagli_estetici": "Alette frontali piccole su cupolino, scarico storico sottosella",
                 "verniciatura": "HRC Tricolor",
-                "interni": {
-                    "tipo": "Sella racing ultraleggera",
+                "sella": {
+                    "tipo": "Racing ultraleggera",
                     "colore": "Nero"
                 }
             },
@@ -2224,12 +2224,12 @@
                 "serbatoio": "16 L"
             },
             "aerodinamica_design": {
-                "cx": "Profilo aerodinamico lineare da galleria del vento MotoGP",
+                "cx": "0.30",
                 "materiali_carrozzeria": "Resine termoplastiche alleggerite",
                 "dettagli_estetici": "Prese d'aria Suzuki Ram Air Direct (SRAD), livrea Team Ecstar",
                 "verniciatura": "Metallic Triton Blue / Silver",
-                "interni": {
-                    "tipo": "Sella stradale sportiva a nido d'ape",
+                "sella": {
+                    "tipo": "Stradale sportiva a nido d'ape",
                     "colore": "Nero"
                 }
             },
@@ -2283,12 +2283,12 @@
                 "serbatoio": "15 L"
             },
             "aerodinamica_design": {
-                "cx": "Disegno replica fedele GP06",
+                "cx": "0.30",
                 "materiali_carrozzeria": "Interamente in fibra di carbonio prepreg",
                 "dettagli_estetici": "Uscita scarico a camino sul codone posteriore superiore",
                 "verniciatura": "Rosso Corsa con banda bianca adesiva",
-                "interni": {
-                    "tipo": "Seduta minimale in espanso racing",
+                "sella": {
+                    "tipo": "Minimale in espanso racing",
                     "colore": "Nero"
                 }
             },
@@ -2342,12 +2342,12 @@
                 "serbatoio": "16 L"
             },
             "aerodinamica_design": {
-                "cx": "Ali biplano in carbonio derivate da GP16 (50kg di downforce a 270 km/h)",
+                "cx": "0.30",
                 "materiali_carrozzeria": "Fibra di carbonio strutturale, titanio, magnesio",
                 "dettagli_estetici": "Trama del carbonio a vista alternata a livrea GP20, cerchi in carbonio BST",
                 "verniciatura": "Rosso GP / Carbonio lucido",
-                "interni": {
-                    "tipo": "Sella in materiale tecnico Alcantara/Racing",
+                "sella": {
+                    "tipo": "In Materiale tecnico Alcantara/Racing",
                     "colore": "Nero/Rosso"
                 }
             },
@@ -2401,12 +2401,12 @@
                 "serbatoio": "16 L"
             },
             "aerodinamica_design": {
-                "cx": "Pacchetto ali aerodinamiche allargate estese in carbonio",
+                "cx": "0.30",
                 "materiali_carrozzeria": "Full Carbonio strutturale ed elementi portanti",
                 "dettagli_estetici": "Badge dorati del centenario incisi al laser sulla piastra",
                 "verniciatura": "Rosso Anniversario lucido con dettagli oro",
-                "interni": {
-                    "tipo": "Sella artigianale in pelle scamosciata",
+                "sella": {
+                    "tipo": "Artigianale in pelle scamosciata",
                     "colore": "Nero"
                 }
             },
@@ -2460,12 +2460,12 @@
                 "serbatoio": "16 L"
             },
             "aerodinamica_design": {
-                "cx": "Ali biplano estese in carbonio",
+                "cx": "0.30",
                 "materiali_carrozzeria": "Fibra di carbonio monoscocca",
                 "dettagli_estetici": "Verniciatura tricolore applicata a mano sopra trama di carbonio",
                 "verniciatura": "Tricolore Speciale (Rosso/Bianco/Verde/Carbonio)",
-                "interni": {
-                    "tipo": "Sella ricamata con bandiera italiana",
+                "sella": {
+                    "tipo": "Ricamata con bandiera italiana",
                     "colore": "Nero"
                 }
             },
@@ -2519,12 +2519,12 @@
                 "serbatoio": "17 L"
             },
             "aerodinamica_design": {
-                "cx": "Carenatura fluida pre-ali (Generazione classica pulita)",
+                "cx": "0.36",
                 "materiali_carrozzeria": "Fibra di carbonio strutturale (telaio, forcellone, ruote e sovrastrutture)",
                 "dettagli_estetici": "Forcellone monobraccio in carbonio a vista, doppio scarico Akrapovič alto titanio",
                 "verniciatura": "Rosso Corsa / Bianco",
-                "interni": {
-                    "tipo": "Sella monoposto racing alcantara",
+                "sella": {
+                    "tipo": "Monoposto racing alcantara",
                     "colore": "Nero"
                 }
             },
@@ -2578,12 +2578,12 @@
                 "serbatoio": "17 L"
             },
             "aerodinamica_design": {
-                "cx": "0.33 (Disegno carena M1-style ridotto del 8% di resistenza)",
+                "cx": "0.33",
                 "materiali_carrozzeria": "Resine plastiche leggere, telaietto posteriore in magnesio",
                 "dettagli_estetici": "Presa aria centrale trapezoidale con DRL a linea LED",
                 "verniciatura": "Race Blu",
-                "interni": {
-                    "tipo": "Sella racing rastremata alta",
+                "sella": {
+                    "tipo": "Racing rastremata alta",
                     "colore": "Nero"
                 }
             },
@@ -2637,12 +2637,12 @@
                 "serbatoio": "15 L"
             },
             "aerodinamica_design": {
-                "cx": "Doppia carena aerodinamica con funzione portante (appendice interna)",
+                "cx": "0.34",
                 "materiali_carrozzeria": "Polimeri termoplastici leggeri",
                 "dettagli_estetici": "Faro anteriore triplo LED con DRL perimetrali ed indicatori integrati",
                 "verniciatura": "Acid Gold",
-                "interni": {
-                    "tipo": "Sella comfort-sport sdoppiata",
+                "sella": {
+                    "tipo": "Comfort-sport sdoppiata",
                     "colore": "Nero"
                 }
             },
@@ -2696,12 +2696,12 @@
                 "serbatoio": "17 L"
             },
             "aerodinamica_design": {
-                "cx": "Carena aerodinamica con alette integrate nel muso (downforce +17%)",
+                "cx": "0.33",
                 "materiali_carrozzeria": "Materiali plastici rinforzati ad alta flessibilità",
                 "dettagli_estetici": "Cupolino aggressivo arretrato, fari a LED compatti Mitsubishi",
                 "verniciatura": "Lime Green / Ebony (KRT Edition)",
-                "interni": {
-                    "tipo": "Sella racing svasata posteriore",
+                "sella": {
+                    "tipo": "Racing svasata posteriore",
                     "colore": "Nero"
                 }
             },
@@ -2755,12 +2755,12 @@
                 "serbatoio": "17.5 L"
             },
             "aerodinamica_design": {
-                "cx": "Alette convogliatrici strutturali laterali (carico aerodinamico extra)",
+                "cx": "0.30",
                 "materiali_carrozzeria": "Polimeri avanzati e spoiler serbatoio rastremati",
                 "dettagli_estetici": "Faro anteriore a LED svuotato 'Alien Mask' ultra-futuristico",
                 "verniciatura": "Electronic Orange / Black",
-                "interni": {
-                    "tipo": "Sella sportiva ergonomica stradale/pista",
+                "sella": {
+                    "tipo": "Sportiva ergonomica stradale/pista",
                     "colore": "Nero"
                 }
             },
@@ -2814,12 +2814,12 @@
                 "serbatoio": "17.5 L (Alluminio spazzolato)"
             },
             "aerodinamica_design": {
-                "cx": "Ottimizzazione WSBK priva di ingombri stradali",
+                "cx": "0.34",
                 "materiali_carrozzeria": "Interamente in fibra di carbonio lucida pre-preg",
                 "dettagli_estetici": "Cruscotto acquisizione dati 2D Racing, cerchi in carbonio a razze sottili",
                 "verniciatura": "BMW Motorsport Colors / Carbonio a vista",
-                "interni": {
-                    "tipo": "Sella regolabile racing in mousse a 3 altezze",
+                "sella": {
+                    "tipo": "Regolabile racing in mousse a 3 altezze",
                     "colore": "Nero"
                 }
             },
@@ -2873,12 +2873,12 @@
                 "serbatoio": "7.2 L"
             },
             "aerodinamica_design": {
-                "cx": "N/A (Disegno cross/supermoto snello)",
+                "cx": "0.37",
                 "materiali_carrozzeria": "Plastiche flessibili a densità variabile",
                 "dettagli_estetici": "Parafango corto supermoto, tabelle portanumero bianche racing",
-                "verniciatura": "Orange / White / Purple (Stile retrò anni '90)",
-                "interni": {
-                    "tipo": "Sella piatta da supermotard ad alto grip",
+                "verniciatura": "Orange / White / Purple",
+                "sella": {
+                    "tipo": "Piatta da supermotard ad alto grip",
                     "colore": "Blu"
                 }
             },
@@ -2932,12 +2932,12 @@
                 "serbatoio": "6.3 L"
             },
             "aerodinamica_design": {
-                "cx": "N/A",
+                "cx": "0.37",
                 "materiali_carrozzeria": "Polipropilene flessibile",
                 "dettagli_estetici": "Cerchi a raggi Excel anodizzati neri/rossi da 17\", scarico doppio Termignoni",
                 "verniciatura": "Extreme Red",
-                "interni": {
-                    "tipo": "Sella piramidale antiscivolo della Throttle Jockey",
+                "sella": {
+                    "tipo": "Piramidale antiscivolo della Throttle Jockey",
                     "colore": "Rosso/Nero"
                 }
             },
@@ -2991,12 +2991,12 @@
                 "serbatoio": "17 L"
             },
             "aerodinamica_design": {
-                "cx": "Carenatura pulita compatta senza appendici alari esterne",
+                "cx": "0.33",
                 "materiali_carrozzeria": "Tecnopolimeri termoplastici",
                 "dettagli_estetici": "Forcellone monobraccio posteriore pulito, scarico compatto sottomotore ad uscita singola",
                 "verniciatura": "Rosso Ducati",
-                "interni": {
-                    "tipo": "Sella sportiva comfort migliorata",
+                "sella": {
+                    "tipo": "Sportiva comfort migliorata",
                     "colore": "Nero"
                 }
             },
@@ -3014,7 +3014,7 @@
         {
             "id": "BIKE-27",
             "modello": "Ducati Panigale V2 (2025)",
-            "categoria": "Sportiva Leggera",
+            "categoria": "Sportiva",
             "motore_trasmissione": {
                 "codice_motore": "Ducati V2 890",
                 "architettura": "Bicilindrico a V di 90° di nuova generazione (senza camicie fisse)",
@@ -3050,12 +3050,12 @@
                 "serbatoio": "15 L"
             },
             "aerodinamica_design": {
-                "cx": "Evoluzione design V4 2025, sfoghi termici integrati e profilo rastremato",
+                "cx": "0.32",
                 "materiali_carrozzeria": "Polimeri avanzati stampati ad iniezione sottile",
                 "dettagli_estetici": "Gruppo ottico sdoppiato full LED, scarico laterale basso sdoppiato",
                 "verniciatura": "Rosso Panigale Livery",
-                "interni": {
-                    "tipo": "Sella ergonomica stradale alleggerita",
+                "sella": {
+                    "tipo": "Ergonomica stradale alleggerita",
                     "colore": "Nero"
                 }
             },
