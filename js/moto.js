@@ -91,7 +91,7 @@ function renderBikes(bikes) {
             let cardHtml = `
                 <div class="col-lg-4 col-md-6">
                     <div class="card h-100 shadow-sm border-0 vehicle-card">
-                        <div id="${carouselId}" class="carousel slide" data-bs-ride="carousel">
+                        <div id="${carouselId}" class="carousel slide">
                             <div class="carousel-inner">${carouselItems}</div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

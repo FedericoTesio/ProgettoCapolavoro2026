@@ -158,17 +158,11 @@ function loadCarDetails(id) {
             </div>
             
             <div class="text-center mt-5">
-                <a href="moto.html" class="btn btn-outline-dark px-5"><i class="bi bi-arrow-left me-2"></i> Torna al Catalogo</a>
+                <a href="auto.html" class="btn btn-outline-dark px-5"><i class="bi bi-arrow-left me-2"></i> Torna al Catalogo</a>
             </div>
         `;
 
         $("#detail-container").html(html);
-
-        // Inizializza il carousel
-        const el = document.getElementById(carouselId);
-        if (el) {
-            new bootstrap.Carousel(el, { interval: 3500, ride: 'carousel' });
-        }
     });
 }
 

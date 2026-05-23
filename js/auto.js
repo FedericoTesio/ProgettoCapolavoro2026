@@ -91,7 +91,7 @@ function renderCars(cars) {
             let cardHtml = `
                 <div class="col-lg-4 col-md-6">
                     <div class="card h-100 shadow-sm border-0 vehicle-card">
-                        <div id="${carouselId}" class="carousel slide" data-bs-ride="carousel">
+                        <div id="${carouselId}" class="carousel slide">
                             <div class="carousel-inner">${carouselItems}</div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -106,6 +106,9 @@ function renderCars(cars) {
                             <h5 class="card-title fw-bold">${car.modello}</h5>
                             <p class="card-text text-secondary mb-1">
                                 <i class="bi bi-speedometer2"></i> ${km} km
+                            </p>
+                            <p class="card-text text-secondary mb-1">
+                                <i class="bi bi-calendar-event"></i> ${car.dati_storici_commerciali.anno}
                             </p>
                             <p class="card-text text-danger fw-bold h5 mt-3">
                                 ${car.dati_storici_commerciali.prezzo_attuale}

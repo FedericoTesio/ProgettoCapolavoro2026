@@ -71,10 +71,16 @@ async function loadRandomCars() {
                 </div>
             `;
             container.append(cardHtml);
+
+            // Inizializza il carousel
+            const el = document.getElementById(carouselId);
+            if (el) {
+                new bootstrap.Carousel(el, { interval: 3500, ride: 'carousel' });
+            }
         });
     });
 }
 
-function apriCatAuto(){
+function apriCatAuto() {
     window.location.href = "html/auto.html";
 }

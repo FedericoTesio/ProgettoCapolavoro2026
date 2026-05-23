@@ -36,7 +36,7 @@ function loadBikeDetails(id) {
             <div class="card border-0 shadow-sm overflow-hidden mb-5">
                 <div class="row g-0">
                     <div class="col-lg-8">
-                        <div id="${carouselId}" class="carousel slide" data-bs-ride="carousel">
+                        <div id="${carouselId}" class="carousel slide">
                             <div class="carousel-inner">${carouselItems}</div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon"></span>
@@ -163,12 +163,6 @@ function loadBikeDetails(id) {
         `;
 
         $("#detail-container").html(html);
-
-        // Inizializza il carousel
-        const el = document.getElementById(carouselId);
-        if (el) {
-            new bootstrap.Carousel(el, { interval: 3500, ride: 'carousel' });
-        }
     });
 }
 
