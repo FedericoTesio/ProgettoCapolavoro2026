@@ -1476,10 +1476,1602 @@
             }
         }
     ],
-    "moto":[
-
+    "moto": [
+        {
+            "id": "BIKE-1",
+            "modello": "Ducati Panigale V4 S (2022)",
+            "categoria": "Supersportiva",
+            "motore_trasmissione": {
+                "codice_motore": "Desmosedici Stradale V4",
+                "architettura": "V4 a 90° con albero controrotante",
+                "cilindrata_totale": "1.103 cc",
+                "rapporto_compressione": "14.0:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Desmodromica, 4 valvole per cilindro",
+                "lubrificazione": "Carter semisecco",
+                "cambio": "6 marce con Ducati Quick Shift (DQS) up/down EVO 2",
+                "frizione": "Multidisco in bagno d'olio, antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "215.5 CV",
+                "coppia_massima": "123.6 Nm",
+                "velocita_massima": ">300 km/h",
+                "accel_0_100": "3.0 s",
+                "accel_0_200": "7.2 s",
+                "chilometro_fermo": "18.9 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Front Frame in lega di alluminio",
+                "sospensioni": "Forcella Öhlins NPX 25/30 pressurizzata, mono Öhlins TTX36 (Smart EC 2.0)",
+                "freni": "Doppio disco anteriore Brembo Stylema",
+                "pneumatici": "Pirelli Diablo Supercorsa SP (120/70 ZR17 - 200/60 ZR17)",
+                "sterzo": "Ammortizzatore di sterzo Öhlins Smart EC 2.0"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "174 kg",
+                "lunghezza": "2.056 mm",
+                "larghezza": "810 mm",
+                "altezza": "1.115 mm",
+                "passo": "1.469 mm",
+                "serbatoio": "17 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Configurazione ali biplano",
+                "materiali_carrozzeria": "Tecnopolimeri e inserti in carbonio",
+                "dettagli_estetici": "Ali aerodinamiche derivate dalla MotoGP, estrattori calore inferiori",
+                "verniciatura": "Rosso Ducati",
+                "interni": {
+                    "tipo": "Sella racing bicolore",
+                    "colore": "Nero/Rosso"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2022-2024",
+                "anno": "2022",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "412",
+                "designer": "Centro Stile Ducati",
+                "prezzo_listino_orig": "31.590 €",
+                "prezzo_attuale": "26.000 €",
+                "km": 4500
+            }
+        },
+        {
+            "id": "BIKE-2",
+            "modello": "Ducati Panigale V4 R (2022)",
+            "categoria": "Superbike Replica",
+            "motore_trasmissione": {
+                "codice_motore": "Desmosedici Stradale R V4",
+                "architettura": "V4 a 90° con albero controrotante",
+                "cilindrata_totale": "998 cc",
+                "rapporto_compressione": "14.0:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Desmodromica con bielle e valvole in titanio",
+                "lubrificazione": "Carter semisecco",
+                "cambio": "6 marce con rapporti SBK e DQS EVO 2",
+                "frizione": "A secco multidisco STM-EVO SBK con sistema antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "218 CV (237 CV con scarico Akrapovič Racing)",
+                "coppia_massima": "111 Nm (118 Nm con scarico Akrapovič)",
+                "velocita_massima": ">315 km/h",
+                "accel_0_100": "2.9 s",
+                "accel_0_200": "7.0 s",
+                "chilometro_fermo": "18.5 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Front Frame in alluminio con pivot forcellone regolabile",
+                "sospensioni": "Forcella Öhlins NPX 25/30 meccanica, mono Öhlins TTX36 meccanico",
+                "freni": "Doppio disco Brembo Stylema con pinze radiali",
+                "pneumatici": "Pirelli Diablo Supercorsa SP",
+                "sterzo": "Ammortizzatore Öhlins regolabile meccanicamente"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "172 kg (167 kg con kit racing)",
+                "lunghezza": "2.056 mm",
+                "larghezza": "810 mm",
+                "altezza": "1.115 mm",
+                "passo": "1.471 mm",
+                "serbatoio": "17 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Ali in carbonio monoplano ad alto carico",
+                "materiali_carrozzeria": "Fibra di carbonio e serbatoio in alluminio spazzolato",
+                "dettagli_estetici": "Ali in carbonio a vista, feritoie laterali sul cupolino",
+                "verniciatura": "Livery R (Rosso/Bianco/Alluminio)",
+                "interni": {
+                    "tipo": "Sella track specifica con logo R",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2022-2024",
+                "anno": "2023",
+                "esemplari_prodotti": "Serie numerata",
+                "numero_esemplare": "118",
+                "designer": "Centro Stile Ducati",
+                "prezzo_listino_orig": "43.990 €",
+                "prezzo_attuale": "45.500 €",
+                "km": 1200
+            }
+        },
+        {
+            "id": "BIKE-3",
+            "modello": "Ducati Panigale V4 (2022)",
+            "categoria": "Supersportiva",
+            "motore_trasmissione": {
+                "codice_motore": "Desmosedici Stradale V4",
+                "architettura": "V4 a 90°",
+                "cilindrata_totale": "1.103 cc",
+                "rapporto_compressione": "14.0:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Desmodromica 16V",
+                "lubrificazione": "Carter semisecco",
+                "cambio": "6 marce con DQS EVO 2",
+                "frizione": "Multidisco in bagno d'olio"
+            },
+            "prestazioni": {
+                "potenza_massima": "215.5 CV",
+                "coppia_massima": "123.6 Nm",
+                "velocita_massima": "299 km/h",
+                "accel_0_100": "3.1 s",
+                "accel_0_200": "7.5 s",
+                "chilometro_fermo": "19.2 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Front Frame in lega di alluminio",
+                "sospensioni": "Forcella Showa BPF da 43 mm, monoammortizzatore Sachs completam. regolabili",
+                "freni": "Brembo Stylema monoblocco",
+                "pneumatici": "Pirelli Diablo Supercorsa SP",
+                "sterzo": "Ammortizzatore di sterzo Sachs"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "175 kg",
+                "lunghezza": "2.056 mm",
+                "larghezza": "810 mm",
+                "altezza": "1.115 mm",
+                "passo": "1.469 mm",
+                "serbatoio": "17 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Ali biplano in plastica ingegneristica",
+                "materiali_carrozzeria": "Tecnopolimeri leggeri",
+                "dettagli_estetici": "Prese d'aria frontali maggiorate",
+                "verniciatura": "Rosso Ducati",
+                "interni": {
+                    "tipo": "Sella standard racing",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2022-2024",
+                "anno": "2022",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "89",
+                "designer": "Centro Stile Ducati",
+                "prezzo_listino_orig": "25.290 €",
+                "prezzo_attuale": "21.500 €",
+                "km": 8000
+            }
+        },
+        {
+            "id": "BIKE-4",
+            "modello": "Ducati Panigale V4 S (2025)",
+            "categoria": "Supersportiva",
+            "motore_trasmissione": {
+                "codice_motore": "Desmosedici Stradale V4 Gen 2",
+                "architettura": "V4 a 90° con condotti di aspirazione variabili",
+                "cilindrata_totale": "1.103 cc",
+                "rapporto_compressione": "14.0:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Desmodromica 16V evoluta",
+                "lubrificazione": "Carter semisecco",
+                "cambio": "6 marce con DQS 2.0 ad effetto Hall",
+                "frizione": "In bagno d'olio antisaltellamento servoassistita"
+            },
+            "prestazioni": {
+                "potenza_massima": "216 CV (Euro 5+)",
+                "coppia_massima": "120.9 Nm",
+                "velocita_massima": ">300 km/h",
+                "accel_0_100": "2.9 s",
+                "accel_0_200": "7.1 s",
+                "chilometro_fermo": "18.7 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Front Frame alleggerito (-0.7kg) e forcellone bibraccio 'Symmetric Pull-Rod'",
+                "sospensioni": "Öhlins NPX 30 Smart EC 3.0 (terza generazione attiva)",
+                "freni": "Brembo Hypure pinze radiali (prima mondiale)",
+                "pneumatici": "Pirelli Diablo Supercorsa V4 SP",
+                "sterzo": "Öhlins elettronico Smart EC 3.0"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "172 kg",
+                "lunghezza": "2.060 mm",
+                "larghezza": "815 mm",
+                "altezza": "1.120 mm",
+                "passo": "1.485 mm",
+                "serbatoio": "17 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Ridisegnata, resistenza -4%, ali integrate nella carrozzeria",
+                "materiali_carrozzeria": "Compositi avanzati",
+                "dettagli_estetici": "Cupolino ispirato alla Desmosedici GP24, fari ultra-slim LED",
+                "verniciatura": "Rosso Ducati / Cerchi neri",
+                "interni": {
+                    "tipo": "Sella ergonomica integrata",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2024-Presente",
+                "anno": "2025",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "12",
+                "designer": "Centro Stile Ducati",
+                "prezzo_listino_orig": "33.990 €",
+                "prezzo_attuale": "34.000 €",
+                "km": 0
+            }
+        },
+        {
+            "id": "BIKE-5",
+            "modello": "Ducati Panigale V4 R (2025)",
+            "categoria": "Superbike Replica",
+            "motore_trasmissione": {
+                "codice_motore": "Desmosedici Stradale R V4 2025",
+                "architettura": "V4 90° corsa corta",
+                "cilindrata_totale": "998 cc",
+                "rapporto_compressione": "14.5:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Desmodromica con pistoni a due segmenti e bielle in titanio 'gun drilled'",
+                "lubrificazione": "Carter secco racing ad alta efficienza",
+                "cambio": "6 rapporti con rapportatura WorldSBK e DQS 2.0",
+                "frizione": "A secco STM EVO"
+            },
+            "prestazioni": {
+                "potenza_massima": "221 CV (240.5 CV con olio specifico Shell e scarico Akrapovič)",
+                "coppia_massima": "112 Nm",
+                "velocita_massima": ">320 km/h",
+                "accel_0_100": "2.8 s",
+                "accel_0_200": "6.7 s",
+                "chilometro_fermo": "18.2 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Front Frame a rigidezza ottimizzata SBK con forcellone bibraccio 'Symmetric'",
+                "sospensioni": "Öhlins NPX 25/30 anteriore meccanica, mono TTX36 a regolazione manuale",
+                "freni": "Brembo Hypure con condotti di raffreddamento in carbonio",
+                "pneumatici": "Pirelli Diablo Supercorsa SC1",
+                "sterzo": "Öhlins meccanico regolabile"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "169 kg (164 kg con scarico full titanio)",
+                "lunghezza": "2.060 mm",
+                "larghezza": "815 mm",
+                "altezza": "1.120 mm",
+                "passo": "1.488 mm",
+                "serbatoio": "17 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Ali in carbonio integrate ad alto carico deportante",
+                "materiali_carrozzeria": "Fibra di carbonio aeronautica",
+                "dettagli_estetici": "Serbatoio in alluminio spazzolato a vista, carenatura racing pre-forata",
+                "verniciatura": "Rosso Corse SBK Livery",
+                "interni": {
+                    "tipo": "Sella racing in neoprene antiscivolo",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2025-Presente",
+                "anno": "2025",
+                "esemplari_prodotti": "Edizione Limitata",
+                "numero_esemplare": "05",
+                "designer": "Ducati Corse",
+                "prezzo_listino_orig": "45.000 €",
+                "prezzo_attuale": "46.500 €",
+                "km": 0
+            }
+        },
+        {
+            "id": "BIKE-6",
+            "modello": "BMW M 1000 RR",
+            "categoria": "Superbike Replica",
+            "motore_trasmissione": {
+                "codice_motore": "M RR 4 cilindri",
+                "architettura": "4 cilindri in linea",
+                "cilindrata_totale": "999 cc",
+                "rapporto_compressione": "14.5:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC con tecnologia BMW ShiftCam (fasi variabili)",
+                "lubrificazione": "Carter umido con radiatore olio separato",
+                "cambio": "6 marce ad innesti frontali con Quick Shift M",
+                "frizione": "In bagno d'olio antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "212 CV a 14.500 giri/min",
+                "coppia_massima": "113 Nm",
+                "velocita_massima": "314 km/h",
+                "accel_0_100": "2.9 s",
+                "accel_0_200": "6.9 s",
+                "chilometro_fermo": "18.6 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Doppio trave in alluminio a motore portante",
+                "sospensioni": "Forcella a steli rovesciati Marzocchi 45mm, monoammortizzatore Full Floater Pro",
+                "freni": "M Brakes con pinze radiali blu anodizzate",
+                "pneumatici": "Michelin Power Slick / Cup (120/70 - 200/55 ZR17)",
+                "sterzo": "Ammortizzatore di sterzo regolabile"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "170 kg (162 kg con pacchetto M Competition)",
+                "lunghezza": "2.085 mm",
+                "larghezza": "848 mm",
+                "altezza": "1.192 mm",
+                "passo": "1.457 mm",
+                "serbatoio": "16.5 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Alette M in carbonio a vista (deportanza fino a 22.6 kg)",
+                "materiali_carrozzeria": "Fibra di carbonio M e compositi leggeri",
+                "dettagli_estetici": "Cerchi in carbonio M, paracatena e parafanghi in carbonio",
+                "verniciatura": "Light White / M Motorsport",
+                "interni": {
+                    "tipo": "Sella M Sport",
+                    "colore": "Nero con badge M"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2021-Presente",
+                "anno": "2023",
+                "esemplari_prodotti": "Omologazione speciale SBK",
+                "numero_esemplare": "734",
+                "designer": "BMW Motorrad Design",
+                "prezzo_listino_orig": "34.100 €",
+                "prezzo_attuale": "31.000 €",
+                "km": 3000
+            }
+        },
+        {
+            "id": "BIKE-7",
+            "modello": "BMW S 1000 RR",
+            "categoria": "Supersportiva",
+            "motore_trasmissione": {
+                "codice_motore": "K67",
+                "architettura": "4 cilindri in linea",
+                "cilindrata_totale": "999 cc",
+                "rapporto_compressione": "13.3:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 16V con BMW ShiftCam",
+                "lubrificazione": "Carter umido",
+                "cambio": "6 rapporti con Shift Assistant Pro",
+                "frizione": "Multidisco in bagno d'olio antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "210 CV",
+                "coppia_massima": "113 Nm",
+                "velocita_massima": "303 km/h",
+                "accel_0_100": "3.1 s",
+                "accel_0_200": "7.4 s",
+                "chilometro_fermo": "19.0 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Flex Frame in alluminio pressofuso",
+                "sospensioni": "Forcella telescopica rovesciata 45 mm, monoammortizzatore con DDC (Dynamic Damping Control)",
+                "freni": "Doppio disco Hayes da 320 mm",
+                "pneumatici": "120/70 ZR17 - 190/55 ZR17",
+                "sterzo": "Meccanico standard"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "179 kg",
+                "lunghezza": "2.073 mm",
+                "larghezza": "848 mm",
+                "altezza": "1.161 mm",
+                "passo": "1.457 mm",
+                "serbatoio": "16.5 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Alette aerodinamiche frontali in plastica composita",
+                "materiali_carrozzeria": "Plastica ad alta resistenza e ABS",
+                "dettagli_estetici": "Sezione posteriore corta e snella, fari full LED asimmetrici graficamente",
+                "verniciatura": "Racing Red",
+                "interni": {
+                    "tipo": "Sella standard sport",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2019-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "1455",
+                "designer": "David Robb / Motorrad team",
+                "prezzo_listino_orig": "21.300 €",
+                "prezzo_attuale": "21.500 €",
+                "km": 0
+            }
+        },
+        {
+            "id": "BIKE-8",
+            "modello": "Yamaha YZF-R1",
+            "categoria": "Supersportiva",
+            "motore_trasmissione": {
+                "codice_motore": "CP4",
+                "architettura": "4 cilindri in linea ad albero a gomiti crossplane",
+                "cilindrata_totale": "998 cc",
+                "rapporto_compressione": "13.0:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 16V",
+                "lubrificazione": "Carter umido",
+                "cambio": "6 marce con Quick Shift System (QSS)",
+                "frizione": "In bagno d'olio con sistema antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "200 CV",
+                "coppia_massima": "113.3 Nm",
+                "velocita_massima": "299 km/h",
+                "accel_0_100": "3.1 s",
+                "accel_0_200": "7.6 s",
+                "chilometro_fermo": "19.3 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Deltabox in alluminio",
+                "sospensioni": "Forcella KYB a steli rovesciati da 43 mm, monoammortizzatore KYB a leveraggio progressivo",
+                "freni": "Doppio disco idraulico da 320 mm, pinze Advics monoblocco",
+                "pneumatici": "Bridgestone Battlax RS11",
+                "sterzo": "Ammortizzatore di sterzo idraulico"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "176 kg",
+                "lunghezza": "2.055 mm",
+                "larghezza": "690 mm",
+                "altezza": "1.165 mm",
+                "passo": "1.405 mm",
+                "serbatoio": "17 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.31 (Carenatura integrata stile M1)",
+                "materiali_carrozzeria": "ABS e pannelli in magnesio per il telaietto",
+                "dettagli_estetici": "Presa d'aria centrale forzata M1 style, fari a LED incassati",
+                "verniciatura": "Icon Blue",
+                "interni": {
+                    "tipo": "Sella racing rastremata",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2015-2024 (Fine omologazione stradale)",
+                "anno": "2023",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "901",
+                "designer": "Yamaha Design Team",
+                "prezzo_listino_orig": "20.699 €",
+                "prezzo_attuale": "18.500 €",
+                "km": 6000
+            }
+        },
+        {
+            "id": "BIKE-9",
+            "modello": "Aprilia RSV4 Factory 1100",
+            "categoria": "Supersportiva",
+            "motore_trasmissione": {
+                "codice_motore": "V4 65° Aprilia",
+                "architettura": "V4 a 65° monoblocco stretto",
+                "cilindrata_totale": "1.099 cc",
+                "rapporto_compressione": "13.6:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC a quattro valvole per cilindro, mista catena/ingranaggi",
+                "lubrificazione": "Carter umido con radiatore d'olio",
+                "cambio": "6 marce con Aprilia Quick Shift (AQS)",
+                "frizione": "Multidisco in bagno d'olio con sistema antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "217 CV",
+                "coppia_massima": "125 Nm",
+                "velocita_massima": "305 km/h",
+                "accel_0_100": "3.0 s",
+                "accel_0_200": "7.3 s",
+                "chilometro_fermo": "18.8 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Doppio trave in alluminio con regolazioni per asse del pivot e inclinazione sterzo",
+                "sospensioni": "Öhlins Smart EC 2.0 a controllo elettronico semiattivo",
+                "freni": "Brembo Stylema, dischi flottanti da 330 mm",
+                "pneumatici": "Pirelli Diablo Supercorsa SP",
+                "sterzo": "Öhlins con gestione elettronica"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "177 kg",
+                "lunghezza": "2.055 mm",
+                "larghezza": "735 mm",
+                "altezza": "1.150 mm",
+                "passo": "1.435 mm",
+                "serbatoio": "17.9 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Ali aerodinamiche a doppia parete integrate nella carenatura",
+                "materiali_carrozzeria": "Fibra di carbonio (Factory) e compositi",
+                "dettagli_estetici": "Gruppo ottico triplo LED con luci DRL e funzione cornering",
+                "verniciatura": "Ultra Dark",
+                "interni": {
+                    "tipo": "Sella racing ergonomica bassa",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2021-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "234",
+                "designer": "Miguel Galluzzi / Centro Stile Aprilia",
+                "prezzo_listino_orig": "25.990 €",
+                "prezzo_attuale": "26.200 €",
+                "km": 0
+            }
+        },
+        {
+            "id": "BIKE-10",
+            "modello": "Honda CBR 1000RR-R Fireblade SP",
+            "categoria": "Supersportiva",
+            "motore_trasmissione": {
+                "codice_motore": "SC82E",
+                "architettura": "4 cilindri in linea superquadro",
+                "cilindrata_totale": "1.000 cc",
+                "rapporto_compressione": "13.4:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 16V, bilancieri a dito e bielle in titanio",
+                "lubrificazione": "Carter umido con getti d'olio pistone dedicati",
+                "cambio": "6 rapporti con Quickshifter regolabile",
+                "frizione": "Multidisco in bagno d'olio, assistita con antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "217.5 CV",
+                "coppia_massima": "113 Nm",
+                "velocita_massima": "299 km/h (autolimitata elettronico)",
+                "accel_0_100": "2.9 s",
+                "accel_0_200": "7.1 s",
+                "chilometro_fermo": "18.6 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Perimetrale diamantato in alluminio",
+                "sospensioni": "Forcella Öhlins NPX Smart-EC 2.0 da 43 mm, mono Öhlins TTX36 Smart-EC",
+                "freni": "Brembo Stylema a fissaggio radiale, ABS Cornering",
+                "pneumatici": "Pirelli Diablo Supercorsa SP V3",
+                "sterzo": "Ammortizzatore elettronico Showa HESD a 3 livelli"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "174 kg",
+                "lunghezza": "2.100 mm",
+                "larghezza": "745 mm",
+                "altezza": "1.140 mm",
+                "passo": "1.455 mm",
+                "serbatoio": "16.1 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.27 (Il più basso della categoria)",
+                "materiali_carrozzeria": "Plastica ABS alleggerita, parafango in carbonio",
+                "dettagli_estetici": "Alette interne a triplo profilo derivate da RC213V",
+                "verniciatura": "Grand Prix Red (HRC Tricolour)",
+                "interni": {
+                    "tipo": "Sella sportiva ad alta densità",
+                    "colore": "Nero/Blu"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2020-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "522",
+                "designer": "Yuzuru Ishikawa",
+                "prezzo_listino_orig": "28.490 €",
+                "prezzo_attuale": "28.500 €",
+                "km": 0
+            }
+        },
+        {
+            "id": "BIKE-11",
+            "modello": "KTM 1290 Super Duke R EVO",
+            "categoria": "Hyper-Naked",
+            "motore_trasmissione": {
+                "codice_motore": "LC8",
+                "architettura": "V2 a 75°",
+                "cilindrata_totale": "1.301 cc",
+                "rapporto_compressione": "13.5:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 4 valvole per cilindro",
+                "lubrificazione": "Lubrificazione a circolazione forzata con 3 pompe dell'olio",
+                "cambio": "6 marce con Quickshifter+ bidirezionale",
+                "frizione": "PASC antisaltellamento ad azionamento idraulico"
+            },
+            "prestazioni": {
+                "potenza_massima": "180 CV",
+                "coppia_massima": "140 Nm",
+                "velocita_massima": "289 km/h",
+                "accel_0_100": "2.8 s",
+                "accel_0_200": "8.1 s",
+                "chilometro_fermo": "19.8 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Traliccio in acciaio al cromo-molibdeno, telaietto in composito/alluminio",
+                "sospensioni": "WP APEX a controllo elettronico semiattivo (SAT) di seconda generazione",
+                "freni": "Doppio disco da 320 mm Brembo Stylema monoblocco",
+                "pneumatici": "Bridgestone Battlax S22",
+                "sterzo": "Ammortizzatore di sterzo WP APEX"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "180 kg",
+                "lunghezza": "2.120 mm",
+                "larghezza": "820 mm",
+                "altezza": "1.100 mm",
+                "passo": "1.497 mm",
+                "serbatoio": "16 L"
+            },
+            "aerodinamica_design": {
+                "cx": "N/A (Naked - convogliatori radiatore deportanti)",
+                "materiali_carrozzeria": "Materiali plastici tecnici e fibra di carbonio parziale",
+                "dettagli_estetici": "Faro sdoppiato a LED 'Predator', forcellone monobraccio a vista",
+                "verniciatura": "Orange / Black",
+                "interni": {
+                    "tipo": "Sella stradale sportiva rialzata",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2022-2023",
+                "anno": "2023",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "112",
+                "designer": "Kiska Design",
+                "prezzo_listino_orig": "21.450 €",
+                "prezzo_attuale": "17.900 €",
+                "km": 9500
+            }
+        },
+        {
+            "id": "BIKE-12",
+            "modello": "Honda CBR 600 RR (2024)",
+            "categoria": "Sportiva",
+            "motore_trasmissione": {
+                "codice_motore": "PC40E",
+                "architettura": "4 cilindri in linea",
+                "cilindrata_totale": "599 cc",
+                "rapporto_compressione": "12.2:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 16V ad alti regimi di rotazione",
+                "lubrificazione": "Carter umido",
+                "cambio": "6 marce con Quickshifter di serie",
+                "frizione": "In bagno d'olio con puleggia assistita ed assistente al salto"
+            },
+            "prestazioni": {
+                "potenza_massima": "121 CV a 14.250 giri/min",
+                "coppia_massima": "63 Nm",
+                "velocita_massima": "265 km/h",
+                "accel_0_100": "3.5 s",
+                "accel_0_200": "11.2 s",
+                "chilometro_fermo": "21.5 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Perimetrale a doppio trave in alluminio pressofuso",
+                "sospensioni": "Forcella Showa Big Piston (BPF) da 41 mm, mono Showa con leveraggio Pro-Link",
+                "freni": "Pinze radiali Tokico a 4 pistoncini, dischi da 310 mm",
+                "pneumatici": "Dunlop Roadsport 2",
+                "sterzo": "Ammortizzatore di sterzo elettronico Honda HESD"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "170 kg",
+                "lunghezza": "2.030 mm",
+                "larghezza": "685 mm",
+                "altezza": "1.140 mm",
+                "passo": "1.370 mm",
+                "serbatoio": "18 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.55 (Efficienza aerodinamica migliorata con alette)",
+                "materiali_carrozzeria": "ABS stampato a iniezione",
+                "dettagli_estetici": "Alette frontali piccole su cupolino, scarico storico sottosella",
+                "verniciatura": "HRC Tricolor",
+                "interni": {
+                    "tipo": "Sella racing ultraleggera",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2024-Presente (Grande ritorno in Europa)",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "45",
+                "designer": "Honda Japan Team",
+                "prezzo_listino_orig": "12.290 €",
+                "prezzo_attuale": "12.300 €",
+                "km": 1500
+            }
+        },
+        {
+            "id": "BIKE-13",
+            "modello": "Suzuki GSX-R 1000R",
+            "categoria": "Supersportiva",
+            "motore_trasmissione": {
+                "codice_motore": "DTA1",
+                "architettura": "4 cilindri in linea",
+                "cilindrata_totale": "999.8 cc",
+                "rapporto_compressione": "13.2:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC con Suzuki Racing VVT (variatore di fase meccanico centrif.)",
+                "lubrificazione": "Carter umido",
+                "cambio": "6 rapporti con Bi-directional Quick Shift System",
+                "frizione": "Multidisco in bagno d'olio con sistema SCAS"
+            },
+            "prestazioni": {
+                "potenza_massima": "202 CV",
+                "coppia_massima": "117.6 Nm",
+                "velocita_massima": "299 km/h",
+                "accel_0_100": "3.0 s",
+                "accel_0_200": "7.5 s",
+                "chilometro_fermo": "19.1 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Doppio trave in alluminio compatto",
+                "sospensioni": "Forcella Showa BFF (Balance Free Front Fork), mono Showa BFRC lite",
+                "freni": "Brembo ad attacco radiale con dischi T-drive",
+                "pneumatici": "Bridgestone Battlax Racing Street RS11",
+                "sterzo": "Ammortizzatore idraulico automatico"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "178 kg",
+                "lunghezza": "2.075 mm",
+                "larghezza": "705 mm",
+                "altezza": "1.145 mm",
+                "passo": "1.420 mm",
+                "serbatoio": "16 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Profilo aerodinamico lineare da galleria del vento MotoGP",
+                "materiali_carrozzeria": "Resine termoplastiche alleggerite",
+                "dettagli_estetici": "Prese d'aria Suzuki Ram Air Direct (SRAD), livrea Team Ecstar",
+                "verniciatura": "Metallic Triton Blue / Silver",
+                "interni": {
+                    "tipo": "Sella stradale sportiva a nido d'ape",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2017-2022 (Uscita dai mercati europei)",
+                "anno": "2022",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "301",
+                "designer": "Suzuki Engineering Team",
+                "prezzo_listino_orig": "19.790 €",
+                "prezzo_attuale": "17.000 €",
+                "km": 11000
+            }
+        },
+        {
+            "id": "BIKE-14",
+            "modello": "Ducati Desmosedici RR",
+            "categoria": "MotoGP Replica",
+            "motore_trasmissione": {
+                "codice_motore": "D16RR",
+                "architettura": "V4 a 90° sfasato 'Double Pulse'",
+                "cilindrata_totale": "989 cc",
+                "rapporto_compressione": "13.5:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Desmodromica ad ingranaggi, 4 valvole per cilindro in titanio",
+                "lubrificazione": "Carter umido racing",
+                "cambio": "estraiabile a 6 rapporti, schema a cassetta",
+                "frizione": "A secco multidisco con sistema antisaltellamento idraulica"
+            },
+            "prestazioni": {
+                "potenza_massima": "200 CV (211 CV con kit scarico aperto racing da 102 dB)",
+                "coppia_massima": "116 Nm",
+                "velocita_massima": "312 km/h",
+                "accel_0_100": "2.8 s",
+                "accel_0_200": "6.8 s",
+                "chilometro_fermo": "17.9 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Traliccio in tubi d'acciaio ibrido con piastre in alluminio e telaietto in carbonio",
+                "sospensioni": "Forcella Öhlins FG353 pressurizzata da 43 mm, mono Öhlins PRXB regolazione completa",
+                "freni": "Pinze monoblocco Brembo radiali ricavate dal pieno",
+                "pneumatici": "Bridgestone dedicati con posteriore da 16 pollici (misura storica 200/55-16)",
+                "sterzo": "Ammortizzatore di sterzo Öhlins regolabile ad alta resistenza"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "171 kg",
+                "lunghezza": "2.100 mm",
+                "larghezza": "750 mm",
+                "altezza": "1.110 mm",
+                "passo": "1.430 mm",
+                "serbatoio": "15 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Disegno replica fedele GP06",
+                "materiali_carrozzeria": "Interamente in fibra di carbonio prepreg",
+                "dettagli_estetici": "Uscita scarico a camino sul codone posteriore superiore",
+                "verniciatura": "Rosso Corsa con banda bianca adesiva",
+                "interni": {
+                    "tipo": "Seduta minimale in espanso racing",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2007-2008",
+                "anno": "2008",
+                "esemplari_prodotti": "1.500",
+                "numero_esemplare": "764",
+                "designer": "Alan Jenkins / Centro Stile Ducati",
+                "prezzo_listino_orig": "60.000 €",
+                "prezzo_attuale": "95.000 €",
+                "km": 3200
+            }
+        },
+        {
+            "id": "BIKE-15",
+            "modello": "Ducati Superleggera V4 (2020)",
+            "categoria": "Supersportiva Leggera",
+            "motore_trasmissione": {
+                "codice_motore": "Desmosedici Stradale R Light V4",
+                "architettura": "V4 90° alleggerito",
+                "cilindrata_totale": "998 cc",
+                "rapporto_compressione": "14.0:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Desmodromica 16V componenti speciali titanio",
+                "lubrificazione": "Carter semisecco",
+                "cambio": "6 marce con DQS EVO 2",
+                "frizione": "A secco multidisco STM EVO-SBK"
+            },
+            "prestazioni": {
+                "potenza_massima": "224 CV (234 CV con scarico completo Akrapovič kit racing)",
+                "coppia_massima": "116 Nm (119 Nm con kit racing)",
+                "velocita_massima": ">320 km/h",
+                "accel_0_100": "2.7 s",
+                "accel_0_200": "6.5 s",
+                "chilometro_fermo": "17.8 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Front Frame in fibra di carbonio strutturale ad alta resistenza",
+                "sospensioni": "Forcella Öhlins NPX25/30 leggera con piedini ricavati dal pieno, mono Öhlins TTX36 con molla in titanio",
+                "freni": "Brembo Stylema R pinze freno",
+                "pneumatici": "Pirelli Diablo Supercorsa SP V3",
+                "sterzo": "Ammortizzatore Öhlins con attacchi carbonio"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "159 kg (152.2 kg con kit racing)",
+                "lunghezza": "2.056 mm",
+                "larghezza": "820 mm",
+                "altezza": "1.115 mm",
+                "passo": "1.480 mm",
+                "serbatoio": "16 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Ali biplano in carbonio derivate da GP16 (50kg di downforce a 270 km/h)",
+                "materiali_carrozzeria": "Fibra di carbonio strutturale, titanio, magnesio",
+                "dettagli_estetici": "Trama del carbonio a vista alternata a livrea GP20, cerchi in carbonio BST",
+                "verniciatura": "Rosso GP / Carbonio lucido",
+                "interni": {
+                    "tipo": "Sella in materiale tecnico Alcantara/Racing",
+                    "colore": "Nero/Rosso"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2020",
+                "anno": "2020",
+                "esemplari_prodotti": "500",
+                "numero_esemplare": "243",
+                "designer": "Ducati Corse",
+                "prezzo_listino_orig": "100.000 €",
+                "prezzo_attuale": "125.000 €",
+                "km": 400
+            }
+        },
+        {
+            "id": "BIKE-16",
+            "modello": "Ducati Superleggera V4 Centenario",
+            "categoria": "Supersportiva Leggera",
+            "motore_trasmissione": {
+                "codice_motore": "Desmosedici Stradale R Custom",
+                "architettura": "V4 90° selezionato a mano e tolleranze minime",
+                "cilindrata_totale": "998 cc",
+                "rapporto_compressione": "14.2:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Desmodromica 16V, componenti alleggeriti",
+                "lubrificazione": "Carter secco modificato",
+                "cambio": "6 marce SBK ratio",
+                "frizione": "A secco STM a 48 denti racing"
+            },
+            "prestazioni": {
+                "potenza_massima": "234 CV",
+                "coppia_massima": "119 Nm",
+                "velocita_massima": ">325 km/h",
+                "accel_0_100": "2.65 s",
+                "accel_0_200": "6.4 s",
+                "chilometro_fermo": "17.6 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Monoscocca e Front Frame integrati in carbonio ad altissimo modulo",
+                "sospensioni": "Öhlins pressurizzate da competizione tarate per pista ad uso esclusivo",
+                "freni": "Impianto Brembo monoblocco lavorato dal pieno",
+                "pneumatici": "Pirelli Diablo Superbike slick",
+                "sterzo": "Öhlins lineare fisso ad alta precisione"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "150 kg",
+                "lunghezza": "2.056 mm",
+                "larghezza": "820 mm",
+                "altezza": "1.115 mm",
+                "passo": "1.482 mm",
+                "serbatoio": "16 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Pacchetto ali aerodinamiche allargate estese in carbonio",
+                "materiali_carrozzeria": "Full Carbonio strutturale ed elementi portanti",
+                "dettagli_estetici": "Badge dorati del centenario incisi al laser sulla piastra",
+                "verniciatura": "Rosso Anniversario lucido con dettagli oro",
+                "interni": {
+                    "tipo": "Sella artigianale in pelle scamosciata",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "Edizione celebrativa fuori serie",
+                "anno": "2026",
+                "esemplari_prodotti": "Unica / Pochissimi esemplari Custom order",
+                "numero_esemplare": "01",
+                "designer": "Centro Stile Special Projects",
+                "prezzo_listino_orig": "145.000 €",
+                "prezzo_attuale": "180.000 €",
+                "km": 0
+            }
+        },
+        {
+            "id": "BIKE-17",
+            "modello": "Ducati Superleggera V4 Centenario Tricolore",
+            "categoria": "Supersportiva Leggera",
+            "motore_trasmissione": {
+                "codice_motore": "Desmosedici Stradale R Custom",
+                "architettura": "V4 90°",
+                "cilindrata_totale": "998 cc",
+                "rapporto_compressione": "14.2:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Desmodromica 16V",
+                "lubrificazione": "Carter secco",
+                "cambio": "6 marce racing",
+                "frizione": "A secco"
+            },
+            "prestazioni": {
+                "potenza_massima": "234 CV",
+                "coppia_massima": "119 Nm",
+                "velocita_massima": ">325 km/h",
+                "accel_0_100": "2.65 s",
+                "accel_0_200": "6.4 s",
+                "chilometro_fermo": "17.6 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Front frame e ciclistica monoscocca in carbonio",
+                "sospensioni": "Öhlins total racing meccaniche",
+                "freni": "Brembo Stylema R / dischi T-drive",
+                "pneumatici": "Pirelli Diablo Superbike slick",
+                "sterzo": "Öhlins regolabile racing"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "150 kg",
+                "lunghezza": "2.056 mm",
+                "larghezza": "820 mm",
+                "altezza": "1.115 mm",
+                "passo": "1.482 mm",
+                "serbatoio": "16 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Ali biplano estese in carbonio",
+                "materiali_carrozzeria": "Fibra di carbonio monoscocca",
+                "dettagli_estetici": "Verniciatura tricolore applicata a mano sopra trama di carbonio",
+                "verniciatura": "Tricolore Speciale (Rosso/Bianco/Verde/Carbonio)",
+                "interni": {
+                    "tipo": "Sella ricamata con bandiera italiana",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "Edizione celebrativa personalizzata",
+                "anno": "2026",
+                "esemplari_prodotti": "Esemplare unico (One-off commissione)",
+                "numero_esemplare": "1 di 1",
+                "designer": "Ducati Special Projects",
+                "prezzo_listino_orig": "160.000 €",
+                "prezzo_attuale": "210.000 €",
+                "km": 0
+            }
+        },
+        {
+            "id": "BIKE-18",
+            "modello": "Ducati 1299 Superleggera",
+            "categoria": "Supersportiva Leggera",
+            "motore_trasmissione": {
+                "codice_motore": "Superquadro bicilindrico",
+                "architettura": "Bicilindrico a L a 90°",
+                "cilindrata_totale": "1.285 cc",
+                "rapporto_compressione": "13.0:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Desmodromica 8 valvole, bielle e valvole aspirazione titanio",
+                "lubrificazione": "Carter umido",
+                "cambio": "6 marce con DQS up/down",
+                "frizione": "Multidisco in bagno d'olio servoassistita e antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "215 CV a 11.000 giri/min",
+                "coppia_massima": "146.5 Nm a 9.000 giri/min",
+                "velocita_massima": "305 km/h",
+                "accel_0_100": "2.9 s",
+                "accel_0_200": "7.2 s",
+                "chilometro_fermo": "18.3 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Monoscocca in fibra di carbonio ad alta resistenza",
+                "sospensioni": "Forcella Öhlins FL936 rovesciata da 43 mm, mono Öhlins TTX36 con molla in titanio",
+                "freni": "Doppio disco Brembo da 330mm con pinze M50",
+                "pneumatici": "Pirelli Diablo Supercorsa SP",
+                "sterzo": "Ammortizzatore Öhlins lineare regolabile"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "156 kg",
+                "lunghezza": "2.060 mm",
+                "larghezza": "745 mm",
+                "altezza": "1.110 mm",
+                "passo": "1.456 mm",
+                "serbatoio": "17 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Carenatura fluida pre-ali (Generazione classica pulita)",
+                "materiali_carrozzeria": "Fibra di carbonio strutturale (telaio, forcellone, ruote e sovrastrutture)",
+                "dettagli_estetici": "Forcellone monobraccio in carbonio a vista, doppio scarico Akrapovič alto titanio",
+                "verniciatura": "Rosso Corsa / Bianco",
+                "interni": {
+                    "tipo": "Sella monoposto racing alcantara",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2017",
+                "anno": "2017",
+                "esemplari_prodotti": "500",
+                "numero_esemplare": "312",
+                "designer": "Gianandrea Fabbro",
+                "prezzo_listino_orig": "80.000 €",
+                "prezzo_attuale": "89.000 €",
+                "km": 1900
+            }
+        },
+        {
+            "id": "BIKE-19",
+            "modello": "Yamaha YZF-R6",
+            "categoria": "Sportiva",
+            "motore_trasmissione": {
+                "codice_motore": "J515E",
+                "architettura": "4 cilindri in linea short-stroke",
+                "cilindrata_totale": "599 cc",
+                "rapporto_compressione": "13.1:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 16V valvole in titanio",
+                "lubrificazione": "Carter umido",
+                "cambio": "6 marce con innesti frontali (Quick Shift unidirezionale)",
+                "frizione": "In bagno d'olio antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "118.4 CV a 14.500 giri/min",
+                "coppia_massima": "61.7 Nm",
+                "velocita_massima": "262 km/h",
+                "accel_0_100": "3.5 s",
+                "accel_0_200": "11.9 s",
+                "chilometro_fermo": "21.7 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Deltabox in alluminio pressofuso",
+                "sospensioni": "Forcella rovesciata KYB da 43 mm (derivata R1), mono posteriore KYB pluriregolabile",
+                "freni": "Doppio disco anteriore da 320 mm con pinze radiale a 4 pistoncini Advics",
+                "pneumatici": "120/70 ZR17 - 180/55 ZR17",
+                "sterzo": "Idraulico tradizionale"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "169 kg",
+                "lunghezza": "2.040 mm",
+                "larghezza": "695 mm",
+                "altezza": "1.150 mm",
+                "passo": "1.375 mm",
+                "serbatoio": "17 L"
+            },
+            "aerodinamica_design": {
+                "cx": "0.33 (Disegno carena M1-style ridotto del 8% di resistenza)",
+                "materiali_carrozzeria": "Resine plastiche leggere, telaietto posteriore in magnesio",
+                "dettagli_estetici": "Presa aria centrale trapezoidale con DRL a linea LED",
+                "verniciatura": "Race Blu",
+                "interni": {
+                    "tipo": "Sella racing rastremata alta",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "1999-2020 (Oggi venduta solo versione 'Race' non stradale)",
+                "anno": "2020",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "1002",
+                "designer": "Yamaha Design Team",
+                "prezzo_listino_orig": "13.990 €",
+                "prezzo_attuale": "12.500 €",
+                "km": 14000
+            }
+        },
+        {
+            "id": "BIKE-20",
+            "modello": "Aprilia RS 660",
+            "categoria": "Sportiva",
+            "motore_trasmissione": {
+                "codice_motore": "Aprilia 2 cilindri parallelo",
+                "architettura": "Bicilindrico parallelo frontemarcia, perno albero a 270°",
+                "cilindrata_totale": "659 cc",
+                "rapporto_compressione": "13.5:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 8 valvole",
+                "lubrificazione": "Carter umido",
+                "cambio": "6 marce con Aprilia Quick Shift (AQS) up/down",
+                "frizione": "Multidisco in bagno d'olio con sistema antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "100 CV a 10.500 giri/min",
+                "coppia_massima": "67 Nm",
+                "velocita_massima": "235 km/h",
+                "accel_0_100": "3.8 s",
+                "accel_0_200": "14.2 s",
+                "chilometro_fermo": "22.9 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Doppio trave in alluminio con motore sfruttato come elemento portante",
+                "sospensioni": "Forcella Kayaba 41 mm rovesciata, monoammortizzatore asimmetrico posteriore",
+                "freni": "Brembo a 4 pistoncini, doppio disco da 320 mm, ABS cornering multi-mappa",
+                "pneumatici": "Pirelli Diablo Rosso Corsa II",
+                "sterzo": "Meccanico integrato agile"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "169 kg",
+                "lunghezza": "1.995 mm",
+                "larghezza": "745 mm",
+                "altezza": "1.100 mm",
+                "passo": "1.370 mm",
+                "serbatoio": "15 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Doppia carena aerodinamica con funzione portante (appendice interna)",
+                "materiali_carrozzeria": "Polimeri termoplastici leggeri",
+                "dettagli_estetici": "Faro anteriore triplo LED con DRL perimetrali ed indicatori integrati",
+                "verniciatura": "Acid Gold",
+                "interni": {
+                    "tipo": "Sella comfort-sport sdoppiata",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2020-Presente",
+                "anno": "2023",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "556",
+                "designer": "Centro Stile Aprilia",
+                "prezzo_listino_orig": "11.050 €",
+                "prezzo_attuale": "9.200 €",
+                "km": 5000
+            }
+        },
+        {
+            "id": "BIKE-21",
+            "modello": "Kawasaki Ninja ZX-10R",
+            "categoria": "Supersportiva",
+            "motore_trasmissione": {
+                "codice_motore": "ZXT02L",
+                "architettura": "4 cilindri in linea",
+                "cilindrata_totale": "998 cc",
+                "rapporto_compressione": "13.0:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 16V, azionamento a bilanciere a dito",
+                "lubrificazione": "Carter umido con radiatore d'olio raffreddato ad acqua",
+                "cambio": "6 rapporti, tipo estraibile (KQS Quick Shifter)",
+                "frizione": "In bagno d'olio assistita e antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "203 CV (213 CV con Ram Air in pressione)",
+                "coppia_massima": "114.9 Nm",
+                "velocita_massima": "299 km/h",
+                "accel_0_100": "3.0 s",
+                "accel_0_200": "7.4 s",
+                "chilometro_fermo": "18.9 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Trave perimetrale in alluminio fuso",
+                "sospensioni": "Forcella Showa BFF da 43 mm con camere esterne, monoammortizzatore Showa BFRC lite",
+                "freni": "Doppio disco Brembo da 330 mm, pinze Brembo M50 monoblocco",
+                "pneumatici": "Bridgestone Battlax Racing Street RS11",
+                "sterzo": "Ammortizzatore di sterzo elettronico Öhlins"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "182 kg",
+                "lunghezza": "2.085 mm",
+                "larghezza": "750 mm",
+                "altezza": "1.185 mm",
+                "passo": "1.450 mm",
+                "serbatoio": "17 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Carena aerodinamica con alette integrate nel muso (downforce +17%)",
+                "materiali_carrozzeria": "Materiali plastici rinforzati ad alta flessibilità",
+                "dettagli_estetici": "Cupolino aggressivo arretrato, fari a LED compatti Mitsubishi",
+                "verniciatura": "Lime Green / Ebony (KRT Edition)",
+                "interni": {
+                    "tipo": "Sella racing svasata posteriore",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2021-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "415",
+                "designer": "Kawasaki Design Department",
+                "prezzo_listino_orig": "21.500 €",
+                "prezzo_attuale": "21.500 €",
+                "km": 0
+            }
+        },
+        {
+            "id": "BIKE-22",
+            "modello": "KTM 1390 Super Duke R EVO",
+            "categoria": "Hyper-Naked",
+            "motore_trasmissione": {
+                "codice_motore": "LC8 2024",
+                "architettura": "V2 a 75° con sistema Cam Shift (fasatura variabile)",
+                "cilindrata_totale": "1.350 cc",
+                "rapporto_compressione": "13.2:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC a 4 valvole con doppia camma variabile",
+                "lubrificazione": "Carter secco forzato a tre pompe",
+                "cambio": "6 marce con Quickshifter+ ottimizzato",
+                "frizione": "PASC idraulica multidisco antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "190 CV",
+                "coppia_massima": "145 Nm",
+                "velocita_massima": "295 km/h",
+                "accel_0_100": "2.7 s",
+                "accel_0_200": "7.9 s",
+                "chilometro_fermo": "19.4 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Traliccio principale in tubi al cromo-molibdeno verniciato arancio",
+                "sospensioni": "WP APEX a controllo elettronico SAT Gen 3 (con funzione Anti-Dive)",
+                "freni": "Brembo Stylema monoblocco, pompa Brembo MCS regolabile",
+                "pneumatici": "Michelin Power GP",
+                "sterzo": "Ammortizzatore idraulico WP"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "181 kg",
+                "lunghezza": "2.130 mm",
+                "larghezza": "830 mm",
+                "altezza": "1.110 mm",
+                "passo": "1.491 mm",
+                "serbatoio": "17.5 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Alette convogliatrici strutturali laterali (carico aerodinamico extra)",
+                "materiali_carrozzeria": "Polimeri avanzati e spoiler serbatoio rastremati",
+                "dettagli_estetici": "Faro anteriore a LED svuotato 'Alien Mask' ultra-futuristico",
+                "verniciatura": "Electronic Orange / Black",
+                "interni": {
+                    "tipo": "Sella sportiva ergonomica stradale/pista",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2024-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "14",
+                "designer": "Kiska Design",
+                "prezzo_listino_orig": "22.430 €",
+                "prezzo_attuale": "22.500 €",
+                "km": 1200
+            }
+        },
+        {
+            "id": "BIKE-23",
+            "modello": "BMW HP4 Race",
+            "categoria": "Supersportiva Leggera",
+            "motore_trasmissione": {
+                "codice_motore": "HP4R Endurance",
+                "architettura": "4 cilindri in linea da corsa (selezione SBK/EWC)",
+                "cilindrata_totale": "999 cc",
+                "rapporto_compressione": "13.9:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "DOHC 16V valvole in titanio e alberi a camme HP4",
+                "lubrificazione": "Carter umido specifico con coppa allungata",
+                "cambio": "6 marce ravvicinato da corsa a schema rovesciato",
+                "frizione": "Meccanica antisaltellamento autoregolabile"
+            },
+            "prestazioni": {
+                "potenza_massima": "215 CV a 13.900 giri/min",
+                "coppia_massima": "120 Nm",
+                "velocita_massima": ">310 km/h",
+                "accel_0_100": "2.8 s",
+                "accel_0_200": "6.8 s",
+                "chilometro_fermo": "18.1 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Monoscocca autoportante interamente in fibra di carbonio (peso 7.8 kg)",
+                "sospensioni": "Forcella Öhlins FGR 300 Superbike, mono Öhlins TTX 36 GP",
+                "freni": "Pinze Brembo GP4-PR monoblocco in titanio ricavate dal pieno",
+                "pneumatici": "Pirelli Diablo Superbike Slick (SC2)",
+                "sterzo": "Ammortizzatore di sterzo Öhlins racing lineare"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "146 kg (Incredibilmente inferiore alle MotoGP ufficiali)",
+                "lunghezza": "2.070 mm",
+                "larghezza": "740 mm",
+                "altezza": "1.190 mm",
+                "passo": "1.440 mm",
+                "serbatoio": "17.5 L (Alluminio spazzolato)"
+            },
+            "aerodinamica_design": {
+                "cx": "Ottimizzazione WSBK priva di ingombri stradali",
+                "materiali_carrozzeria": "Interamente in fibra di carbonio lucida pre-preg",
+                "dettagli_estetici": "Cruscotto acquisizione dati 2D Racing, cerchi in carbonio a razze sottili",
+                "verniciatura": "BMW Motorsport Colors / Carbonio a vista",
+                "interni": {
+                    "tipo": "Sella regolabile racing in mousse a 3 altezze",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2017-2018",
+                "anno": "2018",
+                "esemplari_prodotti": "750",
+                "numero_esemplare": "412",
+                "designer": "BMW HP Division",
+                "prezzo_listino_orig": "80.000 €",
+                "prezzo_attuale": "85.000 €",
+                "km": 200
+            }
+        },
+        {
+            "id": "BIKE-24",
+            "modello": "KTM 450 SMR",
+            "categoria": "Supermoto",
+            "motore_trasmissione": {
+                "codice_motore": "SOHC 450",
+                "architettura": "Monocilindrico inclinato a 4 tempi",
+                "cilindrata_totale": "449.9 cc",
+                "rapporto_compressione": "13.1:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Monoalbero a camme in testa (SOHC), 4 valvole in titanio",
+                "lubrificazione": "Lubrificazione forzata a due pompe",
+                "cambio": "5 marce compatto specifico Pankl Racing Systems",
+                "frizione": "Multidisco SUTER antisaltellamento in bagno d'olio, idraulica Brembo"
+            },
+            "prestazioni": {
+                "potenza_massima": "63 CV",
+                "coppia_massima": "50 Nm",
+                "velocita_massima": "175 km/h",
+                "accel_0_100": "3.4 s",
+                "accel_0_200": "N/A",
+                "chilometro_fermo": "22.1 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Centrale a doppia culla in acciaio al cromo-molibdeno idroformato",
+                "sospensioni": "Forcella WP XACT ad aria da 48 mm, monoammortizzatore WP XACT con leveraggio",
+                "freni": "Anteriore Brembo radiale a 4 pistoncini con disco da 310 mm",
+                "pneumatici": "Metzeler Racetec SM K1 Slick (16.5\" anteriore / 17\" posteriore)",
+                "sterzo": "Piastre di sterzo lavorate CNC ad offset fisso"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "102.6 kg",
+                "lunghezza": "2.100 mm",
+                "larghezza": "820 mm",
+                "altezza": "1.240 mm",
+                "passo": "1.475 mm",
+                "serbatoio": "7.2 L"
+            },
+            "aerodinamica_design": {
+                "cx": "N/A (Disegno cross/supermoto snello)",
+                "materiali_carrozzeria": "Plastiche flessibili a densità variabile",
+                "dettagli_estetici": "Parafango corto supermoto, tabelle portanumero bianche racing",
+                "verniciatura": "Orange / White / Purple (Stile retrò anni '90)",
+                "interni": {
+                    "tipo": "Sella piatta da supermotard ad alto grip",
+                    "colore": "Blu"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2021-Presente",
+                "anno": "2024",
+                "esemplari_prodotti": "Serie regolare pista",
+                "numero_esemplare": "88",
+                "designer": "Kiska Design",
+                "prezzo_listino_orig": "12.440 €",
+                "prezzo_attuale": "11.500 €",
+                "km": 15
+            }
+        },
+        {
+            "id": "BIKE-25",
+            "modello": "Honda CRF 450R (Supermotard Setup)",
+            "categoria": "Supermoto",
+            "motore_trasmissione": {
+                "codice_motore": "PE07E",
+                "architettura": "Monocilindrico 4 tempi",
+                "cilindrata_totale": "449.7 cc",
+                "rapporto_compressione": "13.5:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Unicam a 4 valvole",
+                "lubrificazione": "Carter umido separato",
+                "cambio": "5 marce",
+                "frizione": "Multidisco a bagno d'olio (Modificata STM Antisaltellamento)"
+            },
+            "prestazioni": {
+                "potenza_massima": "58 CV",
+                "coppia_massima": "48 Nm",
+                "velocita_massima": "170 km/h",
+                "accel_0_100": "3.5 s",
+                "accel_0_200": "N/A",
+                "chilometro_fermo": "22.5 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Perimetrale in alluminio di ottava generazione",
+                "sospensioni": "Forcella Showa da 49 mm (accorciata e indurita SM), mono Showa con taratura motard",
+                "freni": "Impianto maggiorato Motomaster con pinza radiale a 4 pistoncini e disco da 320 mm",
+                "pneumatici": "Michelin Supermoto Slick",
+                "sterzo": "Manubrio Renthal Fatbar senza traversino"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "105 kg (con modifiche cerchi/freni)",
+                "lunghezza": "2.180 mm",
+                "larghezza": "827 mm",
+                "altezza": "1.260 mm",
+                "passo": "1.480 mm",
+                "serbatoio": "6.3 L"
+            },
+            "aerodinamica_design": {
+                "cx": "N/A",
+                "materiali_carrozzeria": "Polipropilene flessibile",
+                "dettagli_estetici": "Cerchi a raggi Excel anodizzati neri/rossi da 17\", scarico doppio Termignoni",
+                "verniciatura": "Extreme Red",
+                "interni": {
+                    "tipo": "Sella piramidale antiscivolo della Throttle Jockey",
+                    "colore": "Rosso/Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "Base cross 2023 (Conversione 2024)",
+                "anno": "2024",
+                "esemplari_prodotti": "Costruzione artigianale personalizzata",
+                "numero_esemplare": "One-off custom",
+                "designer": "Honda / Custom Tuning Shop",
+                "prezzo_listino_orig": "10.100 € (più 4.500€ di componenti motard)",
+                "prezzo_attuale": "12.000 €",
+                "km": 0
+            }
+        },
+        {
+            "id": "BIKE-26",
+            "modello": "Ducati Panigale V2 (2020)",
+            "categoria": "Sportiva",
+            "motore_trasmissione": {
+                "codice_motore": "Superquadro V2",
+                "architettura": "Bicilindrico a L a 90°",
+                "cilindrata_totale": "955 cc",
+                "rapporto_compressione": "12.5:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Desmodromica 8 valvole",
+                "lubrificazione": "Carter umido",
+                "cambio": "6 marce con DQS up/down EVO 2",
+                "frizione": "Multidisco in bagno d'olio, antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "155 CV",
+                "coppia_massima": "104 Nm",
+                "velocita_massima": "280 km/h",
+                "accel_0_100": "3.3 s",
+                "accel_0_200": "9.2 s",
+                "chilometro_fermo": "20.1 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Monoscocca in alluminio fuso",
+                "sospensioni": "Forcella Showa BPF 43mm, monoammortizzatore Sachs laterale a leveraggio progressivo",
+                "freni": "Doppio disco da 320 mm Brembo M4.32 radiali, ABS Cornering EVO",
+                "pneumatici": "Pirelli Diablo Rosso Corsa II",
+                "sterzo": "Ammortizzatore di sterzo Sachs"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "176 kg",
+                "lunghezza": "2.056 mm",
+                "larghezza": "750 mm",
+                "altezza": "1.115 mm",
+                "passo": "1.436 mm",
+                "serbatoio": "17 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Carenatura pulita compatta senza appendici alari esterne",
+                "materiali_carrozzeria": "Tecnopolimeri termoplastici",
+                "dettagli_estetici": "Forcellone monobraccio posteriore pulito, scarico compatto sottomotore ad uscita singola",
+                "verniciatura": "Rosso Ducati",
+                "interni": {
+                    "tipo": "Sella sportiva comfort migliorata",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2020-2024",
+                "anno": "2021",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "843",
+                "designer": "Centro Stile Ducati",
+                "prezzo_listino_orig": "17.990 €",
+                "prezzo_attuale": "14.500 €",
+                "km": 12000
+            }
+        },
+        {
+            "id": "BIKE-27",
+            "modello": "Ducati Panigale V2 (2025)",
+            "categoria": "Sportiva",
+            "motore_trasmissione": {
+                "codice_motore": "Ducati V2 890",
+                "architettura": "Bicilindrico a V di 90° di nuova generazione (senza camicie fisse)",
+                "cilindrata_totale": "890 cc",
+                "rapporto_compressione": "13.1:1",
+                "sovralimentazione": "Aspirato",
+                "distribuzione": "Distribuzione a catena con bilancieri e sistema IVT (Intake Variable Timing)",
+                "lubrificazione": "Carter umido",
+                "cambio": "6 rapporti con DQS 2.0",
+                "frizione": "In bagno d'olio con funzione antisaltellamento"
+            },
+            "prestazioni": {
+                "potenza_massima": "120 CV (Peso piuma estremo)",
+                "coppia_massima": "93.3 Nm",
+                "velocita_massima": "260 km/h",
+                "accel_0_100": "3.5 s",
+                "accel_0_200": "10.5 s",
+                "chilometro_fermo": "21.0 s"
+            },
+            "telaio_sospensioni": {
+                "telaio": "Monoscocca in alluminio ultraleggero con forcellone bibraccio",
+                "sospensioni": "Forcella Marzocchi da 43 mm, monoammortizzatore Kayaba (versione base completamente regolabile)",
+                "freni": "Brembo M50 monoblocco a 4 pistoncini, dischi da 320 mm",
+                "pneumatici": "Pirelli Diablo Rosso IV",
+                "sterzo": "Meccanico calibrato"
+            },
+            "dimensioni_pesi": {
+                "peso_a_secco": "163 kg (Dimagrimento record di ben 13 kg rispetto alla 2020)",
+                "lunghezza": "2.045 mm",
+                "larghezza": "740 mm",
+                "altezza": "1.110 mm",
+                "passo": "1.465 mm",
+                "serbatoio": "15 L"
+            },
+            "aerodinamica_design": {
+                "cx": "Evoluzione design V4 2025, sfoghi termici integrati e profilo rastremato",
+                "materiali_carrozzeria": "Polimeri avanzati stampati ad iniezione sottile",
+                "dettagli_estetici": "Gruppo ottico sdoppiato full LED, scarico laterale basso sdoppiato",
+                "verniciatura": "Rosso Panigale Livery",
+                "interni": {
+                    "tipo": "Sella ergonomica stradale alleggerita",
+                    "colore": "Nero"
+                }
+            },
+            "dati_storici_commerciali": {
+                "anni_produzione": "2025-Presente",
+                "anno": "2025",
+                "esemplari_prodotti": "Serie regolare",
+                "numero_esemplare": "04",
+                "designer": "Centro Stile Ducati",
+                "prezzo_listino_orig": "16.790 €",
+                "prezzo_attuale": "16.800 €",
+                "km": 0
+            }
+        }
     ],
     "richieste": [
-        
+
     ]
 }
