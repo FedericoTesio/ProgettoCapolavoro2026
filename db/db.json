@@ -1182,61 +1182,61 @@
         },
         {
             "id": "CAR-21",
-            "modello": "BMW M5 (G90)",
+            "modello": "BMW M5 (F90)",
             "categoria": "Berlina",
             "motore_trasmissione": {
-                "codice_motore": "S68 + Motore Elettrico",
-                "architettura": "V8 90° Hybrid",
+                "codice_motore": "S63B44B",
+                "architettura": "V8 90°",
                 "cilindrata_totale": "4.395 cc",
                 "rapporto_compressione": "10.0:1",
-                "sovralimentazione": "Biturbo",
-                "distribuzione": "DOHC 32V",
+                "sovralimentazione": "Biturbo (TwinPower Turbo TwinScroll)",
+                "distribuzione": "DOHC 32V (Valvetronic e Doppio VANOS)",
                 "lubrificazione": "Carter umido",
-                "cambio": "M Steptronic 8 rapporti",
-                "frizione": "Convertitore di coppia"
+                "cambio": "Automatico M Steptronic 8 rapporti",
+                "frizione": "Convertitore di coppia con Drivelogic"
             },
             "prestazioni": {
-                "potenza_massima": "727 CV",
-                "coppia_massima": "1.000 Nm",
-                "velocita_massima": "305 km/h",
-                "accel_0_100": "3.5 s",
-                "accel_0_200": "10.9 s",
-                "chilometro_fermo": "20.2 s"
+                "potenza_massima": "600 CV",
+                "coppia_massima": "750 Nm",
+                "velocita_massima": "250 km/h (305 km/h con M Driver's Package)",
+                "accel_0_100": "3.4 s",
+                "accel_0_200": "11.1 s",
+                "chilometro_fermo": "20.6 s"
             },
             "telaio_sospensioni": {
-                "telaio": "Acciaio/Alluminio",
-                "sospensioni": "Adattive M Professional",
-                "freni": "Carbo-ceramici M opzionali",
-                "pneumatici": "Michelin Pilot Sport 5S",
-                "sterzo": "Integrale sterzante attivo"
+                "telaio": "Scocca autoportante in acciaio ad alta resistenza, alluminio e CFRP",
+                "sospensioni": "Anteriore a doppi bracci trasversali, posteriore a 5 bracci (Adattive M)",
+                "freni": "Dischi autoventilanti e forati (Opzionali Carbo-ceramici M)",
+                "pneumatici": "Ant: 275/40 ZR19 - Post: 285/40 ZR19",
+                "sterzo": "M Servotronic a pignone e cremagliera elettromeccanico"
             },
             "dimensioni_pesi": {
-                "peso_a_secco": "2.435 kg",
-                "lunghezza": "5.096 mm",
-                "larghezza": "1.970 mm",
-                "altezza": "1.510 mm",
-                "passo": "3.006 mm",
-                "serbatoio": "60 L"
+                "peso_a_secco": "1.855 kg (DIN) / 1.930 kg (UE)",
+                "lunghezza": "4.965 mm",
+                "larghezza": "1.903 mm",
+                "altezza": "1.473 mm",
+                "passo": "2.982 mm",
+                "serbatoio": "68 L"
             },
             "aerodinamica_design": {
-                "cx": "0.30",
-                "materiali_carrozzeria": "Acciaio e Tetto Carbonio",
-                "dettagli_estetici": "Careggiate allargate, quattro scarichi 100mm",
-                "verniciatura": "Storm Bay Metallic",
+                "cx": "0.32",
+                "materiali_carrozzeria": "Alluminio (cofano e passaruota), Plastica rinforzata con fibra di carbonio (tetto)",
+                "dettagli_estetici": "Quattro scarichi posteriori M, calandra a doppio rene specifica, specchietti aerodinamici M",
+                "verniciatura": "Marina Bay Blue metallic",
                 "interni": {
-                    "tipo": "Pelle Merino",
-                    "colore": "Kylami Orange/Black"
+                    "tipo": "Pelle Merino totale",
+                    "colore": "Black / Silverstone"
                 }
             },
             "dati_storici_commerciali": {
-                "anni_produzione": "2024-Presente",
-                "anno": "2024",
+                "anni_produzione": "2017-2023",
+                "anno": "2018",
                 "esemplari_prodotti": "Serie regolare",
-                "numero_esemplare": "560",
+                "numero_esemplare": "N/A",
                 "designer": "Domagoj Dukec",
-                "prezzo_listino_orig": "150.000 €",
-                "prezzo_attuale": "150.000 €",
-                "km": 0
+                "prezzo_listino_orig": "122.000 €",
+                "prezzo_attuale": "65.000 €",
+                "km": 45000
             }
         },
         {
@@ -1354,7 +1354,7 @@
                 "designer": "Gorden Wagener",
                 "prezzo_listino_orig": "187.000 €",
                 "prezzo_attuale": "210.000 €",
-                "km": 0
+                "km": 12000
             }
         },
         {
