@@ -1836,57 +1836,58 @@
             "modello": "BMW S 1000 RR",
             "categoria": "Supersportiva",
             "motore_trasmissione": {
-                "codice_motore": "K67",
-                "architettura": "4 cilindri in linea",
+                "codice_motore": "K67 (Euro 5+)",
+                "architettura": "4 cilindri in linea, 4 tempi, raffreddamento a liquido/olio",
                 "cilindrata_totale": "999 cc",
                 "rapporto_compressione": "13.3:1",
                 "sovralimentazione": "Aspirato",
-                "distribuzione": "DOHC 16V con BMW ShiftCam",
+                "distribuzione": "DOHC 16V con valvole in titanio e BMW ShiftCam",
                 "lubrificazione": "Carter umido",
-                "cambio": "6 rapporti con Shift Assistant Pro",
-                "frizione": "Multidisco in bagno d'olio antisaltellamento"
+                "cambio": "6 rapporti con Shift Assistant Pro e acceleratore rapido M (58°)",
+                "frizione": "Multidisco in bagno d'olio autoserrante e antisaltellamento"
             },
             "prestazioni": {
-                "potenza_massima": "210 CV",
-                "coppia_massima": "113 Nm",
+                "potenza_massima": "210 CV (154 kW) a 13.750 giri/min",
+                "coppia_massima": "113 Nm a 11.000 giri/min",
                 "velocita_massima": "303 km/h",
-                "accel_0_100": "3.1 s",
+                "accel_0_100": "3.2 s",
                 "accel_0_200": "7.4 s",
                 "chilometro_fermo": "19.0 s"
             },
             "telaio_sospensioni": {
-                "telaio": "Flex Frame in alluminio pressofuso",
-                "sospensioni": "Forcella telescopica rovesciata 45 mm, monoammortizzatore con DDC (Dynamic Damping Control)",
-                "freni": "Doppio disco Hayes da 320 mm",
-                "pneumatici": "120/70 ZR17 - 190/55 ZR17",
-                "sterzo": "Meccanico standard"
+                "telaio": "A doppia trave a culla aperta in alluminio composito (Flex Frame)",
+                "sospensioni": "Forcella telescopica a steli rovesciati da 45 mm regolabile; Monoammortizzatore Full-floater pro con DDC (Dynamic Damping Control)",
+                "freni": "Doppio disco anteriore flottante da 320 mm con pinze fisse M a 4 pistoncini; ABS Pro con Brake Slide Assist",
+                "pneumatici": "120/70 ZR17 - 190/55 ZR17 (200/55 ZR17 con cerchi M)",
+                "sterzo": "Meccanico con ammortizzatore di sterzo regolabile e sensore angolo di sterzata"
             },
             "dimensioni_pesi": {
-                "peso_a_secco": "179 kg",
+                "peso_a_secco": "185 kg",
+                "peso_in_ordine_di_marcia": "199 kg",
                 "lunghezza": "2.073 mm",
                 "larghezza": "848 mm",
-                "altezza": "1.161 mm",
+                "altezza": "1.151 mm",
                 "passo": "1.457 mm",
                 "serbatoio": "16.5 L"
             },
             "aerodinamica_design": {
                 "cx": "0.30",
-                "materiali_carrozzeria": "Plastica ad alta resistenza e ABS",
-                "dettagli_estetici": "Sezione posteriore corta e snella, fari full LED asimmetrici graficamente",
-                "verniciatura": "Racing Red",
+                "materiali_carrozzeria": "Plastica ad alta resistenza e ABS con nuove carenature laterali",
+                "dettagli_estetici": "Nuove M Winglets ad alta deportanza, cupolino ottimizzato, copriruota anteriore con condotti freno integrati e fari full LED",
+                "verniciatura": "Lightwhite uni (M Motorsport)",
                 "sella": {
-                    "tipo": "Standard sport",
+                    "tipo": "Standard",
                     "colore": "Nero"
                 }
             },
             "dati_storici_commerciali": {
-                "anni_produzione": "2019-Presente",
-                "anno": "2024",
-                "esemplari_prodotti": "Serie regolare",
-                "numero_esemplare": "1455",
-                "designer": "David Robb / Motorrad team",
-                "prezzo_listino_orig": "21.300 €",
-                "prezzo_attuale": "21.500 €",
+                "anni_produzione": "2025-Presente",
+                "anno": "2025",
+                "esemplari_prodotti": "1453",
+                "numero_esemplare": "1250",
+                "designer": "BMW Motorrad Development Team",
+                "prezzo_listino_orig": "21.650 €",
+                "prezzo_attuale": "21.650 €",
                 "km": 0
             }
         },
@@ -2296,7 +2297,7 @@
                 "anni_produzione": "2007-2008",
                 "anno": "2008",
                 "esemplari_prodotti": "1.500",
-                "numero_esemplare": "764",
+                "numero_esemplare": "780",
                 "designer": "Alan Jenkins / Centro Stile Ducati",
                 "prezzo_listino_orig": "60.000 €",
                 "prezzo_attuale": "95.000 €",
@@ -2355,7 +2356,7 @@
                 "anni_produzione": "2020",
                 "anno": "2020",
                 "esemplari_prodotti": "500",
-                "numero_esemplare": "243",
+                "numero_esemplare": "204",
                 "designer": "Ducati Corse",
                 "prezzo_listino_orig": "100.000 €",
                 "prezzo_attuale": "125.000 €",
@@ -2532,7 +2533,7 @@
                 "anni_produzione": "2017",
                 "anno": "2017",
                 "esemplari_prodotti": "500",
-                "numero_esemplare": "312",
+                "numero_esemplare": "81",
                 "designer": "Gianandrea Fabbro",
                 "prezzo_listino_orig": "80.000 €",
                 "prezzo_attuale": "89.000 €",
@@ -3071,7 +3072,5 @@
             }
         }
     ],
-    "richieste": [
-
-    ]
+    "richieste": []
 }
