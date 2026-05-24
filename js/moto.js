@@ -77,7 +77,7 @@ function renderBikes(bikes) {
         bikes.forEach(bike => {
             const imgs = ["frontale.jpg", "laterale.jpg", "posteriore.jpg", "dashboard.jpg"];
             const carouselId = `carousel-${bike.id}`;
-            const imagePathBase = `../img/auto/${bike.id}`;
+            const imagePathBase = `../img/moto/${bike.id}`;
 
             let carouselItems = imgs.map((img, i) => `
                 <div class="carousel-item ${i === 0 ? 'active' : ''}">
