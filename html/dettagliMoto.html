@@ -13,6 +13,7 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="../js/libreria.js"></script>
     <script src="../js/dettagliMoto.js"></script>
+    <script src="../js/newsletter.js"></script>
     <link rel="shortcut icon" href="../img/sito/favicon.png" type="image/x-icon">
 </head>
 
@@ -28,12 +29,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="../index.html"><i class="bi bi-house"></i> Home</a>
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="auto.html"><i
-                                class="bi bi-car-front"></i> Auto</a>
+                    <li class="nav-item"><a class="nav-link" href="auto.html">Auto</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="moto.html"><i class="bi bi-speedometer"></i> Moto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="moto.html">Moto</a></li>
                 </ul>
             </div>
         </div>
@@ -83,7 +83,8 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="infoMessaggio" class="form-label">Messaggio</label>
-                                    <textarea class="form-control custom-input-red" id="infoMessaggio" rows="4"></textarea>
+                                    <textarea class="form-control custom-input-red" id="infoMessaggio"
+                                        rows="4"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-danger w-100">Invia Richiesta</button>
                             </form>
@@ -125,12 +126,11 @@
                     <h5 class="fw-bold mb-4"><i class="bi bi-envelope-paper text-danger me-2"></i>Newsletter</h5>
                     <p class="text-secondary">Iscriviti alla nostra newsletter per ricevere in anteprima i nuovi arrivi
                         e le offerte esclusive.</p>
-                    <form class="mt-3">
+                    <form class="mt-3" id="form-newsletter">
                         <div class="input-group">
-                            <input type="email"
-                                class="form-control bg-transparent text-white border-secondary custom-input-red"
+                            <input type="email" class="form-control bg-transparent text-white border-secondary custom-input-red"
                                 placeholder="Inserisci la tua email" aria-label="Email" id="sub-newsletter">
-                            <button class="btn btn-brand" type="button">Iscriviti</button>
+                            <button class="btn btn-brand" type="submit">Iscriviti</button>
                         </div>
                         <div class="form-text text-secondary mt-2">
                             Iscrivendoti accetti la nostra Privacy Policy.

@@ -27,6 +27,7 @@ $(document).ready(function () {
 
 function loadAllCars() {
     let request = inviaRichiesta("GET", `${URL}/auto`);
+    request.fail(errore)
     request.done(function (allCars) {
         globalCars = allCars;
         createBrandFilters(allCars);

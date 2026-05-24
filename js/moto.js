@@ -27,6 +27,7 @@ $(document).ready(function () {
 
 function loadAllBikes() {
     let request = inviaRichiesta("GET", `${URL}/moto`);
+    request.fail(errore);
     request.done(function (allBikes) {
         globalBikes = allBikes;
         createBrandFilters(allBikes);

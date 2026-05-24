@@ -1479,7 +1479,7 @@
     "moto": [
         {
             "id": "BIKE-1",
-            "modello": "Ducati Panigale V4 S (2022)",
+            "modello": "Ducati Panigale V4 S",
             "categoria": "Supersportiva",
             "motore_trasmissione": {
                 "codice_motore": "Desmosedici Stradale V4",
@@ -1538,7 +1538,7 @@
         },
         {
             "id": "BIKE-2",
-            "modello": "Ducati Panigale V4 R (2022)",
+            "modello": "Ducati Panigale V4 R",
             "categoria": "Superbike Replica",
             "motore_trasmissione": {
                 "codice_motore": "Desmosedici Stradale R V4",
@@ -1597,7 +1597,7 @@
         },
         {
             "id": "BIKE-3",
-            "modello": "Ducati Panigale V4 (2022)",
+            "modello": "Ducati Panigale V4",
             "categoria": "Supersportiva",
             "motore_trasmissione": {
                 "codice_motore": "Desmosedici Stradale V4",
@@ -1656,7 +1656,7 @@
         },
         {
             "id": "BIKE-4",
-            "modello": "Ducati Panigale V4 S (2025)",
+            "modello": "Ducati Panigale V4 S",
             "categoria": "Supersportiva",
             "motore_trasmissione": {
                 "codice_motore": "Desmosedici Stradale V4 Gen 2",
@@ -1715,7 +1715,7 @@
         },
         {
             "id": "BIKE-5",
-            "modello": "Ducati Panigale V4 R (2025)",
+            "modello": "Ducati Panigale V4 R",
             "categoria": "Superbike Replica",
             "motore_trasmissione": {
                 "codice_motore": "Desmosedici Stradale R V4 2025",
@@ -2129,7 +2129,7 @@
         },
         {
             "id": "BIKE-12",
-            "modello": "Honda CBR 600 RR (2024)",
+            "modello": "Honda CBR 600 RR",
             "categoria": "Sportiva",
             "motore_trasmissione": {
                 "codice_motore": "PC40E",
@@ -2306,7 +2306,7 @@
         },
         {
             "id": "BIKE-15",
-            "modello": "Ducati Superleggera V4 (2020)",
+            "modello": "Ducati Superleggera V4",
             "categoria": "Supersportiva Leggera",
             "motore_trasmissione": {
                 "codice_motore": "Desmosedici Stradale R Light V4",
@@ -2700,7 +2700,7 @@
                 "cx": "0.33",
                 "materiali_carrozzeria": "Materiali plastici rinforzati ad alta flessibilità",
                 "dettagli_estetici": "Cupolino aggressivo arretrato, fari a LED compatti Mitsubishi",
-                "verniciatura": "Lime Green / Ebony (KRT Edition)",
+                "verniciatura": "Ebony (KRT Edition)",
                 "sella": {
                     "tipo": "Racing svasata posteriore",
                     "colore": "Nero"
@@ -2837,125 +2837,7 @@
         },
         {
             "id": "BIKE-24",
-            "modello": "KTM 450 SMR",
-            "categoria": "Supermoto",
-            "motore_trasmissione": {
-                "codice_motore": "SOHC 450",
-                "architettura": "Monocilindrico inclinato a 4 tempi",
-                "cilindrata_totale": "449.9 cc",
-                "rapporto_compressione": "13.1:1",
-                "sovralimentazione": "Aspirato",
-                "distribuzione": "Monoalbero a camme in testa (SOHC), 4 valvole in titanio",
-                "lubrificazione": "Lubrificazione forzata a due pompe",
-                "cambio": "5 marce compatto specifico Pankl Racing Systems",
-                "frizione": "Multidisco SUTER antisaltellamento in bagno d'olio, idraulica Brembo"
-            },
-            "prestazioni": {
-                "potenza_massima": "63 CV",
-                "coppia_massima": "50 Nm",
-                "velocita_massima": "175 km/h",
-                "accel_0_100": "3.4 s",
-                "accel_0_200": "N/A",
-                "chilometro_fermo": "22.1 s"
-            },
-            "telaio_sospensioni": {
-                "telaio": "Centrale a doppia culla in acciaio al cromo-molibdeno idroformato",
-                "sospensioni": "Forcella WP XACT ad aria da 48 mm, monoammortizzatore WP XACT con leveraggio",
-                "freni": "Anteriore Brembo radiale a 4 pistoncini con disco da 310 mm",
-                "pneumatici": "Metzeler Racetec SM K1 Slick (16.5\" anteriore / 17\" posteriore)",
-                "sterzo": "Piastre di sterzo lavorate CNC ad offset fisso"
-            },
-            "dimensioni_pesi": {
-                "peso_a_secco": "102.6 kg",
-                "lunghezza": "2.100 mm",
-                "larghezza": "820 mm",
-                "altezza": "1.240 mm",
-                "passo": "1.475 mm",
-                "serbatoio": "7.2 L"
-            },
-            "aerodinamica_design": {
-                "cx": "0.37",
-                "materiali_carrozzeria": "Plastiche flessibili a densità variabile",
-                "dettagli_estetici": "Parafango corto supermoto, tabelle portanumero bianche racing",
-                "verniciatura": "Orange / White / Purple",
-                "sella": {
-                    "tipo": "Piatta da supermotard ad alto grip",
-                    "colore": "Blu"
-                }
-            },
-            "dati_storici_commerciali": {
-                "anni_produzione": "2021-Presente",
-                "anno": "2024",
-                "esemplari_prodotti": "Serie regolare pista",
-                "numero_esemplare": "88",
-                "designer": "Kiska Design",
-                "prezzo_listino_orig": "12.440 €",
-                "prezzo_attuale": "11.500 €",
-                "km": 15
-            }
-        },
-        {
-            "id": "BIKE-25",
-            "modello": "Honda CRF 450R (Supermotard Setup)",
-            "categoria": "Supermoto",
-            "motore_trasmissione": {
-                "codice_motore": "PE07E",
-                "architettura": "Monocilindrico 4 tempi",
-                "cilindrata_totale": "449.7 cc",
-                "rapporto_compressione": "13.5:1",
-                "sovralimentazione": "Aspirato",
-                "distribuzione": "Unicam a 4 valvole",
-                "lubrificazione": "Carter umido separato",
-                "cambio": "5 marce",
-                "frizione": "Multidisco a bagno d'olio (Modificata STM Antisaltellamento)"
-            },
-            "prestazioni": {
-                "potenza_massima": "58 CV",
-                "coppia_massima": "48 Nm",
-                "velocita_massima": "170 km/h",
-                "accel_0_100": "3.5 s",
-                "accel_0_200": "N/A",
-                "chilometro_fermo": "22.5 s"
-            },
-            "telaio_sospensioni": {
-                "telaio": "Perimetrale in alluminio di ottava generazione",
-                "sospensioni": "Forcella Showa da 49 mm (accorciata e indurita SM), mono Showa con taratura motard",
-                "freni": "Impianto maggiorato Motomaster con pinza radiale a 4 pistoncini e disco da 320 mm",
-                "pneumatici": "Michelin Supermoto Slick",
-                "sterzo": "Manubrio Renthal Fatbar senza traversino"
-            },
-            "dimensioni_pesi": {
-                "peso_a_secco": "105 kg (con modifiche cerchi/freni)",
-                "lunghezza": "2.180 mm",
-                "larghezza": "827 mm",
-                "altezza": "1.260 mm",
-                "passo": "1.480 mm",
-                "serbatoio": "6.3 L"
-            },
-            "aerodinamica_design": {
-                "cx": "0.37",
-                "materiali_carrozzeria": "Polipropilene flessibile",
-                "dettagli_estetici": "Cerchi a raggi Excel anodizzati neri/rossi da 17\", scarico doppio Termignoni",
-                "verniciatura": "Extreme Red",
-                "sella": {
-                    "tipo": "Piramidale antiscivolo della Throttle Jockey",
-                    "colore": "Rosso/Nero"
-                }
-            },
-            "dati_storici_commerciali": {
-                "anni_produzione": "Base cross 2023 (Conversione 2024)",
-                "anno": "2024",
-                "esemplari_prodotti": "Costruzione artigianale personalizzata",
-                "numero_esemplare": "One-off custom",
-                "designer": "Honda / Custom Tuning Shop",
-                "prezzo_listino_orig": "10.100 € (più 4.500€ di componenti motard)",
-                "prezzo_attuale": "12.000 €",
-                "km": 0
-            }
-        },
-        {
-            "id": "BIKE-26",
-            "modello": "Ducati Panigale V2 (2020)",
+            "modello": "Ducati Panigale V2",
             "categoria": "Sportiva",
             "motore_trasmissione": {
                 "codice_motore": "Superquadro V2",
@@ -3011,66 +2893,8 @@
                 "prezzo_attuale": "14.500 €",
                 "km": 12000
             }
-        },
-        {
-            "id": "BIKE-27",
-            "modello": "Ducati Panigale V2 (2025)",
-            "categoria": "Sportiva",
-            "motore_trasmissione": {
-                "codice_motore": "Ducati V2 890",
-                "architettura": "Bicilindrico a V di 90° di nuova generazione (senza camicie fisse)",
-                "cilindrata_totale": "890 cc",
-                "rapporto_compressione": "13.1:1",
-                "sovralimentazione": "Aspirato",
-                "distribuzione": "Distribuzione a catena con bilancieri e sistema IVT (Intake Variable Timing)",
-                "lubrificazione": "Carter umido",
-                "cambio": "6 rapporti con DQS 2.0",
-                "frizione": "In bagno d'olio con funzione antisaltellamento"
-            },
-            "prestazioni": {
-                "potenza_massima": "120 CV (Peso piuma estremo)",
-                "coppia_massima": "93.3 Nm",
-                "velocita_massima": "260 km/h",
-                "accel_0_100": "3.5 s",
-                "accel_0_200": "10.5 s",
-                "chilometro_fermo": "21.0 s"
-            },
-            "telaio_sospensioni": {
-                "telaio": "Monoscocca in alluminio ultraleggero con forcellone bibraccio",
-                "sospensioni": "Forcella Marzocchi da 43 mm, monoammortizzatore Kayaba (versione base completamente regolabile)",
-                "freni": "Brembo M50 monoblocco a 4 pistoncini, dischi da 320 mm",
-                "pneumatici": "Pirelli Diablo Rosso IV",
-                "sterzo": "Meccanico calibrato"
-            },
-            "dimensioni_pesi": {
-                "peso_a_secco": "163 kg (Dimagrimento record di ben 13 kg rispetto alla 2020)",
-                "lunghezza": "2.045 mm",
-                "larghezza": "740 mm",
-                "altezza": "1.110 mm",
-                "passo": "1.465 mm",
-                "serbatoio": "15 L"
-            },
-            "aerodinamica_design": {
-                "cx": "0.32",
-                "materiali_carrozzeria": "Polimeri avanzati stampati ad iniezione sottile",
-                "dettagli_estetici": "Gruppo ottico sdoppiato full LED, scarico laterale basso sdoppiato",
-                "verniciatura": "Rosso Panigale Livery",
-                "sella": {
-                    "tipo": "Ergonomica stradale alleggerita",
-                    "colore": "Nero"
-                }
-            },
-            "dati_storici_commerciali": {
-                "anni_produzione": "2025-Presente",
-                "anno": "2025",
-                "esemplari_prodotti": "Serie regolare",
-                "numero_esemplare": "04",
-                "designer": "Centro Stile Ducati",
-                "prezzo_listino_orig": "16.790 €",
-                "prezzo_attuale": "16.800 €",
-                "km": 0
-            }
         }
     ],
-    "richieste": []
+    "richieste": [],
+    "newsletter": []
 }

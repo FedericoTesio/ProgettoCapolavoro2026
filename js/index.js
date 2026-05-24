@@ -1,6 +1,6 @@
 "use strict";
 
-const URL = "http://localhost:3000"
+const URL = "http://localhost:3000";
 
 $(document).ready(function () {
     loadRandomCars();
@@ -107,7 +107,7 @@ async function loadRandomBikes() {
             // Definiamo i nomi delle immagini
             const imgs = ["frontale.jpg", "laterale.jpg", "posteriore.jpg", "dashboard.jpg"];
             const carouselId = `carousel-${bike.id}`;
-            const imagePathBase = `img/auto/${bike.id}`;
+            const imagePathBase = `img/moto/${bike.id}`;
 
             // Generiamo gli indicatori e i vari item del carousel
             let carouselItems = "";
