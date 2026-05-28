@@ -324,7 +324,7 @@ Clicca in alto sul percorso e scrivi cmd, ti si aprirà un terminale dove devi s
 json-server --port 3000 db.json
 ```
 
-Il server è attivo quindi ora il sito ha i dati è può funzionare.
+Il server è attivo quindi ora il sito ha i dati è può funzionare corretamente.
 
 ## Come vedere il sito
 
